@@ -1,0 +1,2463 @@
+{
+  "meta": {
+    "source": "TheBigTable.html (574 KB, extracted 2026-07-11)",
+    "occasions": 38,
+    "ingredientsTotal": 509
+  },
+  "occasions": [
+    {
+      "page": 3,
+      "id": "romantic-anniversary-dinner",
+      "occasion": "Romantic Anniversary Dinner",
+      "tier": "around-the-table",
+      "recipeTitle": "Pomegranate & Ras El Hanout Braised Lamb Shoulder",
+      "cuisine": "Middle Eastern · North African · For Two · Scales to 12",
+      "forTwo": true,
+      "mode": "att",
+      "slider": {
+        "min": 2,
+        "max": 12,
+        "default": 2
+      },
+      "ovenCelsius": 160,
+      "difficulty": 2,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "160°C / 320°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "4–5 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "SLOW BRAISE"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★☆"
+        }
+      ],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min"
+        },
+        {
+          "label": "Cook",
+          "value": "5 hrs"
+        },
+        {
+          "label": "Oven",
+          "value": "160°C"
+        },
+        {
+          "label": "Method",
+          "value": "Braise"
+        }
+      ],
+      "ingredients": [
+        {
+          "name": "Bone-in lamb shoulder",
+          "base": 2.5,
+          "baseServes": 8,
+          "unit": "kg",
+          "display": "2.5 kg"
+        },
+        {
+          "name": "Ras el hanout",
+          "base": 3.0,
+          "baseServes": 8,
+          "unit": "tbsp",
+          "display": "3 tbsp"
+        },
+        {
+          "name": "Pomegranate molasses",
+          "base": 4.0,
+          "baseServes": 8,
+          "unit": "tbsp",
+          "display": "4 tbsp"
+        },
+        {
+          "name": "Garlic cloves",
+          "base": 8.0,
+          "baseServes": 8,
+          "unit": "",
+          "display": "8"
+        },
+        {
+          "name": "Red onions",
+          "base": 4.0,
+          "baseServes": 8,
+          "unit": "",
+          "display": "4"
+        },
+        {
+          "name": "Canned tomatoes",
+          "base": 800.0,
+          "baseServes": 8,
+          "unit": "g",
+          "display": "800g"
+        },
+        {
+          "name": "Chicken stock",
+          "base": 500.0,
+          "baseServes": 8,
+          "unit": "ml",
+          "display": "500ml"
+        },
+        {
+          "name": "Preserved lemon",
+          "base": 2.0,
+          "baseServes": 8,
+          "unit": "",
+          "display": "2"
+        },
+        {
+          "name": "Honey",
+          "base": 2.0,
+          "baseServes": 8,
+          "unit": "tbsp",
+          "display": "2 tbsp"
+        },
+        {
+          "name": "Olive oil",
+          "base": 4.0,
+          "baseServes": 8,
+          "unit": "tbsp",
+          "display": "4 tbsp"
+        },
+        {
+          "name": "Couscous",
+          "base": 800.0,
+          "baseServes": 8,
+          "unit": "g",
+          "display": "800g"
+        },
+        {
+          "name": "Greek yogurt",
+          "base": 400.0,
+          "baseServes": 8,
+          "unit": "ml",
+          "display": "400ml"
+        },
+        {
+          "name": "Fresh mint",
+          "base": 1.0,
+          "baseServes": 8,
+          "unit": "bunch",
+          "display": "1 bunch"
+        }
+      ],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "butternut squash + chickpeas, same spices at 180°C"
+        },
+        {
+          "category": "Pescatarian",
+          "text": "salmon, half the ras el hanout, 25 min at 200°C"
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain chicken thighs, separate pan, mild braising liquid"
+        }
+      ],
+      "phases": [
+        {
+          "name": "Prep",
+          "pill": "20 min",
+          "desc": "Score the lamb deeply all over. Rub entirely with ras el hanout, olive oil and a generous amount of salt. Let the spice crust set before searing.",
+          "icon": "🔪"
+        },
+        {
+          "name": "Sear",
+          "pill": "10 min",
+          "desc": "Brown all sides in a heavy casserole over high heat until a deep mahogany crust forms. This is where the flavour lives — don't rush it.",
+          "icon": "🔥"
+        },
+        {
+          "name": "Braise",
+          "pill": "4–5 hrs",
+          "desc": "Add aromatics, stock and braising liquid. Cover tight. The house will fill with something extraordinary.",
+          "icon": "♨️"
+        },
+        {
+          "name": "Rest",
+          "pill": "20 min",
+          "desc": "Out of the oven, uncovered. Skim the fat from the braising liquid. Shred coarsely back into the juices with two forks.",
+          "icon": "⏳"
+        },
+        {
+          "name": "Serve",
+          "pill": "at the table",
+          "desc": "Over couscous with cold Greek yogurt, fresh mint, and pomegranate seeds scattered at the last moment. Serve family-style.",
+          "icon": "🍽️"
+        }
+      ],
+      "nutritionPerServing": {
+        "kcal": "680",
+        "protein": "48g",
+        "fat": "42g",
+        "carbs": "22g",
+        "fibre": "3g"
+      },
+      "pairings": [
+        "Bold Moroccan Syrah or Côtes du Rhône",
+        "Labneh with za'atar & flatbread to start"
+      ],
+      "notes": [
+        "Protein",
+        "Carbs",
+        "Fat"
+      ],
+      "timeline": [
+        [
+          "Prep & Spice Rub",
+          20
+        ],
+        [
+          "Sear",
+          10
+        ],
+        [
+          "Braise in oven",
+          270
+        ],
+        [
+          "Rest & Shred",
+          20
+        ],
+        [
+          "Serve",
+          0
+        ]
+      ]
+    },
+    {
+      "page": 4,
+      "id": "adult-birthday-party",
+      "occasion": "Adult Birthday Party",
+      "tier": "fill-the-room",
+      "recipeTitle": "Chipotle Pulled Pork with Quick Pickled Slaw & Warm Tortillas",
+      "cuisine": "Mexican · Tex-Mex · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": 130,
+      "difficulty": 1,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "130°C / 265°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "8 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "LOW & SLOW"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★☆☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "30 min"
+        },
+        {
+          "label": "Total",
+          "value": "9 hrs"
+        },
+        {
+          "label": "Oven",
+          "value": "130°C"
+        },
+        {
+          "label": "Method",
+          "value": "Low & Slow"
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "id": "funeral",
+      "occasion": "Funeral",
+      "tier": "around-the-table",
+      "recipeTitle": "Slow-Cooked Chicken & Leek Pie with Buttered Mash",
+      "cuisine": "British · Comfort · Serves 6–16",
+      "forTwo": false,
+      "mode": "att",
+      "slider": {
+        "min": 6,
+        "max": 16,
+        "default": 10
+      },
+      "ovenCelsius": 180,
+      "difficulty": 1,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "180°C / 355°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "2 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "COMFORT BAKE"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★☆☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "30 min"
+        },
+        {
+          "label": "Cook",
+          "value": "2 hrs"
+        },
+        {
+          "label": "Oven",
+          "value": "180°C"
+        },
+        {
+          "label": "Option",
+          "value": "Make Ahead"
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "id": "christmas-dinner",
+      "occasion": "Christmas Dinner",
+      "tier": "fill-the-room",
+      "recipeTitle": "Honey & Clementine Glazed Ham with Roast Potatoes & Red Cabbage",
+      "cuisine": "British · Festive · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": 190,
+      "difficulty": 2,
+      "stats": [
+        {
+          "label": "Glaze Temperature",
+          "value": "190°C / 375°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "3–4 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "SLOW ROAST"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min"
+        },
+        {
+          "label": "Total",
+          "value": "4 hrs"
+        },
+        {
+          "label": "Finish",
+          "value": "190°C"
+        },
+        {
+          "label": "Method",
+          "value": "Slow Roast"
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "id": "kids-birthday-party",
+      "occasion": "Kids' Birthday Party",
+      "tier": "fill-the-room",
+      "recipeTitle": "Build-Your-Own Mini Sliders with Secret Sauce & Oven Fries",
+      "cuisine": "American · Interactive · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": 200,
+      "difficulty": 1,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "200°C / 390°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "45 MIN"
+        },
+        {
+          "label": "Method",
+          "value": "BUILD YOUR OWN"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★☆☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min"
+        },
+        {
+          "label": "Cook",
+          "value": "45 min"
+        },
+        {
+          "label": "Oven",
+          "value": "200°C"
+        },
+        {
+          "label": "Style",
+          "value": "Interactive"
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "id": "cocktail-party-nibbles",
+      "occasion": "Cocktail Party & Nibbles",
+      "tier": "fill-the-room",
+      "recipeTitle": "Golden Mezze Board: Whipped Feta, Hummus, Warm Flatbreads & Falafel",
+      "cuisine": "Middle Eastern · Mediterranean · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": null,
+      "difficulty": 1,
+      "stats": [
+        {
+          "label": "Bread Only",
+          "value": "200°C / 390°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "45 MIN"
+        },
+        {
+          "label": "Method",
+          "value": "NO-COOK CORE"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★☆☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "45 min"
+        },
+        {
+          "label": "Cook",
+          "value": "15 min"
+        },
+        {
+          "label": "Core Method",
+          "value": "No Oven"
+        },
+        {
+          "label": "Style",
+          "value": "Shareable"
+        }
+      ]
+    },
+    {
+      "page": 9,
+      "id": "garden-party-summer-bbq",
+      "occasion": "Garden Party & Summer BBQ",
+      "tier": "fill-the-room",
+      "recipeTitle": "Sticky Tamarind & Honey BBQ Chicken with Charred Corn & Herb Slaw",
+      "cuisine": "Asian-Fusion · BBQ · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": null,
+      "difficulty": 1,
+      "stats": [
+        {
+          "label": "Grill or Oven",
+          "value": "BBQ / 200°C"
+        },
+        {
+          "label": "Active Time",
+          "value": "55 MIN"
+        },
+        {
+          "label": "Method",
+          "value": "BBQ OR OVEN"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★☆☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min"
+        },
+        {
+          "label": "Cook",
+          "value": "45 min"
+        },
+        {
+          "label": "Method",
+          "value": "BBQ/Oven"
+        },
+        {
+          "label": "Overnight",
+          "value": "+ Marinate"
+        }
+      ]
+    },
+    {
+      "page": 10,
+      "id": "valentine-s-dinner",
+      "occasion": "Valentine's Dinner",
+      "tier": "fill-the-room",
+      "recipeTitle": "Pan-Seared Duck Breast with Cherry & Port Sauce",
+      "cuisine": "French · Romantic · For Two · Scales to 12",
+      "forTwo": true,
+      "mode": "att",
+      "slider": {
+        "min": 2,
+        "max": 12,
+        "default": 2
+      },
+      "ovenCelsius": null,
+      "difficulty": 2,
+      "stats": [
+        {
+          "label": "Oven Finish",
+          "value": "180°C / 355°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "45 MIN"
+        },
+        {
+          "label": "Method",
+          "value": "PAN ROAST"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min"
+        },
+        {
+          "label": "Cook",
+          "value": "45 min"
+        },
+        {
+          "label": "Temp",
+          "value": "180°C"
+        },
+        {
+          "label": "Method",
+          "value": "Pan Roast"
+        }
+      ]
+    },
+    {
+      "page": 11,
+      "id": "graduation-supper",
+      "occasion": "Graduation Supper",
+      "tier": "around-the-table",
+      "recipeTitle": "Herb-Crusted Rack of Lamb with Roasted Garlic Mash",
+      "cuisine": "French · British · Celebratory · Serves 6–16",
+      "forTwo": false,
+      "mode": "att",
+      "slider": {
+        "min": 6,
+        "max": 16,
+        "default": 8
+      },
+      "ovenCelsius": 200,
+      "difficulty": 2,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "200°C / 390°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "40 MIN"
+        },
+        {
+          "label": "Method",
+          "value": "OVEN ROAST"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min"
+        },
+        {
+          "label": "Cook",
+          "value": "40 min"
+        },
+        {
+          "label": "Temp",
+          "value": "200°C"
+        },
+        {
+          "label": "Method",
+          "value": "Oven Roast"
+        }
+      ]
+    },
+    {
+      "page": 12,
+      "id": "farewell-going-away",
+      "occasion": "Farewell & Going Away",
+      "tier": "around-the-table",
+      "recipeTitle": "Slow-Cooked Beef Bourguignon with Crusty Bread",
+      "cuisine": "French · Comfort · Nostalgic · Serves 6–16",
+      "forTwo": false,
+      "mode": "att",
+      "slider": {
+        "min": 6,
+        "max": 16,
+        "default": 10
+      },
+      "ovenCelsius": 150,
+      "difficulty": 2,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "150°C / 300°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "3 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "SLOW BRAISE"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "30 min"
+        },
+        {
+          "label": "Cook",
+          "value": "3 hrs"
+        },
+        {
+          "label": "Temp",
+          "value": "150°C"
+        },
+        {
+          "label": "Method",
+          "value": "Slow Braise"
+        }
+      ]
+    },
+    {
+      "page": 13,
+      "id": "welcome-home-feast",
+      "occasion": "Welcome Home Feast",
+      "tier": "around-the-table",
+      "recipeTitle": "Preserved Lemon Roast Chicken with Herbed Couscous & Olives",
+      "cuisine": "North African · Mediterranean · Serves 6–16",
+      "forTwo": false,
+      "mode": "att",
+      "slider": {
+        "min": 6,
+        "max": 16,
+        "default": 8
+      },
+      "ovenCelsius": 180,
+      "difficulty": 1,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "180°C / 355°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "1.5 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "OVEN ROAST"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★☆☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min"
+        },
+        {
+          "label": "Cook",
+          "value": "1.5 hrs"
+        },
+        {
+          "label": "Temp",
+          "value": "180°C"
+        },
+        {
+          "label": "Method",
+          "value": "Oven Roast"
+        }
+      ]
+    },
+    {
+      "page": 14,
+      "id": "engagement-dinner",
+      "occasion": "Engagement Dinner",
+      "tier": "around-the-table",
+      "recipeTitle": "Individual Beef Wellingtons with Mushroom Duxelles & Red Wine Jus",
+      "cuisine": "British · Fine Dining · Special Occasion · Serves 6–16",
+      "forTwo": false,
+      "mode": "att",
+      "slider": {
+        "min": 6,
+        "max": 16,
+        "default": 8
+      },
+      "ovenCelsius": 220,
+      "difficulty": 3,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "220°C / 430°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "1.5 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "OVEN BAKE"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★★"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "45 min + chill"
+        },
+        {
+          "label": "Cook",
+          "value": "25 min"
+        },
+        {
+          "label": "Temp",
+          "value": "220°C"
+        },
+        {
+          "label": "Method",
+          "value": "Oven Bake"
+        }
+      ]
+    },
+    {
+      "page": 15,
+      "id": "upscale-dinner-party",
+      "occasion": "Upscale Dinner Party",
+      "tier": "around-the-table",
+      "recipeTitle": "Pan-Roasted Halibut with Saffron Beurre Blanc & Samphire",
+      "cuisine": "French · Modern British · Serves 6–16",
+      "forTwo": false,
+      "mode": "att",
+      "slider": {
+        "min": 6,
+        "max": 16,
+        "default": 8
+      },
+      "ovenCelsius": null,
+      "difficulty": 3,
+      "stats": [
+        {
+          "label": "Active Time",
+          "value": "30 MIN"
+        },
+        {
+          "label": "Method",
+          "value": "PAN ROAST"
+        },
+        {
+          "label": "Sauce",
+          "value": "BEURRE BLANC"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★★"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min"
+        },
+        {
+          "label": "Cook",
+          "value": "30 min"
+        },
+        {
+          "label": "Temp",
+          "value": "—"
+        },
+        {
+          "label": "Method",
+          "value": "Pan Roast"
+        }
+      ]
+    },
+    {
+      "page": 16,
+      "id": "promotion-celebration",
+      "occasion": "Promotion Celebration",
+      "tier": "around-the-table",
+      "recipeTitle": "Champagne Risotto with Saffron, Crispy Prosciutto & Truffle Oil",
+      "cuisine": "Italian · Celebratory · Serves 6–16",
+      "forTwo": false,
+      "mode": "att",
+      "slider": {
+        "min": 6,
+        "max": 16,
+        "default": 8
+      },
+      "ovenCelsius": null,
+      "difficulty": 2,
+      "stats": [
+        {
+          "label": "Active Time",
+          "value": "35 MIN"
+        },
+        {
+          "label": "Method",
+          "value": "STOVETOP"
+        },
+        {
+          "label": "Technique",
+          "value": "CONSTANT STIR"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "10 min"
+        },
+        {
+          "label": "Cook",
+          "value": "35 min"
+        },
+        {
+          "label": "Temp",
+          "value": "Stovetop"
+        },
+        {
+          "label": "Method",
+          "value": "Constant Stir"
+        }
+      ]
+    },
+    {
+      "page": 17,
+      "id": "first-date-night-in",
+      "occasion": "First Date Night In",
+      "tier": "fill-the-room",
+      "recipeTitle": "Prawn & Chorizo Linguine with Cherry Tomatoes, White Wine & Basil",
+      "cuisine": "Italian · Spanish-Fusion · For Two · Scales to 12",
+      "forTwo": true,
+      "mode": "att",
+      "slider": {
+        "min": 2,
+        "max": 12,
+        "default": 2
+      },
+      "ovenCelsius": null,
+      "difficulty": 1,
+      "stats": [
+        {
+          "label": "Active Time",
+          "value": "25 MIN"
+        },
+        {
+          "label": "Method",
+          "value": "STOVETOP"
+        },
+        {
+          "label": "Style",
+          "value": "ONE PAN"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★☆☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "10 min"
+        },
+        {
+          "label": "Cook",
+          "value": "25 min"
+        },
+        {
+          "label": "Temp",
+          "value": "Stovetop"
+        },
+        {
+          "label": "Method",
+          "value": "One Pan"
+        }
+      ]
+    },
+    {
+      "page": 18,
+      "id": "baby-shower",
+      "occasion": "Baby Shower",
+      "tier": "fill-the-room",
+      "recipeTitle": "Honey-Glazed Chicken Skewers with Tabbouleh, Flatbreads & Labneh",
+      "cuisine": "Middle Eastern · British · Light · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": 200,
+      "difficulty": 1,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "200°C / 390°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "55 MIN"
+        },
+        {
+          "label": "Method",
+          "value": "GRILL OR OVEN"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★☆☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min"
+        },
+        {
+          "label": "Cook",
+          "value": "30 min"
+        },
+        {
+          "label": "Temp",
+          "value": "200°C"
+        },
+        {
+          "label": "Method",
+          "value": "Grill or Oven"
+        }
+      ]
+    },
+    {
+      "page": 19,
+      "id": "home-wedding-reception",
+      "occasion": "Home Wedding Reception",
+      "tier": "fill-the-room",
+      "recipeTitle": "Slow-Roasted Herb-Crusted Beef Topside with Yorkshire Puddings & Red Wine Gravy",
+      "cuisine": "British · Classic Roast · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": 160,
+      "difficulty": 2,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "160°C / 320°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "3.5 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "SLOW ROAST"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "30 min"
+        },
+        {
+          "label": "Cook",
+          "value": "3 hrs"
+        },
+        {
+          "label": "Temp",
+          "value": "160°C"
+        },
+        {
+          "label": "Method",
+          "value": "Slow Roast"
+        }
+      ]
+    },
+    {
+      "page": 20,
+      "id": "new-year-s-eve",
+      "occasion": "New Year's Eve",
+      "tier": "fill-the-room",
+      "recipeTitle": "Slow-Roasted Duck Legs with Orange & Star Anise, Crispy Potatoes & Braised Red Cabbage",
+      "cuisine": "French · Asian-Fusion · Festive · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": 160,
+      "difficulty": 2,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "160°C / 320°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "2.5 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "SLOW ROAST"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min + marinate"
+        },
+        {
+          "label": "Cook",
+          "value": "2.5 hrs"
+        },
+        {
+          "label": "Temp",
+          "value": "160°C"
+        },
+        {
+          "label": "Method",
+          "value": "Slow Roast"
+        }
+      ]
+    },
+    {
+      "page": 21,
+      "id": "thanksgiving-harvest",
+      "occasion": "Thanksgiving & Harvest",
+      "tier": "fill-the-room",
+      "recipeTitle": "Maple & Herb Roasted Turkey Crown with Cornbread Stuffing & Cranberry Sauce",
+      "cuisine": "American · Traditional · Festive · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": 180,
+      "difficulty": 2,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "180°C / 355°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "2.5 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "OVEN ROAST"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "30 min"
+        },
+        {
+          "label": "Cook",
+          "value": "2.5 hrs"
+        },
+        {
+          "label": "Temp",
+          "value": "180°C"
+        },
+        {
+          "label": "Method",
+          "value": "Oven Roast"
+        }
+      ]
+    },
+    {
+      "page": 22,
+      "id": "spring-table",
+      "occasion": "Spring Table",
+      "tier": "fill-the-room",
+      "recipeTitle": "Slow-Roasted Leg of Lamb with Mint & Pea Sauce, Rosemary Potatoes & Spring Greens",
+      "cuisine": "British · Spring · Classic · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": 160,
+      "difficulty": 2,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "160°C / 320°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "4 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "SLOW ROAST"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min"
+        },
+        {
+          "label": "Cook",
+          "value": "4 hrs"
+        },
+        {
+          "label": "Temp",
+          "value": "160°C"
+        },
+        {
+          "label": "Method",
+          "value": "Slow Roast"
+        }
+      ]
+    },
+    {
+      "page": 23,
+      "id": "housewarming-party",
+      "occasion": "Housewarming Party",
+      "tier": "fill-the-room",
+      "recipeTitle": "Butter Chicken with Basmati Rice, Saag Paneer & Warm Naan Breads",
+      "cuisine": "Indian · Comfort · Crowd Pleaser · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": 220,
+      "difficulty": 1,
+      "stats": [
+        {
+          "label": "Char Temperature",
+          "value": "220°C / 430°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "50 MIN"
+        },
+        {
+          "label": "Method",
+          "value": "STOVETOP + OVEN"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★☆☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min + marinate"
+        },
+        {
+          "label": "Cook",
+          "value": "1 hr"
+        },
+        {
+          "label": "Temp",
+          "value": "220°C char"
+        },
+        {
+          "label": "Method",
+          "value": "Stovetop + Oven"
+        }
+      ]
+    },
+    {
+      "page": 24,
+      "id": "retirement-celebration",
+      "occasion": "Retirement Celebration",
+      "tier": "fill-the-room",
+      "recipeTitle": "Whole Baked Salmon Sides with Dill & Lemon, Crushed New Potatoes & Cucumber Crème Fraîche",
+      "cuisine": "British · Scandinavian · Elegant · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": 180,
+      "difficulty": 1,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "180°C / 355°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "35 MIN"
+        },
+        {
+          "label": "Method",
+          "value": "OVEN BAKE"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★☆☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "15 min"
+        },
+        {
+          "label": "Cook",
+          "value": "35 min"
+        },
+        {
+          "label": "Temp",
+          "value": "180°C"
+        },
+        {
+          "label": "Method",
+          "value": "Oven Bake"
+        }
+      ]
+    },
+    {
+      "page": 25,
+      "id": "the-big-match",
+      "occasion": "The Big Match",
+      "tier": "fill-the-room",
+      "recipeTitle": "The Big Match: Build-Your-Own Chilli Station with Nachos, Sour Cream & Guacamole",
+      "cuisine": "American · Tex-Mex · Global Sport · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": 160,
+      "difficulty": 1,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "160°C / 300°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "3.5 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "SLOW BRAISE"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★☆☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min"
+        },
+        {
+          "label": "Cook",
+          "value": "3 hrs"
+        },
+        {
+          "label": "Temp",
+          "value": "160°C"
+        },
+        {
+          "label": "Method",
+          "value": "Slow Braise"
+        }
+      ]
+    },
+    {
+      "page": 26,
+      "id": "halloween",
+      "occasion": "Halloween",
+      "tier": "fill-the-room",
+      "recipeTitle": "Smoky Pumpkin & Chorizo Chilli with Black Beans, Chipotle Crema & Corn Chips",
+      "cuisine": "Mexican · Tex-Mex · Festive Dark · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": 160,
+      "difficulty": 1,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "160°C / 320°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "2 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "SLOW BRAISE"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★☆☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min"
+        },
+        {
+          "label": "Cook",
+          "value": "2 hrs"
+        },
+        {
+          "label": "Temp",
+          "value": "160°C"
+        },
+        {
+          "label": "Method",
+          "value": "Slow Braise"
+        }
+      ]
+    },
+    {
+      "page": 27,
+      "id": "mother-s-day-brunch",
+      "occasion": "Mother's Day Brunch",
+      "tier": "around-the-table",
+      "recipeTitle": "Smoked Salmon & Dill Eggs Benedict with Hollandaise, Avocado & Herb Salad",
+      "cuisine": "British · Brunch · Indulgent · Serves 6–16",
+      "forTwo": false,
+      "mode": "att",
+      "slider": {
+        "min": 6,
+        "max": 60,
+        "default": 8
+      },
+      "ovenCelsius": 90,
+      "difficulty": 3,
+      "stats": [
+        {
+          "label": "Water Temperature",
+          "value": "90°C / 195°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "25 MIN"
+        },
+        {
+          "label": "Method",
+          "value": "STOVETOP"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★★"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "15 min"
+        },
+        {
+          "label": "Cook",
+          "value": "25 min"
+        },
+        {
+          "label": "Temp",
+          "value": "90°C gentle"
+        },
+        {
+          "label": "Method",
+          "value": "Stovetop"
+        }
+      ]
+    },
+    {
+      "page": 28,
+      "id": "father-s-day-bbq",
+      "occasion": "Father's Day BBQ",
+      "tier": "fill-the-room",
+      "recipeTitle": "Slow-Smoked Beef Brisket with Bourbon BBQ Glaze, Pickled Red Onions & Homemade Slaw",
+      "cuisine": "American BBQ · Southern · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": 120,
+      "difficulty": 3,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "120°C / 250°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "8 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "SLOW OVEN"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★★"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min + overnight"
+        },
+        {
+          "label": "Cook",
+          "value": "8 hrs"
+        },
+        {
+          "label": "Temp",
+          "value": "120°C"
+        },
+        {
+          "label": "Method",
+          "value": "Slow Oven"
+        }
+      ]
+    },
+    {
+      "page": 29,
+      "id": "gender-reveal",
+      "occasion": "Gender Reveal",
+      "tier": "fill-the-room",
+      "recipeTitle": "Build-Your-Own Mexican Taco Fiesta with Slow-Cooked Pulled Beef, Grilled Corn & Guacamole",
+      "cuisine": "Mexican · Festive · Crowd Pleaser · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": 160,
+      "difficulty": 1,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "160°C / 320°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "4 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "SLOW BRAISE"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★☆☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min"
+        },
+        {
+          "label": "Cook",
+          "value": "4 hrs"
+        },
+        {
+          "label": "Temp",
+          "value": "160°C"
+        },
+        {
+          "label": "Method",
+          "value": "Slow Braise"
+        }
+      ]
+    },
+    {
+      "page": 30,
+      "id": "open-house",
+      "occasion": "Open House",
+      "tier": "fill-the-room",
+      "recipeTitle": "Slow-Roasted Spiced Lamb Shoulder with Flatbreads, Tzatziki & Tabbouleh",
+      "cuisine": "Middle Eastern · Mediterranean · All-Day · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": 150,
+      "difficulty": 2,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "150°C / 300°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "5 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "SLOW ROAST"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min + overnight"
+        },
+        {
+          "label": "Cook",
+          "value": "5 hrs"
+        },
+        {
+          "label": "Temp",
+          "value": "150°C"
+        },
+        {
+          "label": "Method",
+          "value": "Slow Roast"
+        }
+      ]
+    },
+    {
+      "page": 31,
+      "id": "shabbat-dinner",
+      "occasion": "Shabbat Dinner",
+      "tier": "around-the-table",
+      "recipeTitle": "Roast Chicken with Golden Broth, Challah & Honey-Glazed Root Vegetables",
+      "cuisine": "Jewish · Eastern European · Ritual · Serves 6–16",
+      "forTwo": false,
+      "mode": "att",
+      "slider": {
+        "min": 6,
+        "max": 60,
+        "default": 6
+      },
+      "ovenCelsius": 180,
+      "difficulty": 2,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "180°C / 355°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "2.5 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "OVEN ROAST"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "15 min"
+        },
+        {
+          "label": "Cook",
+          "value": "1.5 hrs"
+        },
+        {
+          "label": "Temp",
+          "value": "180°C"
+        },
+        {
+          "label": "Method",
+          "value": "Oven Roast"
+        }
+      ]
+    },
+    {
+      "page": 32,
+      "id": "nowruz",
+      "occasion": "Nowruz",
+      "tier": "around-the-table",
+      "recipeTitle": "Sabzi Polo Mahi — Herbed Saffron Rice with Tahdig, Pan-Fried Fish & Kuku Sabzi Herb Frittata",
+      "cuisine": "Persian · Iranian · Spring Equinox · Serves 6–16",
+      "forTwo": false,
+      "mode": "att",
+      "slider": {
+        "min": 6,
+        "max": 60,
+        "default": 8
+      },
+      "ovenCelsius": null,
+      "difficulty": 2,
+      "stats": [
+        {
+          "label": "Tahdig Temp",
+          "value": "Low Heat"
+        },
+        {
+          "label": "Active Time",
+          "value": "1.5 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "STOVETOP"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min"
+        },
+        {
+          "label": "Cook",
+          "value": "45 min"
+        },
+        {
+          "label": "Temp",
+          "value": "Low heat"
+        },
+        {
+          "label": "Method",
+          "value": "Stovetop"
+        }
+      ]
+    },
+    {
+      "page": 33,
+      "id": "chosen-family-dinner",
+      "occasion": "Chosen Family Dinner",
+      "tier": "around-the-table",
+      "recipeTitle": "Slow-Braised Short Ribs in Red Wine with Creamy Polenta & Gremolata",
+      "cuisine": "Italian · Modern · Comfort · Serves 6–16",
+      "forTwo": false,
+      "mode": "att",
+      "slider": {
+        "min": 6,
+        "max": 60,
+        "default": 8
+      },
+      "ovenCelsius": 160,
+      "difficulty": 2,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "160°C / 320°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "3.5 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "SLOW BRAISE"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min"
+        },
+        {
+          "label": "Cook",
+          "value": "3.5 hrs"
+        },
+        {
+          "label": "Temp",
+          "value": "160°C"
+        },
+        {
+          "label": "Method",
+          "value": "Slow Braise"
+        }
+      ]
+    },
+    {
+      "page": 34,
+      "id": "midsommar",
+      "occasion": "Midsommar",
+      "tier": "fill-the-room",
+      "recipeTitle": "Gravlax with Dill Mustard Sauce, New Potatoes, Pickled Herring & Rye Crispbreads",
+      "cuisine": "Scandinavian · Swedish · Cold Table · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": null,
+      "difficulty": 2,
+      "stats": [
+        {
+          "label": "Active Time",
+          "value": "No Heat 30 MIN Active Time"
+        },
+        {
+          "label": "Active Time",
+          "value": "30 MIN"
+        },
+        {
+          "label": "Cure Time",
+          "value": "48 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "COLD TABLE"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "30 min + 48 hr cure"
+        },
+        {
+          "label": "Cook",
+          "value": "20 min"
+        },
+        {
+          "label": "Temp",
+          "value": "No heat"
+        },
+        {
+          "label": "Method",
+          "value": "Cold Cure"
+        }
+      ]
+    },
+    {
+      "page": 35,
+      "id": "lunar-new-year",
+      "occasion": "Lunar New Year",
+      "tier": "fill-the-room",
+      "recipeTitle": "Red-Braised Pork Belly with Longevity Noodles, Steamed Whole Fish & Pan-Fried Dumplings",
+      "cuisine": "Chinese · East Asian · Ceremonial · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": 160,
+      "difficulty": 2,
+      "stats": [
+        {
+          "label": "Braise Temp",
+          "value": "160°C / 320°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "2.5 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "BRAISE + STEAM"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "30 min"
+        },
+        {
+          "label": "Cook",
+          "value": "2.5 hrs"
+        },
+        {
+          "label": "Temp",
+          "value": "160°C"
+        },
+        {
+          "label": "Method",
+          "value": "Braise + Steam"
+        }
+      ]
+    },
+    {
+      "page": 36,
+      "id": "diwali",
+      "occasion": "Diwali",
+      "tier": "fill-the-room",
+      "recipeTitle": "Lamb Rogan Josh with Dal Makhani, Jeera Rice & Warm Naan Breads",
+      "cuisine": "Indian · North Indian · Festive Feast · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": 160,
+      "difficulty": 2,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "160°C / 320°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "2.5 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "SLOW BRAISE"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "30 min"
+        },
+        {
+          "label": "Cook",
+          "value": "2.5 hrs"
+        },
+        {
+          "label": "Temp",
+          "value": "160°C"
+        },
+        {
+          "label": "Method",
+          "value": "Slow Braise"
+        }
+      ]
+    },
+    {
+      "page": 37,
+      "id": "carnival",
+      "occasion": "Carnival",
+      "tier": "fill-the-room",
+      "recipeTitle": "New Orleans Chicken & Andouille Gumbo with Dark Roux, White Rice & Hot Sauce Station",
+      "cuisine": "Creole · New Orleans · Southern · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": null,
+      "difficulty": 3,
+      "stats": [
+        {
+          "label": "Foundation Step",
+          "value": "Dark Roux"
+        },
+        {
+          "label": "Active Time",
+          "value": "2.5 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "STOVETOP"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★★"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min"
+        },
+        {
+          "label": "Cook",
+          "value": "2.5 hrs"
+        },
+        {
+          "label": "Temp",
+          "value": "Low simmer"
+        },
+        {
+          "label": "Method",
+          "value": "Stovetop"
+        }
+      ]
+    },
+    {
+      "page": 38,
+      "id": "juneteenth",
+      "occasion": "Juneteenth",
+      "tier": "fill-the-room",
+      "recipeTitle": "Slow-Smoked BBQ Chicken with Black-Eyed Peas, Collard Greens, Cornbread & Hibiscus Tea",
+      "cuisine": "American South · Liberation · Tradition · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": 120,
+      "difficulty": 2,
+      "stats": [
+        {
+          "label": "Smoke Temp",
+          "value": "120°C / 250°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "2.5 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "SLOW OVEN"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min + overnight"
+        },
+        {
+          "label": "Cook",
+          "value": "2.5 hrs"
+        },
+        {
+          "label": "Temp",
+          "value": "120°C"
+        },
+        {
+          "label": "Method",
+          "value": "Slow Oven"
+        }
+      ]
+    },
+    {
+      "page": 39,
+      "id": "dia-de-los-muertos",
+      "occasion": "Día de los Muertos",
+      "tier": "fill-the-room",
+      "recipeTitle": "Slow-Braised Chicken in Red Mole with Mexican Rice, Tortillas & Toasted Seeds",
+      "cuisine": "Mexican · Oaxacan · Ceremonial · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": 160,
+      "difficulty": 3,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "160°C / 320°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "2.5 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "SLOW BRAISE"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★★"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "30 min"
+        },
+        {
+          "label": "Cook",
+          "value": "2.5 hrs"
+        },
+        {
+          "label": "Temp",
+          "value": "160°C"
+        },
+        {
+          "label": "Method",
+          "value": "Slow Braise"
+        }
+      ]
+    },
+    {
+      "page": 40,
+      "id": "eid-al-fitr",
+      "occasion": "Eid al-Fitr",
+      "tier": "fill-the-room",
+      "recipeTitle": "Mansaf — Slow-Braised Lamb in Yogurt Sauce with Saffron Rice, Pine Nuts & Flatbreads",
+      "cuisine": "Levantine · Arab · Celebration Feast · Serves 16–60+",
+      "forTwo": false,
+      "mode": "ftr",
+      "slider": {
+        "min": 16,
+        "max": 60,
+        "default": 20
+      },
+      "ovenCelsius": 160,
+      "difficulty": 2,
+      "stats": [
+        {
+          "label": "Oven Temperature",
+          "value": "160°C / 320°F"
+        },
+        {
+          "label": "Active Time",
+          "value": "2.5 HRS"
+        },
+        {
+          "label": "Method",
+          "value": "SLOW BRAISE"
+        },
+        {
+          "label": "Difficulty",
+          "value": "★★☆"
+        }
+      ],
+      "ingredients": [],
+      "swaps": [],
+      "phases": [],
+      "nutritionPerServing": {},
+      "pairings": [],
+      "notes": [],
+      "timeline": [],
+      "details": [
+        {
+          "label": "Prep",
+          "value": "20 min + overnight"
+        },
+        {
+          "label": "Cook",
+          "value": "2.5 hrs"
+        },
+        {
+          "label": "Temp",
+          "value": "160°C"
+        },
+        {
+          "label": "Method",
+          "value": "Slow Braise"
+        }
+      ]
+    }
+  ]
+}
