@@ -1,5 +1,5 @@
 import { createClient } from "@supabase/supabase-js";
-import fullData from "../../server/occasions-full.json" assert { type: "json" };
+import fullData from "./occasions-full.json" with { type: "json" };
 
 /**
  * Serves full recipe data (ingredients, method, swaps, timeline) for a
