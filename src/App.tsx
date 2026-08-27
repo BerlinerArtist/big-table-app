@@ -20,7 +20,7 @@ export default function App() {
   const [servesByPage, setServesByPage] = useState<Record<number, number>>(() => load("serves", {}));
   const [serveAtByPage, setServeAtByPage] = useState<Record<number, string>>(() => load("serveAtMap", {}));
   const [loggedIn, setLoggedIn] = useState(false);
-  const [, setUnlockTick] = useState(0);
+  const [unlockTick, setUnlockTick] = useState(0);
 
   useEffect(() => {
     const onHash = () => {
@@ -71,7 +71,7 @@ export default function App() {
       />
       {occ ? (
         <Recipe
-          key={occ.id}
+          key={occ.id + ":" + unlockTick}
           occ={occ}
           system={system}
           loggedIn={loggedIn}
