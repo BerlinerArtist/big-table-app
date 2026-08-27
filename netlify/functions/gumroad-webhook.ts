@@ -39,7 +39,7 @@ export default async (req: Request): Promise<Response> => {
       refunded,
       source: "gumroad",
     },
-    { onConflict: "license_key" }
+    { onConflict: "email" }
   );
 
   if (error) {
