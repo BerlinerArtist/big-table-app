@@ -40,7 +40,7 @@ export function canView(occasionId: string): boolean {
  *   (not entitled) — callers should fall back to the LockPanel in that case.
  */
 export async function fetchFullOccasion(occasionId: string): Promise<OccasionData | null> {
-  const licenseKey = getLicense() ?? undefined;
+  const licenseKey = getLicense()?.key;
   const headers: Record<string, string> = { "Content-Type": "application/json" };
 
   if (supabase) {
