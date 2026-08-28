@@ -4,7 +4,6 @@ import type { UnitSystem } from "./data/types";
 import { load, save } from "./lib/storage";
 import { initSync } from "./lib/sync";
 import type { SavedMenu } from "./lib/menus";
-import TopBar from "./ui/TopBar";
 import Toc from "./ui/Toc";
 import Recipe from "./ui/Recipe";
 
@@ -66,17 +65,13 @@ export default function App() {
 
   return (
     <>
-      <TopBar
-        system={system}
-        setSystem={setSystem}
-        onContents={() => setView("toc")}
-        showContents={occ !== null}
-      />
       {occ ? (
         <Recipe
           key={occ.id + ":" + unlockTick}
           occ={occ}
           system={system}
+          setSystem={setSystem}
+          onContents={() => setView("toc")}
           loggedIn={loggedIn}
           serves={servesByPage[occ.page] ?? occ.slider.default}
           setServes={(v) => {
@@ -93,7 +88,13 @@ export default function App() {
           onUnlocked={() => setUnlockTick((t) => t + 1)}
         />
       ) : (
-        <Toc onOpen={setView} loggedIn={loggedIn} onOpenMenu={openMenu} />
+        <Toc
+          onOpen={setView}
+          loggedIn={loggedIn}
+          onOpenMenu={openMenu}
+          system={system}
+          setSystem={setSystem}
+        />
       )}
     </>
   );
