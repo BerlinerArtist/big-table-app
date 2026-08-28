@@ -7,7 +7,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: "autoUpdate",
-      injectRegister: "auto",
+      injectRegister: false, // registerSW() is called manually in main.tsx instead
       includeAssets: ["icons/apple-touch-icon.png"],
       manifest: {
         name: "The Big Table",
@@ -25,6 +25,12 @@ export default defineConfig({
       workbox: {
         maximumFileSizeToCacheInBytes: 3_000_000,
         globPatterns: ["**/*.{js,css,html,png,svg,woff2}"],
+        // Explicit alongside registerType: "autoUpdate" (which forces these
+        // too) so a new deploy takes control immediately instead of waiting
+        // for every open tab to close.
+        clientsClaim: true,
+        skipWaiting: true,
+        cleanupOutdatedCaches: true,
       },
     }),
   ],
