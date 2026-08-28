@@ -10,7 +10,10 @@ import Recipe from "./ui/Recipe";
 
 /** Deep links: every occasion is pin-addressable via #/occasion-id (38 free landing pages). */
 function readHash(): string | null {
-  const h = window.location.hash.replace(/^#\/?/, "");
+  const raw = window.location.hash.replace(/^#\/?/, "");
+  // Pinterest/marketing links use the bare hash "#free-recipe" (no leading slash)
+  // to point at the one free occasion. Route it to that occasion's page.
+  const h = raw === "free-recipe" ? "romantic-anniversary" : raw;
   return h && (h === "toc" || OCCASIONS.some((o) => o.id === h)) ? h : null;
 }
 
