@@ -25,6 +25,22 @@ button{font-family:inherit;cursor:pointer}
 .toggle.dark button{color:rgba(250,245,236,.75)}
 .toggle.dark button.active{background:var(--gold-dim);color:#06101A;}
 
+/* ── TOP BAR, INLINE ON THE IVORY CARD ──
+   Same TopBar component, but rendered as the first child of .page-wrap
+   instead of full-bleed above it, per redesign: the bar should read as
+   part of the page, not as a site header floating on the dark table. It
+   stays sticky to the top of the viewport once the card scrolls under it,
+   using the card's own horizontal padding so it lines up with the page
+   content beneath it (negative margin cancels page-wrap's padding only
+   on the sides that need to reach full card width for the sticky strip). */
+.topbar-inline{position:sticky;top:0;z-index:15;display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;margin:-46px -48px 28px;padding:16px 24px;background:rgba(250,245,236,.94);backdrop-filter:blur(6px);border-bottom:1px solid rgba(201,168,76,.3);border-radius:8px 8px 0 0;}
+.topbar-inline .tb-word{color:rgba(107,30,58,.55);}
+.topbar-inline .tb-btn{border-color:rgba(107,30,58,.35);color:var(--burg);}
+.topbar-inline .tb-btn:hover{border-color:var(--burg);}
+.topbar-inline .toggle{border-color:var(--navy);}
+.topbar-inline .toggle button{color:var(--navy);}
+.topbar-inline .toggle button.active{background:var(--navy);color:var(--ivory);}
+
 /* ── PAGE (the ivory book page on the dark table) ── */
 .page-wrap{width:900px;max-width:calc(100% - 24px);margin:26px auto 0;background:var(--ivory);border-radius:8px;padding:46px 48px 40px;box-shadow:0 24px 70px rgba(0,0,0,.5);}
 .eyebrow{font-family:'Josefin Sans',sans-serif;font-weight:400;font-size:10px;letter-spacing:.42em;text-transform:uppercase;color:var(--ink-soft);display:flex;align-items:center;gap:8px;justify-content:center;}
@@ -35,6 +51,12 @@ h1{font-family:'Cormorant Garamond',Georgia,serif;font-weight:300;color:var(--na
 .toc-hero{text-align:center;padding:18px 0 30px;border-bottom:1px solid var(--gold);margin-bottom:30px;}
 .toc-hero h1{font-size:56px;line-height:1.05;margin:10px 0 6px;}
 .toc-tagline{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:19px;color:var(--burg);}
+.toc-search{position:relative;max-width:420px;margin:18px auto 0;}
+.toc-search input{width:100%;box-sizing:border-box;background:rgba(13,27,42,.04);border:1px solid rgba(201,168,76,.4);border-radius:8px;padding:10px 36px 10px 14px;font-family:'Lato',sans-serif;font-size:13px;color:var(--ink);outline:none;letter-spacing:.01em;}
+.toc-search input:focus{border-color:var(--gold-dim);background:rgba(13,27,42,.06);}
+.toc-search input::placeholder{color:var(--ink-soft);}
+.toc-search-clear{position:absolute;right:8px;top:50%;transform:translateY(-50%);background:none;border:0;color:var(--ink-soft);font-size:13px;padding:6px 8px;line-height:1;}
+.toc-search-clear:hover{color:var(--ink);}
 .tier{margin-bottom:34px;}
 .tier-head{font-family:'Josefin Sans',sans-serif;font-weight:600;font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--navy);display:flex;align-items:center;gap:9px;margin-bottom:14px;}
 .tier-head em{font-style:normal;font-weight:300;color:var(--ink-soft);letter-spacing:.12em;}
@@ -140,6 +162,7 @@ button.ghost:hover{border-color:var(--ink-soft)}
   .cols{grid-template-columns:1fr}
   .topbar{grid-template-columns:auto 1fr auto}
   .tb-word{display:none}
+  .topbar-inline{grid-template-columns:auto 1fr auto;margin:-30px -20px 20px;padding:12px 16px;}
 }
 
 /* ── Phase 6: gate, menus ── */
