@@ -19,7 +19,7 @@ import type { OccasionData } from "../data/types";
  * read — the function is the only source, and it enforces the same
  * entitlements table Gumroad's webhook already writes to.
  */
-export const FREE_OCCASION_IDS = ["romantic-anniversary"];
+export const FREE_OCCASION_IDS = ["romantic-anniversary-dinner"];
 export const GUMROAD_URL = "https://mindabovemess.gumroad.com/l/cohkxs";
 export const PRICE_LABEL = "$27";
 
