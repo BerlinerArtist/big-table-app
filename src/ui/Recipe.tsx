@@ -10,6 +10,7 @@ import {
 import { canView, fetchFullOccasion, GUMROAD_URL, PRICE_LABEL } from "../lib/access";
 import { activateLicense } from "../lib/license";
 import { saveMenu } from "../lib/menus";
+import TopBar from "./TopBar";
 
 /**
  * CHANGED: occ arriving as a prop may now be metadata-only (locked
@@ -28,6 +29,8 @@ import { saveMenu } from "../lib/menus";
 export default function Recipe(props: {
   occ: OccasionData;
   system: UnitSystem;
+  setSystem: (s: UnitSystem) => void;
+  onContents: () => void;
   serves: number;
   setServes: (v: number) => void;
   serveAt: string;
@@ -103,6 +106,7 @@ export default function Recipe(props: {
   if (locked) {
     return (
       <div className={"page-wrap recipe " + accent}>
+        <TopBar system={props.system} setSystem={props.setSystem} onContents={props.onContents} showContents inline />
         <header className="r-hero">
           <div className="eyebrow">
             <span className="tier-dot" />
@@ -130,6 +134,7 @@ export default function Recipe(props: {
 
   return (
     <div className={"page-wrap recipe " + accent}>
+      <TopBar system={props.system} setSystem={props.setSystem} onContents={props.onContents} showContents inline />
       <header className="r-hero">
         <div className="eyebrow">
           <span className="tier-dot" />
