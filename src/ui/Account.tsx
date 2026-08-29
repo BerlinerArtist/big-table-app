@@ -66,6 +66,10 @@ export default function Account({ loggedIn }: { loggedIn: boolean }) {
               Send link
             </button>
           </div>
+          <p className="status hint">
+            We'll email you a one-time sign-in link — no password needed.
+            Click the link on any device to unlock sync.
+          </p>
           {authMsg && <p className="status">{authMsg}</p>}
         </>
       )}
