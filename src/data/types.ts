@@ -32,6 +32,13 @@ export interface Swap {
    * only, exactly as it does today.
    */
   ingredients?: Ingredient[];
+  /**
+   * Optional: this swap's own method, coordinated to finish alongside the
+   * main dish's timeline (see Recipe.tsx method section). Undefined means
+   * no separate method has been authored yet — UI shows a notice pointing
+   * back to this swap's one-line `text` instead of fabricating steps.
+   */
+  phases?: Phase[];
 }
 
 export interface Phase {
