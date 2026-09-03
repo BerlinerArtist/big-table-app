@@ -41,6 +41,13 @@ export default function Recipe(props: {
   const { system, serves, setServes, serveAt, setServeAt } = props;
   const [menuMsg, setMenuMsg] = useState<string | null>(null);
 
+  // How many of `serves` guests are eating each swap version, keyed by
+  // category. Everyone NOT accounted for here eats the main dish — the
+  // main-dish count is always the computed remainder, never entered
+  // directly, so there's only ever addition to verify, never subtraction.
+  const [swapCounts, setSwapCounts] = useState<Record<string, number>>({});
+  const [swapsExpanded, setSwapsExpanded] = useState(false);
+
   // Full-detail occasion record, once (if) fetched from the server.
   const [fullOcc, setFullOcc] = useState<OccasionData | null>(
     canView(props.occ.id) && props.occ.ingredients?.length > 0 ? props.occ : null
@@ -69,8 +76,28 @@ export default function Recipe(props: {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [props.occ.id]);
 
+  // A stale split from a previous guest count could silently outlive a
+  // change to `serves` (e.g. slider drops from 11 to 6 after "3 veg + 2
+  // pescatarian" was set) and produce a wrong or even negative remainder.
+  // Clamp: if the total of all swap counts now exceeds `serves`, scale
+  // them back down proportionally so they never exceed the new total.
+  useEffect(() => {
+    setSwapCounts((prev) => {
+      const sum = Object.values(prev).reduce((a, b) => a + b, 0);
+      if (sum <= serves) return prev;
+      if (sum === 0) return prev;
+      const ratio = serves / sum;
+      const next: Record<string, number> = {};
+      for (const [k, v] of Object.entries(prev)) next[k] = Math.floor(v * ratio);
+      return next;
+    });
+  }, [serves]);
+
   const occ = fullOcc ?? props.occ;
   const accent = occ.tier === "around-the-table" ? "att" : "ftr";
+
+  const swapCountSum = Object.values(swapCounts).reduce((a, b) => a + b, 0);
+  const mainDishCount = Math.max(0, serves - swapCountSum);
   const shopping = useMemo(
     () => (fullOcc ? buildShoppingList(occ, serves, system) : []),
     [occ, serves, system, fullOcc]
@@ -224,21 +251,97 @@ export default function Recipe(props: {
           {occ.swaps.length > 0 && (
             <div className="swaps">
               <div className="swaps-lbl">Smart Swaps · Nobody Left Behind</div>
-              {occ.swaps.map((sw) => (
-                <div className="swap-line" key={sw.category + sw.text}>
-                  <strong>{sw.category}:</strong> {sw.text}
-                  {sw.ingredients && sw.ingredients.length > 0 && (
-                    <ul className="swap-ing-list">
-                      {sw.ingredients.map((ing) => (
-                        <li key={ing.name}>
-                          <span>{ing.name}</span>
-                          <span className="ing-qty">{scaledDisplay(ing, serves, system)}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  )}
-                </div>
-              ))}
+
+              {!swapsExpanded && (
+                <button
+                  type="button"
+                  className="swaps-toggle"
+                  onClick={() => setSwapsExpanded(true)}
+                >
+                  + Different diets at this table
+                </button>
+              )}
+
+              {swapsExpanded && (
+                <>
+                  <div className="swaps-total-row">
+                    <span>{serves} people, total</span>
+                    <button
+                      type="button"
+                      className="swaps-hide"
+                      onClick={() => setSwapsExpanded(false)}
+                    >
+                      hide diets
+                    </button>
+                  </div>
+
+                  <div className="swap-main-row">
+                    <span>Main dish{fullOcc ? ` (${occ.recipeTitle})` : ""}</span>
+                    <span className="ing-qty">{mainDishCount}</span>
+                  </div>
+
+                  {occ.swaps.map((sw) => {
+                    const count = swapCounts[sw.category] ?? 0;
+                    return (
+                      <div className="swap-stepper-row" key={sw.category}>
+                        <div className="swap-stepper-label">
+                          <strong>{sw.category}</strong>
+                          <span className="swap-stepper-desc">{sw.text}</span>
+                        </div>
+                        <div className="swap-stepper-control">
+                          <button
+                            type="button"
+                            aria-label={`Fewer ${sw.category}`}
+                            disabled={count <= 0}
+                            onClick={() =>
+                              setSwapCounts((prev) => ({
+                                ...prev,
+                                [sw.category]: Math.max(0, (prev[sw.category] ?? 0) - 1),
+                              }))
+                            }
+                          >
+                            −
+                          </button>
+                          <span>{count}</span>
+                          <button
+                            type="button"
+                            aria-label={`More ${sw.category}`}
+                            disabled={mainDishCount <= 0}
+                            onClick={() =>
+                              setSwapCounts((prev) => {
+                                // Guard against overshoot inside the functional
+                                // update itself, not just via the `disabled`
+                                // attribute — two "+" clicks on different rows
+                                // fired before a re-render would both read the
+                                // same stale mainDishCount otherwise, letting
+                                // the true sum exceed `serves`.
+                                const sum = Object.values(prev).reduce((a, b) => a + b, 0);
+                                if (sum >= serves) return prev;
+                                return { ...prev, [sw.category]: (prev[sw.category] ?? 0) + 1 };
+                              })
+                            }
+                          >
+                            +
+                          </button>
+                        </div>
+                        {sw.ingredients && sw.ingredients.length > 0 && count > 0 && (
+                          <ul className="swap-ing-list">
+                            {sw.ingredients.map((ing) => (
+                              <li key={ing.name}>
+                                <span>{ing.name}</span>
+                                <span className="ing-qty">{scaledDisplay(ing, count, system)}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </div>
+                    );
+                  })}
+                  <p className="swaps-sum-hint">
+                    {mainDishCount} + {occ.swaps.map((sw) => swapCounts[sw.category] ?? 0).join(" + ")} = {serves}, added up as you go
+                  </p>
+                </>
+              )}
             </div>
           )}
         </section>
