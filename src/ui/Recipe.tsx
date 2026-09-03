@@ -176,6 +176,14 @@ export default function Recipe(props: {
         </div>
         <h1 className="r-title">{occ.recipeTitle}</h1>
         <div className="r-cuisine">{occ.cuisine}</div>
+        {occ.swaps.length > 0 && (
+          <p className="diet-hint">
+            Cooking for a mix of diets? This recipe covers {occ.swaps.map((sw) => sw.category.toLowerCase()).join(", ")}
+            , alongside the main dish — use the diet counters in Smart Swaps below, and each portion
+            scales to exactly how many guests chose it. Every dish is timed to cook together, so read the
+            full method once before you start.
+          </p>
+        )}
       </header>
 
       <div className="chips">
