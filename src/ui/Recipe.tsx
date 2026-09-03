@@ -284,11 +284,18 @@ export default function Recipe(props: {
           <div className="panel-sub">
             {mainDishCount === serves ? "scaled to your table" : `scaled to ${mainDishCount} eating the main dish`}
           </div>
+          {swapCountSum > 0 && mainDishCount === 0 && (
+            <p className="method-swap-note main-dish-low-warning">
+              Nobody's on the main dish — {occ.recipeTitle} won't be served at all tonight, only the
+              swap(s) below. If that's intentional, ignore this. Otherwise, move at least one person back
+              to the main dish.
+            </p>
+          )}
           {swapCountSum > 0 && mainDishCount > 0 && mainDishCount < occ.slider.min && (
             <p className="method-swap-note main-dish-low-warning">
-              This recipe is written for {occ.slider.min}+ people — quantities below that (like{" "}
-              {mainDishCount} here) may not scale to real, buyable amounts. Consider moving everyone to a
-              swap, or keeping at least {occ.slider.min} on the main dish.
+              This recipe is written for {occ.slider.min}+ people. At {mainDishCount} on the main dish,
+              some quantities below may round to zero or to amounts too small to actually buy — check the
+              list below before shopping, or move everyone to a swap instead.
             </p>
           )}
           <ul className="ing">
