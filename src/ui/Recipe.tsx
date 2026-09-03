@@ -227,6 +227,16 @@ export default function Recipe(props: {
               {occ.swaps.map((sw) => (
                 <div className="swap-line" key={sw.category + sw.text}>
                   <strong>{sw.category}:</strong> {sw.text}
+                  {sw.ingredients && sw.ingredients.length > 0 && (
+                    <ul className="swap-ing-list">
+                      {sw.ingredients.map((ing) => (
+                        <li key={ing.name}>
+                          <span>{ing.name}</span>
+                          <span className="ing-qty">{scaledDisplay(ing, serves, system)}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
               ))}
             </div>
