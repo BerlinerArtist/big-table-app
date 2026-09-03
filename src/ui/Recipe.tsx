@@ -98,9 +98,16 @@ export default function Recipe(props: {
 
   const swapCountSum = Object.values(swapCounts).reduce((a, b) => a + b, 0);
   const mainDishCount = Math.max(0, serves - swapCountSum);
+  const activeSwapExtras = useMemo(
+    () =>
+      occ.swaps
+        .map((sw) => ({ ingredients: sw.ingredients ?? [], count: swapCounts[sw.category] ?? 0 }))
+        .filter((e) => e.count > 0 && e.ingredients.length > 0),
+    [occ.swaps, swapCounts]
+  );
   const shopping = useMemo(
-    () => (fullOcc ? buildShoppingList(occ, serves, system) : []),
-    [occ, serves, system, fullOcc]
+    () => (fullOcc ? buildShoppingList(occ, mainDishCount, system, activeSwapExtras) : []),
+    [occ, mainDishCount, system, fullOcc, activeSwapExtras]
   );
   const plan = useMemo(() => {
     const [h, m] = serveAt.split(":").map(Number);
@@ -121,11 +128,11 @@ export default function Recipe(props: {
   const onNote = (v: string) => { setNote(v); saveNote(occ.page, v); };
   const exportPack = async () => {
     const { exportKitchenPack } = await import("../lib/pdf");
-    exportKitchenPack(occ, serves, system, serveAt, note);
+    exportKitchenPack(occ, serves, system, serveAt, note, mainDishCount, activeSwapExtras);
   };
   const exportShopping = async () => {
     const { exportShoppingList } = await import("../lib/pdf");
-    exportShoppingList(occ, serves, system);
+    exportShoppingList(occ, serves, system, mainDishCount, activeSwapExtras);
   };
 
   const locked = !canView(props.occ.id) || (loading && !fullOcc) || (fetchFailed && !fullOcc);
@@ -223,6 +230,12 @@ export default function Recipe(props: {
       <div className="cols">
         <section className="panel">
           <div className="panel-lbl">The Method</div>
+          {swapCountSum > 0 && (
+            <p className="method-swap-note">
+              These steps are for the {mainDishCount === 1 ? "1 guest" : `${mainDishCount} guests`} eating{" "}
+              {occ.recipeTitle}.
+            </p>
+          )}
           {occ.phases.map((ph) => (
             <div className="phase" key={ph.name}>
               <div className="phase-ico">{ph.icon}</div>
@@ -235,16 +248,47 @@ export default function Recipe(props: {
               </div>
             </div>
           ))}
+
+          {occ.swaps
+            .filter((sw) => (swapCounts[sw.category] ?? 0) > 0)
+            .map((sw) => (
+              <div className="swap-method-block" key={sw.category}>
+                <div className="swap-method-lbl">
+                  {sw.category} — for {swapCounts[sw.category]}{" "}
+                  {swapCounts[sw.category] === 1 ? "guest" : "guests"}
+                </div>
+                {sw.phases && sw.phases.length > 0 ? (
+                  sw.phases.map((ph) => (
+                    <div className="phase" key={sw.category + ph.name}>
+                      <div className="phase-ico">{ph.icon}</div>
+                      <div className="phase-body">
+                        <div className="phase-top">
+                          <span className="phase-name">{ph.name}</span>
+                          {ph.pill && <span className="pill">{ph.pill}</span>}
+                        </div>
+                        <div className="phase-desc">{ph.desc}</div>
+                      </div>
+                    </div>
+                  ))
+                ) : (
+                  <p className="method-swap-note">
+                    Full steps for this swap aren't written up yet — for now: {sw.text}
+                  </p>
+                )}
+              </div>
+            ))}
         </section>
 
         <section className="panel">
           <div className="panel-lbl">Ingredients</div>
-          <div className="panel-sub">scaled to your table</div>
+          <div className="panel-sub">
+            {mainDishCount === serves ? "scaled to your table" : `scaled to ${mainDishCount} eating the main dish`}
+          </div>
           <ul className="ing">
             {occ.ingredients.map((ing) => (
               <li key={ing.name}>
                 <span className="ing-name">{ing.name}</span>
-                <span className="ing-qty">{scaledDisplay(ing, serves, system)}</span>
+                <span className="ing-qty">{scaledDisplay(ing, mainDishCount, system)}</span>
               </li>
             ))}
           </ul>
