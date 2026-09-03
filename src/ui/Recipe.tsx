@@ -284,6 +284,13 @@ export default function Recipe(props: {
           <div className="panel-sub">
             {mainDishCount === serves ? "scaled to your table" : `scaled to ${mainDishCount} eating the main dish`}
           </div>
+          {swapCountSum > 0 && mainDishCount > 0 && mainDishCount < occ.slider.min && (
+            <p className="method-swap-note main-dish-low-warning">
+              This recipe is written for {occ.slider.min}+ people — quantities below that (like{" "}
+              {mainDishCount} here) may not scale to real, buyable amounts. Consider moving everyone to a
+              swap, or keeping at least {occ.slider.min} on the main dish.
+            </p>
+          )}
           <ul className="ing">
             {occ.ingredients.map((ing) => (
               <li key={ing.name}>
