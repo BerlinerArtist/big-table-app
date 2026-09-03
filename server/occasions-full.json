@@ -11,7 +11,7 @@
       "occasion": "Romantic Anniversary Dinner",
       "tier": "around-the-table",
       "recipeTitle": "Pomegranate & Ras El Hanout Braised Lamb Shoulder",
-      "cuisine": "Middle Eastern · North African · For Two · Scales to 12",
+      "cuisine": "Middle Eastern \u00b7 North African \u00b7 For Two \u00b7 Scales to 12",
       "forTwo": true,
       "mode": "att",
       "slider": {
@@ -24,11 +24,11 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "160°C / 320°F"
+          "value": "160\u00b0C / 320\u00b0F"
         },
         {
           "label": "Active Time",
-          "value": "4–5 HRS"
+          "value": "4\u20135 HRS"
         },
         {
           "label": "Method",
@@ -36,7 +36,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★☆"
+          "value": "\u2605\u2605\u2606"
         }
       ],
       "details": [
@@ -50,7 +50,7 @@
         },
         {
           "label": "Oven",
-          "value": "160°C"
+          "value": "160\u00b0C"
         },
         {
           "label": "Method",
@@ -153,15 +153,49 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "butternut squash + chickpeas, same spices at 180°C"
+          "text": "butternut squash + chickpeas, same spices at 180\u00b0C",
+          "ingredients": [
+            {
+              "name": "Butternut squash, diced",
+              "base": 1.6,
+              "baseServes": 8,
+              "unit": "kg",
+              "display": "1.6 kg"
+            },
+            {
+              "name": "Chickpeas, drained",
+              "base": 800.0,
+              "baseServes": 8,
+              "unit": "g",
+              "display": "800g"
+            }
+          ]
         },
         {
           "category": "Pescatarian",
-          "text": "salmon, half the ras el hanout, 25 min at 200°C"
+          "text": "salmon, half the ras el hanout, 25 min at 200\u00b0C",
+          "ingredients": [
+            {
+              "name": "Salmon fillets",
+              "base": 1.2,
+              "baseServes": 8,
+              "unit": "kg",
+              "display": "1.2 kg"
+            }
+          ]
         },
         {
           "category": "Pasta Purists",
-          "text": "plain chicken thighs, separate pan, mild braising liquid"
+          "text": "plain chicken thighs, separate pan, mild braising liquid",
+          "ingredients": [
+            {
+              "name": "Chicken thighs, boneless",
+              "base": 1.4,
+              "baseServes": 8,
+              "unit": "kg",
+              "display": "1.4 kg"
+            }
+          ]
         }
       ],
       "phases": [
@@ -169,31 +203,31 @@
           "name": "Prep",
           "pill": "20 min",
           "desc": "Score the lamb deeply all over. Rub entirely with ras el hanout, olive oil and a generous amount of salt. Let the spice crust set before searing.",
-          "icon": "🔪"
+          "icon": "\ud83d\udd2a"
         },
         {
           "name": "Sear",
           "pill": "10 min",
-          "desc": "Brown all sides in a heavy casserole over high heat until a deep mahogany crust forms. This is where the flavour lives — don't rush it.",
-          "icon": "🔥"
+          "desc": "Brown all sides in a heavy casserole over high heat until a deep mahogany crust forms. This is where the flavour lives \u2014 don't rush it.",
+          "icon": "\ud83d\udd25"
         },
         {
           "name": "Braise",
-          "pill": "4–5 hrs",
+          "pill": "4\u20135 hrs",
           "desc": "Add aromatics, stock and braising liquid. Cover tight. The house will fill with something extraordinary.",
-          "icon": "♨️"
+          "icon": "\u2668\ufe0f"
         },
         {
           "name": "Rest",
           "pill": "20 min",
           "desc": "Out of the oven, uncovered. Skim the fat from the braising liquid. Shred coarsely back into the juices with two forks.",
-          "icon": "⏳"
+          "icon": "\u23f3"
         },
         {
           "name": "Serve",
           "pill": "at the table",
           "desc": "Over couscous with cold Greek yogurt, fresh mint, and pomegranate seeds scattered at the last moment. Serve family-style.",
-          "icon": "🍽️"
+          "icon": "\ud83c\udf7d\ufe0f"
         }
       ],
       "nutritionPerServing": {
@@ -204,7 +238,7 @@
         "fibre": "3g"
       },
       "pairings": [
-        "Bold Moroccan Syrah or Côtes du Rhône",
+        "Bold Moroccan Syrah or C\u00f4tes du Rh\u00f4ne",
         "Labneh with za'atar & flatbread to start"
       ],
       "notes": [
@@ -241,7 +275,7 @@
       "occasion": "Adult Birthday Party",
       "tier": "fill-the-room",
       "recipeTitle": "Chipotle Pulled Pork with Quick Pickled Slaw & Warm Tortillas",
-      "cuisine": "Mexican · Tex-Mex · Serves 16–60+",
+      "cuisine": "Mexican \u00b7 Tex-Mex \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -254,7 +288,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "130°C / 265°F"
+          "value": "130\u00b0C / 265\u00b0F"
         },
         {
           "label": "Active Time",
@@ -266,7 +300,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★☆☆"
+          "value": "\u2605\u2606\u2606"
         }
       ],
       "details": [
@@ -280,7 +314,7 @@
         },
         {
           "label": "Oven",
-          "value": "130°C"
+          "value": "130\u00b0C"
         },
         {
           "label": "Method",
@@ -380,7 +414,7 @@
         },
         {
           "category": "Vegan",
-          "text": "chipotle cauliflower steaks, 45 min at 200°C"
+          "text": "chipotle cauliflower steaks, 45 min at 200\u00b0C"
         },
         {
           "category": "Pasta Purists",
@@ -390,33 +424,33 @@
       "phases": [
         {
           "name": "Marinate",
-          "pill": "1–24 hrs",
-          "desc": "Coat the pork shoulder entirely in the chipotle rub. Overnight is ideal — the flavour penetrates deep into the meat and the bark will be extraordinary.",
-          "icon": "🌶️"
+          "pill": "1\u201324 hrs",
+          "desc": "Coat the pork shoulder entirely in the chipotle rub. Overnight is ideal \u2014 the flavour penetrates deep into the meat and the bark will be extraordinary.",
+          "icon": "\ud83c\udf36\ufe0f"
         },
         {
           "name": "Sear",
           "pill": "12 min",
           "desc": "High heat, all sides. Build the deep crust that locks in the juices and forms the bark. This is where the flavour compounds.",
-          "icon": "🔥"
+          "icon": "\ud83d\udd25"
         },
         {
           "name": "Slow Cook",
           "pill": "8 hrs",
           "desc": "Stock and vinegar added. Covered tight. The kitchen will smell incredible all day.",
-          "icon": "⏰"
+          "icon": "\u23f0"
         },
         {
           "name": "Quick Slaw",
           "pill": "1 hr",
-          "desc": "Shred red cabbage thinly. Toss with vinegar, sugar and salt while the pork cooks. Rest at least 1 hour — it only gets better with time.",
-          "icon": "🥗"
+          "desc": "Shred red cabbage thinly. Toss with vinegar, sugar and salt while the pork cooks. Rest at least 1 hour \u2014 it only gets better with time.",
+          "icon": "\ud83e\udd57"
         },
         {
           "name": "Shred & Build",
           "pill": "at the table",
           "desc": "Pull pork with two forks, return to juices. Set up the build-your-own station and let the room serve itself. It holds 4+ hours.",
-          "icon": "🎯"
+          "icon": "\ud83c\udfaf"
         }
       ],
       "nutritionPerServing": {
@@ -464,7 +498,7 @@
       "occasion": "Funeral",
       "tier": "around-the-table",
       "recipeTitle": "Slow-Cooked Chicken & Leek Pie with Buttered Mash",
-      "cuisine": "British · Comfort · Serves 6–16",
+      "cuisine": "British \u00b7 Comfort \u00b7 Serves 6\u201316",
       "forTwo": false,
       "mode": "att",
       "slider": {
@@ -477,7 +511,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "180°C / 355°F"
+          "value": "180\u00b0C / 355\u00b0F"
         },
         {
           "label": "Active Time",
@@ -489,7 +523,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★☆☆"
+          "value": "\u2605\u2606\u2606"
         }
       ],
       "details": [
@@ -503,7 +537,7 @@
         },
         {
           "label": "Oven",
-          "value": "180°C"
+          "value": "180\u00b0C"
         },
         {
           "label": "Option",
@@ -615,31 +649,31 @@
           "name": "Simmer",
           "pill": "45 min",
           "desc": "Place chicken in stock with leeks, celery, carrots, thyme and bay. Simmer gently until tender. Lift out the chicken and shred the meat from the bone.",
-          "icon": "🫕"
+          "icon": "\ud83e\uded5"
         },
         {
           "name": "Make the Sauce",
           "pill": "15 min",
           "desc": "Melt butter in a wide pan. Add flour, cook briefly. Pour in the strained cooking stock and cream. Stir until thick, smooth and deeply savoury.",
-          "icon": "🥣"
+          "icon": "\ud83e\udd63"
         },
         {
           "name": "Fill & Top",
           "pill": "10 min",
           "desc": "Fold shredded chicken through the leek sauce. Pour into a baking dish. Top with pastry, crimp edges, egg wash generously, pierce to vent.",
-          "icon": "🥧"
+          "icon": "\ud83e\udd67"
         },
         {
           "name": "Bake",
           "pill": "35 min",
-          "desc": "Until the pastry is deeply golden and filling is bubbling at the edges. It should look beautiful with very little effort on your part. 180°C / 355°F",
-          "icon": "🌕"
+          "desc": "Until the pastry is deeply golden and filling is bubbling at the edges. It should look beautiful with very little effort on your part. 180\u00b0C / 355\u00b0F",
+          "icon": "\ud83c\udf15"
         },
         {
           "name": "Rest & Serve",
           "pill": "10 min",
           "desc": "Rest 10 minutes before cutting. Serve at the table with buttered mash and peas. Quiet, generous, entirely uncomplicated.",
-          "icon": "🍽️"
+          "icon": "\ud83c\udf7d\ufe0f"
         }
       ],
       "nutritionPerServing": {
@@ -687,7 +721,7 @@
       "occasion": "Christmas Dinner",
       "tier": "fill-the-room",
       "recipeTitle": "Honey & Clementine Glazed Ham with Roast Potatoes & Red Cabbage",
-      "cuisine": "British · Festive · Serves 16–60+",
+      "cuisine": "British \u00b7 Festive \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -700,11 +734,11 @@
       "stats": [
         {
           "label": "Glaze Temperature",
-          "value": "190°C / 375°F"
+          "value": "190\u00b0C / 375\u00b0F"
         },
         {
           "label": "Active Time",
-          "value": "3–4 HRS"
+          "value": "3\u20134 HRS"
         },
         {
           "label": "Method",
@@ -712,7 +746,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★☆"
+          "value": "\u2605\u2605\u2606"
         }
       ],
       "details": [
@@ -726,7 +760,7 @@
         },
         {
           "label": "Finish",
-          "value": "190°C"
+          "value": "190\u00b0C"
         },
         {
           "label": "Method",
@@ -822,7 +856,7 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "glazed cauliflower crown, same glaze, 45 min at 190°C"
+          "text": "glazed cauliflower crown, same glaze, 45 min at 190\u00b0C"
         },
         {
           "category": "Pescatarian",
@@ -836,33 +870,33 @@
       "phases": [
         {
           "name": "Simmer the Ham",
-          "pill": "2–3 hrs",
+          "pill": "2\u20133 hrs",
           "desc": "Cover gammon in cold water with bay leaves, onion and peppercorns. Bring to boil, reduce and simmer. This draws out excess salt and starts the tenderness.",
-          "icon": "🫧"
+          "icon": "\ud83e\udee7"
         },
         {
           "name": "Glaze",
           "pill": "10 min",
           "desc": "Score the fat in a diamond pattern. Stud each diamond with a clove. Mix honey, clementine, mustard and sugar. Coat every surface generously.",
-          "icon": "✦"
+          "icon": "\u2726"
         },
         {
           "name": "Roast & Lacquer",
           "pill": "40 min",
-          "desc": "High heat to burnish and caramelise the glaze. Baste twice. The ham should emerge glossy, fragrant and deeply golden. 190°C / 375°F",
-          "icon": "🔥"
+          "desc": "High heat to burnish and caramelise the glaze. Baste twice. The ham should emerge glossy, fragrant and deeply golden. 190\u00b0C / 375\u00b0F",
+          "icon": "\ud83d\udd25"
         },
         {
           "name": "Rest",
           "pill": "30 min",
-          "desc": "Cover loosely with foil. The resting is non-negotiable — it makes the ham carveable and keeps every slice juicy and intact at the table.",
-          "icon": "⏳"
+          "desc": "Cover loosely with foil. The resting is non-negotiable \u2014 it makes the ham carveable and keeps every slice juicy and intact at the table.",
+          "icon": "\u23f3"
         },
         {
           "name": "Carve & Serve",
           "pill": "at the table",
           "desc": "Serve on a board at the table. The drama of carving is part of the occasion. Cold slices the next day in white rolls with English mustard are the point.",
-          "icon": "🍽️"
+          "icon": "\ud83c\udf7d\ufe0f"
         }
       ],
       "nutritionPerServing": {
@@ -910,7 +944,7 @@
       "occasion": "Kids' Birthday Party",
       "tier": "fill-the-room",
       "recipeTitle": "Build-Your-Own Mini Sliders with Secret Sauce & Oven Fries",
-      "cuisine": "American · Interactive · Serves 16–60+",
+      "cuisine": "American \u00b7 Interactive \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -923,7 +957,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "200°C / 390°F"
+          "value": "200\u00b0C / 390\u00b0F"
         },
         {
           "label": "Active Time",
@@ -935,7 +969,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★☆☆"
+          "value": "\u2605\u2606\u2606"
         }
       ],
       "details": [
@@ -949,7 +983,7 @@
         },
         {
           "label": "Oven",
-          "value": "200°C"
+          "value": "200\u00b0C"
         },
         {
           "label": "Style",
@@ -1060,32 +1094,32 @@
         {
           "name": "Season & Form",
           "pill": "10 min",
-          "desc": "Mix beef with garlic powder, smoked paprika and salt. Form into small patties around 60g each. Keep cold until you cook them — they hold their shape better.",
-          "icon": "🥩"
+          "desc": "Mix beef with garlic powder, smoked paprika and salt. Form into small patties around 60g each. Keep cold until you cook them \u2014 they hold their shape better.",
+          "icon": "\ud83e\udd69"
         },
         {
           "name": "Secret Sauce",
           "pill": "5 min",
           "desc": "Mix ketchup, mayonnaise, mustard, and a splash of gherkin brine. That is it. That is the secret. Make twice as much as you think you need.",
-          "icon": "🤫"
+          "icon": "\ud83e\udd2b"
         },
         {
           "name": "Roast the Fries",
           "pill": "30 min",
-          "desc": "Cut potatoes into thin chips. Toss in oil and salt. Spread on trays in a single layer. Roast until golden, crisp, and irresistible. 200°C / 390°F",
-          "icon": "🍟"
+          "desc": "Cut potatoes into thin chips. Toss in oil and salt. Spread on trays in a single layer. Roast until golden, crisp, and irresistible. 200\u00b0C / 390\u00b0F",
+          "icon": "\ud83c\udf5f"
         },
         {
           "name": "Cook the Patties",
           "pill": "8 min",
-          "desc": "Hot pan, 3–4 minutes each side. Add cheese for the final minute and cover with a lid. Cook in batches and keep warm in a low oven.",
-          "icon": "🔥"
+          "desc": "Hot pan, 3\u20134 minutes each side. Add cheese for the final minute and cover with a lid. Cook in batches and keep warm in a low oven.",
+          "icon": "\ud83d\udd25"
         },
         {
           "name": "Build the Station",
           "pill": "at the table",
-          "desc": "Set up the build-your-own station. Warm the buns first. Let the children assemble their own — the food becomes the activity. Embrace the chaos.",
-          "icon": "🎯"
+          "desc": "Set up the build-your-own station. Warm the buns first. Let the children assemble their own \u2014 the food becomes the activity. Embrace the chaos.",
+          "icon": "\ud83c\udfaf"
         }
       ],
       "nutritionPerServing": {
@@ -1129,7 +1163,7 @@
       "occasion": "Cocktail Party & Nibbles",
       "tier": "fill-the-room",
       "recipeTitle": "Golden Mezze Board: Whipped Feta, Hummus, Warm Flatbreads & Falafel",
-      "cuisine": "Middle Eastern · Mediterranean · Serves 16–60+",
+      "cuisine": "Middle Eastern \u00b7 Mediterranean \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -1142,7 +1176,7 @@
       "stats": [
         {
           "label": "Bread Only",
-          "value": "200°C / 390°F"
+          "value": "200\u00b0C / 390\u00b0F"
         },
         {
           "label": "Active Time",
@@ -1154,7 +1188,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★☆☆"
+          "value": "\u2605\u2606\u2606"
         }
       ],
       "details": [
@@ -1268,7 +1302,7 @@
         },
         {
           "category": "Gluten-free",
-          "text": "replace flatbreads with crudités"
+          "text": "replace flatbreads with crudit\u00e9s"
         },
         {
           "category": "Sesame allergy",
@@ -1279,32 +1313,32 @@
         {
           "name": "Make the Hummus",
           "pill": "10 min",
-          "desc": "Blend chickpeas, tahini, lemon, garlic and ice-cold water until impossibly smooth. Season very aggressively — hummus wants more salt than you think.",
-          "icon": "🫘"
+          "desc": "Blend chickpeas, tahini, lemon, garlic and ice-cold water until impossibly smooth. Season very aggressively \u2014 hummus wants more salt than you think.",
+          "icon": "\ud83e\uded8"
         },
         {
           "name": "Whip the Feta",
           "pill": "5 min",
           "desc": "Blend feta with Greek yogurt and a squeeze of lemon until silky and spreadable. Top with good olive oil and za'atar just before serving.",
-          "icon": "🧀"
+          "icon": "\ud83e\uddc0"
         },
         {
           "name": "Prep the Vegetables",
           "pill": "15 min",
-          "desc": "Halve cherry tomatoes. Slice cucumber into batons. Tear herbs loosely. Arrange everything in natural clusters — not rows. This is the difference between good and great.",
-          "icon": "🥒"
+          "desc": "Halve cherry tomatoes. Slice cucumber into batons. Tear herbs loosely. Arrange everything in natural clusters \u2014 not rows. This is the difference between good and great.",
+          "icon": "\ud83e\udd52"
         },
         {
           "name": "Char the Breads",
           "pill": "5 min",
-          "desc": "Directly over a gas flame or in a very dry hot pan. The char is not an accident — it adds smokiness and warmth that elevates everything else on the board.",
-          "icon": "🔥"
+          "desc": "Directly over a gas flame or in a very dry hot pan. The char is not an accident \u2014 it adds smokiness and warmth that elevates everything else on the board.",
+          "icon": "\ud83d\udd25"
         },
         {
           "name": "Assemble the Board",
           "pill": "10 min",
           "desc": "Arrange dips, vegetables, and breads on large boards or trays. Pour olive oil generously over everything. Scatter za'atar. The board arrives, and people feel immediately cared for.",
-          "icon": "🌟"
+          "icon": "\ud83c\udf1f"
         }
       ],
       "nutritionPerServing": {
@@ -1315,7 +1349,7 @@
         "fibre": "12g"
       },
       "pairings": [
-        "Dry rosé, gin & tonic, or pomegranate spritz",
+        "Dry ros\u00e9, gin & tonic, or pomegranate spritz",
         "Add warm marinated olives as a second board"
       ],
       "notes": [
@@ -1348,7 +1382,7 @@
       "occasion": "Garden Party & Summer BBQ",
       "tier": "fill-the-room",
       "recipeTitle": "Sticky Tamarind & Honey BBQ Chicken with Charred Corn & Herb Slaw",
-      "cuisine": "Asian-Fusion · BBQ · Serves 16–60+",
+      "cuisine": "Asian-Fusion \u00b7 BBQ \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -1361,7 +1395,7 @@
       "stats": [
         {
           "label": "Grill or Oven",
-          "value": "BBQ / 200°C"
+          "value": "BBQ / 200\u00b0C"
         },
         {
           "label": "Active Time",
@@ -1373,7 +1407,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★☆☆"
+          "value": "\u2605\u2606\u2606"
         }
       ],
       "details": [
@@ -1504,33 +1538,33 @@
       "phases": [
         {
           "name": "Marinate",
-          "pill": "2–24 hrs",
+          "pill": "2\u201324 hrs",
           "desc": "Mix tamarind, honey, soy, garlic, ginger and chilli into a thick paste. Coat chicken thighs entirely. Overnight gives flavour that goes all the way to the bone.",
-          "icon": "🌶️"
+          "icon": "\ud83c\udf36\ufe0f"
         },
         {
           "name": "BBQ or Oven",
-          "pill": "35–40 min",
-          "desc": "On the BBQ over indirect heat, or 200°C in the oven. Baste with remaining marinade halfway through. The glaze caramelises into something smoky and extraordinary. 200°C / 390°F",
-          "icon": "🔥"
+          "pill": "35\u201340 min",
+          "desc": "On the BBQ over indirect heat, or 200\u00b0C in the oven. Baste with remaining marinade halfway through. The glaze caramelises into something smoky and extraordinary. 200\u00b0C / 390\u00b0F",
+          "icon": "\ud83d\udd25"
         },
         {
           "name": "Char the Corn",
           "pill": "10 min",
-          "desc": "Directly over the BBQ flame or under a scorching grill. The char is the point — it adds sweetness, smoke, and a visual drama that makes the whole spread sing.",
-          "icon": "🌽"
+          "desc": "Directly over the BBQ flame or under a scorching grill. The char is the point \u2014 it adds sweetness, smoke, and a visual drama that makes the whole spread sing.",
+          "icon": "\ud83c\udf3d"
         },
         {
           "name": "Make the Slaw",
           "pill": "5 min",
           "desc": "Shred cabbage and carrot finely. Toss with vinegar, sugar, salt and coriander. The slaw collapses beautifully as the evening progresses and improves with every minute.",
-          "icon": "🥗"
+          "icon": "\ud83e\udd57"
         },
         {
           "name": "Serve Outdoors",
           "pill": "at the table",
           "desc": "Pile everything onto large boards. Let people serve themselves. A squeeze of lime over everything at the table is non-negotiable. The garden does the rest.",
-          "icon": "☀️"
+          "icon": "\u2600\ufe0f"
         }
       ],
       "nutritionPerServing": {
@@ -1578,7 +1612,7 @@
       "occasion": "Valentine's Dinner",
       "tier": "fill-the-room",
       "recipeTitle": "Pan-Seared Duck Breast with Cherry & Port Sauce",
-      "cuisine": "French · Romantic · For Two · Scales to 12",
+      "cuisine": "French \u00b7 Romantic \u00b7 For Two \u00b7 Scales to 12",
       "forTwo": true,
       "mode": "att",
       "slider": {
@@ -1591,7 +1625,7 @@
       "stats": [
         {
           "label": "Oven Finish",
-          "value": "180°C / 355°F"
+          "value": "180\u00b0C / 355\u00b0F"
         },
         {
           "label": "Active Time",
@@ -1603,7 +1637,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★☆"
+          "value": "\u2605\u2605\u2606"
         }
       ],
       "details": [
@@ -1617,7 +1651,7 @@
         },
         {
           "label": "Temp",
-          "value": "180°C"
+          "value": "180\u00b0C"
         },
         {
           "label": "Method",
@@ -1729,31 +1763,31 @@
           "name": "Score",
           "pill": "15 min",
           "desc": "Score the duck skin in a diamond pattern, cutting through fat but not flesh. Season generously with salt and rest at room temperature for 20 minutes.",
-          "icon": "🦆"
+          "icon": "\ud83e\udd86"
         },
         {
           "name": "Render",
           "pill": "12 min",
           "desc": "Cold pan, skin-side down. Render the fat slowly over medium heat until the skin is deep golden and glass-crisp. This cannot be rushed.",
-          "icon": "🍳"
+          "icon": "\ud83c\udf73"
         },
         {
           "name": "Roast",
           "pill": "8 min",
-          "desc": "Flip and finish in the oven. Medium-rare: 10 minutes. A thermometer removes all doubt: 54°C internal. 180°C / 355°F",
-          "icon": "🔥"
+          "desc": "Flip and finish in the oven. Medium-rare: 10 minutes. A thermometer removes all doubt: 54\u00b0C internal. 180\u00b0C / 355\u00b0F",
+          "icon": "\ud83d\udd25"
         },
         {
           "name": "Cherry Sauce",
           "pill": "10 min",
           "desc": "Pour off excess fat. Deglaze with port. Add stock, shallots and cherries. Reduce until glossy and coating. Finish with cold butter.",
-          "icon": "🍒"
+          "icon": "\ud83c\udf52"
         },
         {
           "name": "Rest & Serve",
           "pill": "8 min",
           "desc": "Rest the duck 8 minutes minimum. Slice on the diagonal against the grain. Sauce pooled on a warm plate. This is the dish.",
-          "icon": "🍽️"
+          "icon": "\ud83c\udf7d\ufe0f"
         }
       ],
       "nutritionPerServing": {
@@ -1764,7 +1798,7 @@
         "fibre": "2g"
       },
       "pairings": [
-        "Burgundy Pinot Noir or aged Côtes du Rhône",
+        "Burgundy Pinot Noir or aged C\u00f4tes du Rh\u00f4ne",
         "Chicory, walnut and pear salad to start"
       ],
       "notes": [
@@ -1801,7 +1835,7 @@
       "occasion": "Graduation Supper",
       "tier": "around-the-table",
       "recipeTitle": "Herb-Crusted Rack of Lamb with Roasted Garlic Mash",
-      "cuisine": "French · British · Celebratory · Serves 6–16",
+      "cuisine": "French \u00b7 British \u00b7 Celebratory \u00b7 Serves 6\u201316",
       "forTwo": false,
       "mode": "att",
       "slider": {
@@ -1814,7 +1848,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "200°C / 390°F"
+          "value": "200\u00b0C / 390\u00b0F"
         },
         {
           "label": "Active Time",
@@ -1826,7 +1860,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★☆"
+          "value": "\u2605\u2605\u2606"
         }
       ],
       "details": [
@@ -1840,7 +1874,7 @@
         },
         {
           "label": "Temp",
-          "value": "200°C"
+          "value": "200\u00b0C"
         },
         {
           "label": "Method",
@@ -1943,15 +1977,15 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "baked portobello stack with herb crust, 25 min at 200°C"
+          "text": "baked portobello stack with herb crust, 25 min at 200\u00b0C"
         },
         {
           "category": "Pescatarian",
-          "text": "herb-crusted salmon en croûte, same bake"
+          "text": "herb-crusted salmon en cro\u00fbte, same bake"
         },
         {
           "category": "Pasta Purists",
-          "text": "chicken supremes, same herb crust, 25 min at 190°C"
+          "text": "chicken supremes, same herb crust, 25 min at 190\u00b0C"
         }
       ],
       "phases": [
@@ -1959,31 +1993,31 @@
           "name": "Herb Crust",
           "pill": "10 min",
           "desc": "Blitz breadcrumbs with parsley, rosemary, garlic and olive oil to a vibrant green paste. It should be bright, fragrant and taste like the garden.",
-          "icon": "🌿"
+          "icon": "\ud83c\udf3f"
         },
         {
           "name": "Sear",
           "pill": "5 min",
-          "desc": "Brown racks on all sides in a very hot pan. Bone side first, then fat side. The colour builds flavour — this step is not optional.",
-          "icon": "🔥"
+          "desc": "Brown racks on all sides in a very hot pan. Bone side first, then fat side. The colour builds flavour \u2014 this step is not optional.",
+          "icon": "\ud83d\udd25"
         },
         {
           "name": "Crust & Roast",
           "pill": "20 min",
-          "desc": "Coat fat side with Dijon. Press herb crust firmly. Roast until fragrant and deeply golden. Pink inside: non-negotiable. 200°C / 390°F",
-          "icon": "🫀"
+          "desc": "Coat fat side with Dijon. Press herb crust firmly. Roast until fragrant and deeply golden. Pink inside: non-negotiable. 200\u00b0C / 390\u00b0F",
+          "icon": "\ud83e\udec0"
         },
         {
           "name": "Rest",
           "pill": "10 min",
           "desc": "Cover loosely and leave it completely alone. The lamb continues cooking as it rests. 10 minutes gives you pink. 15 gives you medium.",
-          "icon": "⏳"
+          "icon": "\u23f3"
         },
         {
           "name": "Carve at the Table",
           "pill": "-",
           "desc": "Cut into individual cutlets. Stand the racks upright against each other. This is how you make an entrance. This is the graduation.",
-          "icon": "🍽️"
+          "icon": "\ud83c\udf7d\ufe0f"
         }
       ],
       "nutritionPerServing": {
@@ -2031,7 +2065,7 @@
       "occasion": "Farewell & Going Away",
       "tier": "around-the-table",
       "recipeTitle": "Slow-Cooked Beef Bourguignon with Crusty Bread",
-      "cuisine": "French · Comfort · Nostalgic · Serves 6–16",
+      "cuisine": "French \u00b7 Comfort \u00b7 Nostalgic \u00b7 Serves 6\u201316",
       "forTwo": false,
       "mode": "att",
       "slider": {
@@ -2044,7 +2078,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "150°C / 300°F"
+          "value": "150\u00b0C / 300\u00b0F"
         },
         {
           "label": "Active Time",
@@ -2056,7 +2090,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★☆"
+          "value": "\u2605\u2605\u2606"
         }
       ],
       "details": [
@@ -2070,7 +2104,7 @@
         },
         {
           "label": "Temp",
-          "value": "150°C"
+          "value": "150\u00b0C"
         },
         {
           "label": "Method",
@@ -2187,33 +2221,33 @@
       "phases": [
         {
           "name": "Marinate",
-          "pill": "2–24 hrs",
+          "pill": "2\u201324 hrs",
           "desc": "Submerge beef in red wine with herbs, garlic and vegetables overnight if possible. The wine tenderises every fibre and deepens every flavour.",
-          "icon": "🍷"
+          "icon": "\ud83c\udf77"
         },
         {
           "name": "Sear",
           "pill": "15 min",
-          "desc": "Brown beef in batches over high heat. Every batch needs space. Do not skip this. Dark crust equals deep flavour — this is where the dish is built.",
-          "icon": "🔥"
+          "desc": "Brown beef in batches over high heat. Every batch needs space. Do not skip this. Dark crust equals deep flavour \u2014 this is where the dish is built.",
+          "icon": "\ud83d\udd25"
         },
         {
           "name": "Build the Braise",
           "pill": "10 min",
           "desc": "Bacon lardons, pearl onions, mushrooms, the wine marinade, stock. Everything in together. Season generously. This is the whole recipe.",
-          "icon": "🥘"
+          "icon": "\ud83e\udd58"
         },
         {
           "name": "Braise",
-          "pill": "2.5–3 hrs",
-          "desc": "Covered, low and slow. Check once, adjust nothing. The house will smell extraordinary. 150°C / 300°F",
-          "icon": "♨️"
+          "pill": "2.5\u20133 hrs",
+          "desc": "Covered, low and slow. Check once, adjust nothing. The house will smell extraordinary. 150\u00b0C / 300\u00b0F",
+          "icon": "\u2668\ufe0f"
         },
         {
           "name": "Rest & Serve",
           "pill": "-",
-          "desc": "Best made the day before — the flavour deepens overnight. Serve with crusty bread to catch every last drop of the sauce.",
-          "icon": "🍞"
+          "desc": "Best made the day before \u2014 the flavour deepens overnight. Serve with crusty bread to catch every last drop of the sauce.",
+          "icon": "\ud83c\udf5e"
         }
       ],
       "nutritionPerServing": {
@@ -2224,7 +2258,7 @@
         "fibre": "2g"
       },
       "pairings": [
-        "Burgundy Pinot Noir — the same wine as the pot",
+        "Burgundy Pinot Noir \u2014 the same wine as the pot",
         "Simple green salad first, cheese board after"
       ],
       "notes": [
@@ -2257,7 +2291,7 @@
       "occasion": "Welcome Home Feast",
       "tier": "around-the-table",
       "recipeTitle": "Preserved Lemon Roast Chicken with Herbed Couscous & Olives",
-      "cuisine": "North African · Mediterranean · Serves 6–16",
+      "cuisine": "North African \u00b7 Mediterranean \u00b7 Serves 6\u201316",
       "forTwo": false,
       "mode": "att",
       "slider": {
@@ -2270,7 +2304,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "180°C / 355°F"
+          "value": "180\u00b0C / 355\u00b0F"
         },
         {
           "label": "Active Time",
@@ -2282,7 +2316,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★☆☆"
+          "value": "\u2605\u2606\u2606"
         }
       ],
       "details": [
@@ -2296,7 +2330,7 @@
         },
         {
           "label": "Temp",
-          "value": "180°C"
+          "value": "180\u00b0C"
         },
         {
           "label": "Method",
@@ -2392,7 +2426,7 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "whole roasted cauliflower, same marinade, 45 min at 190°C"
+          "text": "whole roasted cauliflower, same marinade, 45 min at 190\u00b0C"
         },
         {
           "category": "Vegan",
@@ -2406,33 +2440,33 @@
       "phases": [
         {
           "name": "Marinate",
-          "pill": "1–24 hrs",
-          "desc": "Rub chickens inside and out with preserved lemon, garlic, cumin and olive oil. Push seasoning under the skin too — loosen it with your fingers.",
-          "icon": "🍋"
+          "pill": "1\u201324 hrs",
+          "desc": "Rub chickens inside and out with preserved lemon, garlic, cumin and olive oil. Push seasoning under the skin too \u2014 loosen it with your fingers.",
+          "icon": "\ud83c\udf4b"
         },
         {
           "name": "Roast",
           "pill": "1.5 hrs",
-          "desc": "Olives, onions and lemon pieces arranged around the base. The cooking juices become the sauce. The kitchen fills with something extraordinary. 180°C / 355°F",
-          "icon": "🔥"
+          "desc": "Olives, onions and lemon pieces arranged around the base. The cooking juices become the sauce. The kitchen fills with something extraordinary. 180\u00b0C / 355\u00b0F",
+          "icon": "\ud83d\udd25"
         },
         {
           "name": "Couscous",
           "pill": "10 min",
           "desc": "Pour boiling stock over couscous and cover tightly. Wait 5 minutes exactly. Fluff with a fork. Add herbs, a squeeze of lemon, a thread of olive oil.",
-          "icon": "🌾"
+          "icon": "\ud83c\udf3e"
         },
         {
           "name": "Rest",
           "pill": "15 min",
           "desc": "Tent with foil. The skin crisps further. The juices redistribute. The smell deepens. Leave it alone for 15 minutes.",
-          "icon": "⏳"
+          "icon": "\u23f3"
         },
         {
           "name": "Serve Family Style",
           "pill": "-",
           "desc": "Bring the whole birds to the table and carve there. The smell is the welcome. It arrives before the food does.",
-          "icon": "🏠"
+          "icon": "\ud83c\udfe0"
         }
       ],
       "nutritionPerServing": {
@@ -2443,7 +2477,7 @@
         "fibre": "2g"
       },
       "pairings": [
-        "Dry rosé or a crisp white Viognier",
+        "Dry ros\u00e9 or a crisp white Viognier",
         "Warm flatbreads and hummus while you wait"
       ],
       "notes": [
@@ -2480,7 +2514,7 @@
       "occasion": "Engagement Dinner",
       "tier": "around-the-table",
       "recipeTitle": "Individual Beef Wellingtons with Mushroom Duxelles & Red Wine Jus",
-      "cuisine": "British · Fine Dining · Special Occasion · Serves 6–16",
+      "cuisine": "British \u00b7 Fine Dining \u00b7 Special Occasion \u00b7 Serves 6\u201316",
       "forTwo": false,
       "mode": "att",
       "slider": {
@@ -2493,7 +2527,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "220°C / 430°F"
+          "value": "220\u00b0C / 430\u00b0F"
         },
         {
           "label": "Active Time",
@@ -2505,7 +2539,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★★"
+          "value": "\u2605\u2605\u2605"
         }
       ],
       "details": [
@@ -2519,7 +2553,7 @@
         },
         {
           "label": "Temp",
-          "value": "220°C"
+          "value": "220\u00b0C"
         },
         {
           "label": "Method",
@@ -2626,7 +2660,7 @@
         },
         {
           "category": "Pescatarian",
-          "text": "salmon Wellington with dill cream, 20 min at 200°C"
+          "text": "salmon Wellington with dill cream, 20 min at 200\u00b0C"
         },
         {
           "category": "Pasta Purists",
@@ -2637,32 +2671,32 @@
         {
           "name": "Duxelles",
           "pill": "15 min",
-          "desc": "Blitz mushrooms, shallots and garlic. Cook in butter until completely dry — this is the most important step. Wet duxelles makes soggy pastry.",
-          "icon": "🍄"
+          "desc": "Blitz mushrooms, shallots and garlic. Cook in butter until completely dry \u2014 this is the most important step. Wet duxelles makes soggy pastry.",
+          "icon": "\ud83c\udf44"
         },
         {
           "name": "Sear & Wrap",
           "pill": "20 min",
           "desc": "Sear beef portions hard and fast. Cool completely. Wrap in Parma ham and duxelles, then in puff pastry. Egg wash and seal tightly.",
-          "icon": "🥩"
+          "icon": "\ud83e\udd69"
         },
         {
           "name": "Chill",
           "pill": "30 min+",
           "desc": "Refrigerate the wrapped Wellingtons. This sets the shape and gives you complete control over timing. Can be done hours ahead.",
-          "icon": "❄️"
+          "icon": "\u2744\ufe0f"
         },
         {
           "name": "Bake",
-          "pill": "20–25 min",
-          "desc": "Until deep golden. 52°C internal for perfect medium-rare. The kitchen will smell extraordinary. 220°C / 430°F",
-          "icon": "🌟"
+          "pill": "20\u201325 min",
+          "desc": "Until deep golden. 52\u00b0C internal for perfect medium-rare. The kitchen will smell extraordinary. 220\u00b0C / 430\u00b0F",
+          "icon": "\ud83c\udf1f"
         },
         {
           "name": "Rest & Reveal",
           "pill": "5 min",
-          "desc": "Rest 5 minutes only — the pastry holds the heat. Slice at the table. The reveal is the moment you planned the evening for.",
-          "icon": "💍"
+          "desc": "Rest 5 minutes only \u2014 the pastry holds the heat. Slice at the table. The reveal is the moment you planned the evening for.",
+          "icon": "\ud83d\udc8d"
         }
       ],
       "nutritionPerServing": {
@@ -2674,7 +2708,7 @@
       },
       "pairings": [
         "Premier Cru Bordeaux or an exceptional Barolo",
-        "Champagne on arrival — this is the occasion for it"
+        "Champagne on arrival \u2014 this is the occasion for it"
       ],
       "notes": [
         "Protein",
@@ -2714,7 +2748,7 @@
       "occasion": "Upscale Dinner Party",
       "tier": "around-the-table",
       "recipeTitle": "Pan-Roasted Halibut with Saffron Beurre Blanc & Samphire",
-      "cuisine": "French · Modern British · Serves 6–16",
+      "cuisine": "French \u00b7 Modern British \u00b7 Serves 6\u201316",
       "forTwo": false,
       "mode": "att",
       "slider": {
@@ -2739,7 +2773,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★★"
+          "value": "\u2605\u2605\u2605"
         }
       ],
       "details": [
@@ -2753,7 +2787,7 @@
         },
         {
           "label": "Temp",
-          "value": "—"
+          "value": "\u2014"
         },
         {
           "label": "Method",
@@ -2865,31 +2899,31 @@
           "name": "Potatoes",
           "pill": "20 min",
           "desc": "Simmer new potatoes in well-salted water until tender. Drain, crush lightly, finish in butter and fresh tarragon. Keep warm in a low oven.",
-          "icon": "🥔"
+          "icon": "\ud83e\udd54"
         },
         {
           "name": "Beurre Blanc",
           "pill": "15 min",
           "desc": "Reduce white wine with shallots and saffron to 2 tablespoons. Add cream, reduce again. Whisk in cold butter piece by piece until silky and golden.",
-          "icon": "🟡"
+          "icon": "\ud83d\udfe1"
         },
         {
           "name": "Samphire",
           "pill": "3 min",
-          "desc": "Blanch briefly in unsalted boiling water — it is already salty. Taste before adding any seasoning. Its natural salinity is part of the dish.",
-          "icon": "🌿"
+          "desc": "Blanch briefly in unsalted boiling water \u2014 it is already salty. Taste before adding any seasoning. Its natural salinity is part of the dish.",
+          "icon": "\ud83c\udf3f"
         },
         {
           "name": "Sear the Halibut",
-          "pill": "4–5 min",
+          "pill": "4\u20135 min",
           "desc": "Very hot pan, olive oil. Skin side first until golden. Flip once only. Halibut is delicate and rewards careful attention.",
-          "icon": "🐟"
+          "icon": "\ud83d\udc1f"
         },
         {
           "name": "Plate & Serve",
           "pill": "-",
           "desc": "Potatoes first, fish on top, sauce pooled, samphire alongside. Each plate should look deliberate. This is the upscale dinner party moment.",
-          "icon": "🎨"
+          "icon": "\ud83c\udfa8"
         }
       ],
       "nutritionPerServing": {
@@ -2933,7 +2967,7 @@
       "occasion": "Promotion Celebration",
       "tier": "around-the-table",
       "recipeTitle": "Champagne Risotto with Saffron, Crispy Prosciutto & Truffle Oil",
-      "cuisine": "Italian · Celebratory · Serves 6–16",
+      "cuisine": "Italian \u00b7 Celebratory \u00b7 Serves 6\u201316",
       "forTwo": false,
       "mode": "att",
       "slider": {
@@ -2958,7 +2992,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★☆"
+          "value": "\u2605\u2605\u2606"
         }
       ],
       "details": [
@@ -3068,7 +3102,7 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "the base risotto is already vegetarian — use vegetable stock"
+          "text": "the base risotto is already vegetarian \u2014 use vegetable stock"
         },
         {
           "category": "Vegan",
@@ -3083,32 +3117,32 @@
         {
           "name": "Warm the Stock",
           "pill": "5 min",
-          "desc": "Steep saffron in warm stock for 10 minutes — it needs time to bleed its colour and flavour. Keep stock at a gentle simmer throughout. Cold stock ruins risotto.",
-          "icon": "🌼"
+          "desc": "Steep saffron in warm stock for 10 minutes \u2014 it needs time to bleed its colour and flavour. Keep stock at a gentle simmer throughout. Cold stock ruins risotto.",
+          "icon": "\ud83c\udf3c"
         },
         {
           "name": "Toast & Deglaze",
           "pill": "8 min",
           "desc": "Soften shallots in butter. Toast rice until each grain is translucent and crackling slightly. Deglaze with champagne. The sizzle is the moment the dish begins.",
-          "icon": "🥂"
+          "icon": "\ud83e\udd42"
         },
         {
           "name": "Build",
           "pill": "20 min",
           "desc": "One ladle of warm stock at a time, stirring almost constantly. This is the meditative work of risotto. Patience here returns itself with every mouthful.",
-          "icon": "🥄"
+          "icon": "\ud83e\udd44"
         },
         {
           "name": "Crispy Prosciutto",
           "pill": "5 min",
-          "desc": "Lay flat on a tray. Bake at 180°C until glass-crisp. This is the texture contrast the whole dish is built around.",
-          "icon": "✨"
+          "desc": "Lay flat on a tray. Bake at 180\u00b0C until glass-crisp. This is the texture contrast the whole dish is built around.",
+          "icon": "\u2728"
         },
         {
           "name": "Finish & Serve",
           "pill": "-",
           "desc": "Parmesan, cold butter, a few drops of truffle oil off the heat. Taste and correct. Serve immediately. Risotto waits for nobody.",
-          "icon": "🏆"
+          "icon": "\ud83c\udfc6"
         }
       ],
       "nutritionPerServing": {
@@ -3152,7 +3186,7 @@
       "occasion": "First Date Night In",
       "tier": "fill-the-room",
       "recipeTitle": "Prawn & Chorizo Linguine with Cherry Tomatoes, White Wine & Basil",
-      "cuisine": "Italian · Spanish-Fusion · For Two · Scales to 12",
+      "cuisine": "Italian \u00b7 Spanish-Fusion \u00b7 For Two \u00b7 Scales to 12",
       "forTwo": true,
       "mode": "att",
       "slider": {
@@ -3177,7 +3211,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★☆☆"
+          "value": "\u2605\u2606\u2606"
         }
       ],
       "details": [
@@ -3280,7 +3314,7 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "roasted peppers, courgette and smoked paprika — no prawns or chorizo"
+          "text": "roasted peppers, courgette and smoked paprika \u2014 no prawns or chorizo"
         },
         {
           "category": "Vegan",
@@ -3296,31 +3330,31 @@
           "name": "Mise en Place",
           "pill": "10 min",
           "desc": "Slice the chorizo. Halve the tomatoes. Open the wine. Have a glass. This dish rewards relaxed confidence more than anything else you can bring to it.",
-          "icon": "🗂️"
+          "icon": "\ud83d\uddc2\ufe0f"
         },
         {
           "name": "Chorizo First",
           "pill": "5 min",
           "desc": "Fry chorizo until the fat renders and turns a deep paprika red. This oil is the flavour base for the entire dish. Do not drain it. Not a drop.",
-          "icon": "🌶️"
+          "icon": "\ud83c\udf36\ufe0f"
         },
         {
           "name": "Build the Sauce",
           "pill": "8 min",
           "desc": "Prawns into the chorizo oil. Cherry tomatoes, white wine, garlic, chilli. Let it reduce to a loose and vibrant sauce. Taste. Adjust.",
-          "icon": "🦐"
+          "icon": "\ud83e\udd90"
         },
         {
           "name": "Pasta",
-          "pill": "8–10 min",
-          "desc": "Linguine in aggressively salted boiling water. Reserve a full cup of pasta water before draining — it finishes the sauce beautifully.",
-          "icon": "🍝"
+          "pill": "8\u201310 min",
+          "desc": "Linguine in aggressively salted boiling water. Reserve a full cup of pasta water before draining \u2014 it finishes the sauce beautifully.",
+          "icon": "\ud83c\udf5d"
         },
         {
           "name": "Combine & Serve",
           "pill": "-",
           "desc": "Toss pasta in the sauce. Add pasta water to loosen. Basil torn over at the last second. Pecorino at the table, not before.",
-          "icon": "💫"
+          "icon": "\ud83d\udcab"
         }
       ],
       "nutritionPerServing": {
@@ -3364,7 +3398,7 @@
       "occasion": "Baby Shower",
       "tier": "fill-the-room",
       "recipeTitle": "Honey-Glazed Chicken Skewers with Tabbouleh, Flatbreads & Labneh",
-      "cuisine": "Middle Eastern · British · Light · Serves 16–60+",
+      "cuisine": "Middle Eastern \u00b7 British \u00b7 Light \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -3377,7 +3411,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "200°C / 390°F"
+          "value": "200\u00b0C / 390\u00b0F"
         },
         {
           "label": "Active Time",
@@ -3389,7 +3423,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★☆☆"
+          "value": "\u2605\u2606\u2606"
         }
       ],
       "details": [
@@ -3403,7 +3437,7 @@
         },
         {
           "label": "Temp",
-          "value": "200°C"
+          "value": "200\u00b0C"
         },
         {
           "label": "Method",
@@ -3527,33 +3561,33 @@
       "phases": [
         {
           "name": "Marinate",
-          "pill": "1–24 hrs",
+          "pill": "1\u201324 hrs",
           "desc": "Mix honey, mustard, paprika, garlic and olive oil. Coat the chicken thighs entirely. Overnight gives the deepest flavour and the most beautiful colour.",
-          "icon": "🍯"
+          "icon": "\ud83c\udf6f"
         },
         {
           "name": "Tabbouleh",
           "pill": "20 min",
           "desc": "Soak bulgur in hot water, drain and cool. Toss with abundant parsley, mint, tomatoes, cucumber, olive oil and lemon. It should be mostly herb, not mostly grain.",
-          "icon": "🌿"
+          "icon": "\ud83c\udf3f"
         },
         {
           "name": "Grill or Roast",
-          "pill": "25–30 min",
-          "desc": "Skewers over a hot grill or at 200°C in the oven. Baste with remaining marinade halfway. The honey chars slightly at the edges. 200°C / 390°F",
-          "icon": "🔥"
+          "pill": "25\u201330 min",
+          "desc": "Skewers over a hot grill or at 200\u00b0C in the oven. Baste with remaining marinade halfway. The honey chars slightly at the edges. 200\u00b0C / 390\u00b0F",
+          "icon": "\ud83d\udd25"
         },
         {
           "name": "Rest",
           "pill": "5 min",
           "desc": "5 minutes off the heat. The honey glaze sets. The juices redistribute. The colour deepens further.",
-          "icon": "⏳"
+          "icon": "\u23f3"
         },
         {
           "name": "Serve the Board",
           "pill": "-",
           "desc": "Boards of skewers, tabbouleh, warm flatbreads and labneh. Spring colour, zero stress. Let everyone build their own plate.",
-          "icon": "🌸"
+          "icon": "\ud83c\udf38"
         }
       ],
       "nutritionPerServing": {
@@ -3601,7 +3635,7 @@
       "occasion": "Home Wedding Reception",
       "tier": "fill-the-room",
       "recipeTitle": "Slow-Roasted Herb-Crusted Beef Topside with Yorkshire Puddings & Red Wine Gravy",
-      "cuisine": "British · Classic Roast · Serves 16–60+",
+      "cuisine": "British \u00b7 Classic Roast \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -3614,7 +3648,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "160°C / 320°F"
+          "value": "160\u00b0C / 320\u00b0F"
         },
         {
           "label": "Active Time",
@@ -3626,7 +3660,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★☆"
+          "value": "\u2605\u2605\u2606"
         }
       ],
       "details": [
@@ -3640,7 +3674,7 @@
         },
         {
           "label": "Temp",
-          "value": "160°C"
+          "value": "160\u00b0C"
         },
         {
           "label": "Method",
@@ -3766,31 +3800,31 @@
           "name": "Herb Crust",
           "pill": "20 min",
           "desc": "Blitz rosemary, thyme, garlic and olive oil to a thick paste. Mix with Dijon mustard. Cover the beef joint entirely on all surfaces.",
-          "icon": "🌿"
+          "icon": "\ud83c\udf3f"
         },
         {
           "name": "Sear",
           "pill": "10 min",
           "desc": "Brown all surfaces in a smoking-hot roasting tin. This builds the caramelised crust that carries the gravy and makes the kitchen smell like a celebration.",
-          "icon": "🔥"
+          "icon": "\ud83d\udd25"
         },
         {
           "name": "Slow Roast",
-          "pill": "2.5–3 hrs",
-          "desc": "Low and slow. Medium-rare at 58°C internal for a crowd. Use a thermometer. 160°C / 320°F",
-          "icon": "♨️"
+          "pill": "2.5\u20133 hrs",
+          "desc": "Low and slow. Medium-rare at 58\u00b0C internal for a crowd. Use a thermometer. 160\u00b0C / 320\u00b0F",
+          "icon": "\u2668\ufe0f"
         },
         {
           "name": "Rest",
           "pill": "30 min",
-          "desc": "The most important step. 30 minutes under foil before carving. This makes or breaks the dish — do not rush it.",
-          "icon": "⏳"
+          "desc": "The most important step. 30 minutes under foil before carving. This makes or breaks the dish \u2014 do not rush it.",
+          "icon": "\u23f3"
         },
         {
           "name": "Carve at the Table",
           "pill": "-",
           "desc": "Carve on a board at the table. The drama and the smell do the work. Yorkshire puddings and gravy arrive last.",
-          "icon": "🍽️"
+          "icon": "\ud83c\udf7d\ufe0f"
         }
       ],
       "nutritionPerServing": {
@@ -3838,7 +3872,7 @@
       "occasion": "New Year's Eve",
       "tier": "fill-the-room",
       "recipeTitle": "Slow-Roasted Duck Legs with Orange & Star Anise, Crispy Potatoes & Braised Red Cabbage",
-      "cuisine": "French · Asian-Fusion · Festive · Serves 16–60+",
+      "cuisine": "French \u00b7 Asian-Fusion \u00b7 Festive \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -3851,7 +3885,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "160°C / 320°F"
+          "value": "160\u00b0C / 320\u00b0F"
         },
         {
           "label": "Active Time",
@@ -3863,7 +3897,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★☆"
+          "value": "\u2605\u2605\u2606"
         }
       ],
       "details": [
@@ -3877,7 +3911,7 @@
         },
         {
           "label": "Temp",
-          "value": "160°C"
+          "value": "160\u00b0C"
         },
         {
           "label": "Method",
@@ -3994,33 +4028,33 @@
       "phases": [
         {
           "name": "Score & Marinate",
-          "pill": "2–24 hrs",
+          "pill": "2\u201324 hrs",
           "desc": "Score duck skin in a crosshatch pattern. Rub with five-spice, orange zest, garlic and ginger. The fat needs scoring to render properly overnight.",
-          "icon": "🍊"
+          "icon": "\ud83c\udf4a"
         },
         {
           "name": "Slow Roast",
           "pill": "2.5 hrs",
-          "desc": "Duck legs skin-side up. The fat renders slowly, continuously basting the meat below. 160°C / 320°F",
-          "icon": "♨️"
+          "desc": "Duck legs skin-side up. The fat renders slowly, continuously basting the meat below. 160\u00b0C / 320\u00b0F",
+          "icon": "\u2668\ufe0f"
         },
         {
           "name": "Braised Red Cabbage",
           "pill": "1 hr alongside",
           "desc": "Shred cabbage finely. Braise with red wine vinegar, sugar and star anise while the duck cooks. Better made the day before.",
-          "icon": "🍷"
+          "icon": "\ud83c\udf77"
         },
         {
           "name": "Blast the Skin",
           "pill": "15 min",
-          "desc": "Increase oven to 220°C / 430°F for the final 15 minutes. The skin turns lacquered, deep and glass-crisp. 220°C / 430°F",
-          "icon": "🔥"
+          "desc": "Increase oven to 220\u00b0C / 430\u00b0F for the final 15 minutes. The skin turns lacquered, deep and glass-crisp. 220\u00b0C / 430\u00b0F",
+          "icon": "\ud83d\udd25"
         },
         {
           "name": "Glaze & Serve",
           "pill": "-",
           "desc": "Brush with honey-soy-orange glaze at the last moment. Serve on a board. The smell alone announces the new year.",
-          "icon": "✨"
+          "icon": "\u2728"
         }
       ],
       "nutritionPerServing": {
@@ -4031,7 +4065,7 @@
         "fibre": "5g"
       },
       "pairings": [
-        "Pinot Noir or a rich Côtes du Rhône",
+        "Pinot Noir or a rich C\u00f4tes du Rh\u00f4ne",
         "Champagne at midnight, obviously"
       ],
       "notes": [
@@ -4072,7 +4106,7 @@
       "occasion": "Thanksgiving & Harvest",
       "tier": "fill-the-room",
       "recipeTitle": "Maple & Herb Roasted Turkey Crown with Cornbread Stuffing & Cranberry Sauce",
-      "cuisine": "American · Traditional · Festive · Serves 16–60+",
+      "cuisine": "American \u00b7 Traditional \u00b7 Festive \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -4085,7 +4119,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "180°C / 355°F"
+          "value": "180\u00b0C / 355\u00b0F"
         },
         {
           "label": "Active Time",
@@ -4097,7 +4131,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★☆"
+          "value": "\u2605\u2605\u2606"
         }
       ],
       "details": [
@@ -4111,7 +4145,7 @@
         },
         {
           "label": "Temp",
-          "value": "180°C"
+          "value": "180\u00b0C"
         },
         {
           "label": "Method",
@@ -4237,31 +4271,31 @@
           "name": "Herb Butter Under the Skin",
           "pill": "10 min",
           "desc": "Blend soft butter with sage, thyme, garlic and salt. Push it under the crown skin with your fingers. This is the step that keeps every slice juicy.",
-          "icon": "🧈"
+          "icon": "\ud83e\uddc8"
         },
         {
           "name": "Maple Glaze",
           "pill": "5 min",
           "desc": "Mix maple syrup with a knob of butter. Brush over the crown at the start and every 30 minutes. The lacquer builds with each coat.",
-          "icon": "🍁"
+          "icon": "\ud83c\udf41"
         },
         {
           "name": "Roast",
           "pill": "2.5 hrs",
-          "desc": "Baste every 30 minutes without fail. The maple builds a deep amber crust. 180°C / 355°F",
-          "icon": "🦃"
+          "desc": "Baste every 30 minutes without fail. The maple builds a deep amber crust. 180\u00b0C / 355\u00b0F",
+          "icon": "\ud83e\udd83"
         },
         {
           "name": "Cornbread Stuffing",
           "pill": "45 min alongside",
-          "desc": "Crumble cornbread with sautéed celery, onion and sage. Moisten with stock. Bake separately for a crisp golden top.",
-          "icon": "🌽"
+          "desc": "Crumble cornbread with saut\u00e9ed celery, onion and sage. Moisten with stock. Bake separately for a crisp golden top.",
+          "icon": "\ud83c\udf3d"
         },
         {
           "name": "Cranberry Sauce & Carve",
           "pill": "-",
           "desc": "Simmer cranberries with orange juice and sugar until glossy. Carve the crown at the table with ceremony.",
-          "icon": "🍒"
+          "icon": "\ud83c\udf52"
         }
       ],
       "nutritionPerServing": {
@@ -4309,7 +4343,7 @@
       "occasion": "Spring Table",
       "tier": "fill-the-room",
       "recipeTitle": "Slow-Roasted Leg of Lamb with Mint & Pea Sauce, Rosemary Potatoes & Spring Greens",
-      "cuisine": "British · Spring · Classic · Serves 16–60+",
+      "cuisine": "British \u00b7 Spring \u00b7 Classic \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -4322,7 +4356,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "160°C / 320°F"
+          "value": "160\u00b0C / 320\u00b0F"
         },
         {
           "label": "Active Time",
@@ -4334,7 +4368,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★☆"
+          "value": "\u2605\u2605\u2606"
         }
       ],
       "details": [
@@ -4348,7 +4382,7 @@
         },
         {
           "label": "Temp",
-          "value": "160°C"
+          "value": "160\u00b0C"
         },
         {
           "label": "Method",
@@ -4406,7 +4440,7 @@
           "display": "3 bunches"
         },
         {
-          "name": "Crème fraîche",
+          "name": "Cr\u00e8me fra\u00eeche",
           "base": 400.0,
           "baseServes": 20,
           "unit": "ml",
@@ -4451,11 +4485,11 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "whole roasted cauliflower with herb crust, 45 min at 190°C, same mint sauce"
+          "text": "whole roasted cauliflower with herb crust, 45 min at 190\u00b0C, same mint sauce"
         },
         {
           "category": "Vegan",
-          "text": "same cauliflower option with coconut crème fraîche in the sauce"
+          "text": "same cauliflower option with coconut cr\u00e8me fra\u00eeche in the sauce"
         },
         {
           "category": "Pasta Purists",
@@ -4467,31 +4501,31 @@
           "name": "Stud & Rub",
           "pill": "15 min",
           "desc": "Push garlic slivers and rosemary sprigs deep into slits cut across the lamb. Rub all over with olive oil, mustard and salt. Massage it in thoroughly.",
-          "icon": "🫙"
+          "icon": "\ud83e\uded9"
         },
         {
           "name": "Slow Roast",
           "pill": "4 hrs",
-          "desc": "This is patient cooking. The lamb rewards you generously at the end. 160°C / 320°F",
-          "icon": "♨️"
+          "desc": "This is patient cooking. The lamb rewards you generously at the end. 160\u00b0C / 320\u00b0F",
+          "icon": "\u2668\ufe0f"
         },
         {
           "name": "Mint & Pea Sauce",
           "pill": "10 min",
-          "desc": "Blend cooked peas with fresh mint, crème fraîche and lemon until vivid green and smooth. This sauce IS the spring. Make it just before serving.",
-          "icon": "🟢"
+          "desc": "Blend cooked peas with fresh mint, cr\u00e8me fra\u00eeche and lemon until vivid green and smooth. This sauce IS the spring. Make it just before serving.",
+          "icon": "\ud83d\udfe2"
         },
         {
           "name": "Rosemary Potatoes",
           "pill": "45 min alongside",
           "desc": "Parboil, rough up the edges, roast in olive oil and rosemary until deeply golden. The best potatoes this table will ever eat.",
-          "icon": "🥔"
+          "icon": "\ud83e\udd54"
         },
         {
           "name": "Rest & Carve",
           "pill": "30 min",
-          "desc": "30 minutes under foil. The lamb should pull apart with two forks at this point. Serve on a board — the spring colours do the work.",
-          "icon": "🍽️"
+          "desc": "30 minutes under foil. The lamb should pull apart with two forks at this point. Serve on a board \u2014 the spring colours do the work.",
+          "icon": "\ud83c\udf7d\ufe0f"
         }
       ],
       "nutritionPerServing": {
@@ -4502,7 +4536,7 @@
         "fibre": "8g"
       },
       "pairings": [
-        "A bright Bordeaux or a Côtes du Rhône Blanc",
+        "A bright Bordeaux or a C\u00f4tes du Rh\u00f4ne Blanc",
         "Hot cross buns with good butter to start"
       ],
       "notes": [
@@ -4539,7 +4573,7 @@
       "occasion": "Housewarming Party",
       "tier": "fill-the-room",
       "recipeTitle": "Butter Chicken with Basmati Rice, Saag Paneer & Warm Naan Breads",
-      "cuisine": "Indian · Comfort · Crowd Pleaser · Serves 16–60+",
+      "cuisine": "Indian \u00b7 Comfort \u00b7 Crowd Pleaser \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -4552,7 +4586,7 @@
       "stats": [
         {
           "label": "Char Temperature",
-          "value": "220°C / 430°F"
+          "value": "220\u00b0C / 430\u00b0F"
         },
         {
           "label": "Active Time",
@@ -4564,7 +4598,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★☆☆"
+          "value": "\u2605\u2606\u2606"
         }
       ],
       "details": [
@@ -4578,7 +4612,7 @@
         },
         {
           "label": "Temp",
-          "value": "220°C char"
+          "value": "220\u00b0C char"
         },
         {
           "label": "Method",
@@ -4688,7 +4722,7 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "replace chicken with chickpeas and extra paneer — the sauce is already vegetarian"
+          "text": "replace chicken with chickpeas and extra paneer \u2014 the sauce is already vegetarian"
         },
         {
           "category": "Vegan",
@@ -4702,33 +4736,33 @@
       "phases": [
         {
           "name": "Marinate the Chicken",
-          "pill": "1–24 hrs",
+          "pill": "1\u201324 hrs",
           "desc": "Toss chicken in yogurt, garam masala, cumin and turmeric. Overnight gives real depth. The acid in the yogurt tenderises every piece.",
-          "icon": "🌿"
+          "icon": "\ud83c\udf3f"
         },
         {
           "name": "Char the Chicken",
           "pill": "15 min",
-          "desc": "Grill or roast at 220°C / 430°F until the edges are slightly charred. This is the step that makes it taste like a restaurant. 220°C / 430°F",
-          "icon": "🔥"
+          "desc": "Grill or roast at 220\u00b0C / 430\u00b0F until the edges are slightly charred. This is the step that makes it taste like a restaurant. 220\u00b0C / 430\u00b0F",
+          "icon": "\ud83d\udd25"
         },
         {
           "name": "Build the Sauce",
           "pill": "20 min",
           "desc": "Butter, garlic and ginger base. Tomatoes, cream, more spice. Reduce until rich and coating. Add the charred chicken and simmer gently.",
-          "icon": "🍅"
+          "icon": "\ud83c\udf45"
         },
         {
           "name": "Saag Paneer",
           "pill": "15 min alongside",
           "desc": "Pan-fry paneer cubes until golden. Wilt spinach with garlic and spices. Combine. This cooks simultaneously with the sauce.",
-          "icon": "🧀"
+          "icon": "\ud83e\uddc0"
         },
         {
           "name": "Serve Family Style",
           "pill": "-",
           "desc": "Both dishes centred on the table with basmati and warm naan. The house smells like it has been lived in for years.",
-          "icon": "🏠"
+          "icon": "\ud83c\udfe0"
         }
       ],
       "nutritionPerServing": {
@@ -4775,8 +4809,8 @@
       "id": "retirement-celebration",
       "occasion": "Retirement Celebration",
       "tier": "fill-the-room",
-      "recipeTitle": "Whole Baked Salmon Sides with Dill & Lemon, Crushed New Potatoes & Cucumber Crème Fraîche",
-      "cuisine": "British · Scandinavian · Elegant · Serves 16–60+",
+      "recipeTitle": "Whole Baked Salmon Sides with Dill & Lemon, Crushed New Potatoes & Cucumber Cr\u00e8me Fra\u00eeche",
+      "cuisine": "British \u00b7 Scandinavian \u00b7 Elegant \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -4789,7 +4823,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "180°C / 355°F"
+          "value": "180\u00b0C / 355\u00b0F"
         },
         {
           "label": "Active Time",
@@ -4801,7 +4835,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★☆☆"
+          "value": "\u2605\u2606\u2606"
         }
       ],
       "details": [
@@ -4815,7 +4849,7 @@
         },
         {
           "label": "Temp",
-          "value": "180°C"
+          "value": "180\u00b0C"
         },
         {
           "label": "Method",
@@ -4873,7 +4907,7 @@
           "display": "200g"
         },
         {
-          "name": "Crème fraîche",
+          "name": "Cr\u00e8me fra\u00eeche",
           "base": 600.0,
           "baseServes": 20,
           "unit": "ml",
@@ -4915,7 +4949,7 @@
         },
         {
           "category": "Vegan",
-          "text": "same cauliflower with coconut crème fraîche"
+          "text": "same cauliflower with coconut cr\u00e8me fra\u00eeche"
         },
         {
           "category": "Pasta Purists",
@@ -4927,31 +4961,31 @@
           "name": "Prep the Salmon",
           "pill": "10 min",
           "desc": "Lay sides skin-down on parchment. Season generously. Lay dill fronds and lemon slices along the full length. Drizzle with olive oil and white wine.",
-          "icon": "🐟"
+          "icon": "\ud83d\udc1f"
         },
         {
           "name": "Bake",
-          "pill": "30–35 min",
-          "desc": "Covered with foil for the first 20 minutes, uncovered for the last 10. The salmon is done when it flakes at the thickest point. 180°C / 355°F",
-          "icon": "🌕"
+          "pill": "30\u201335 min",
+          "desc": "Covered with foil for the first 20 minutes, uncovered for the last 10. The salmon is done when it flakes at the thickest point. 180\u00b0C / 355\u00b0F",
+          "icon": "\ud83c\udf15"
         },
         {
-          "name": "Cucumber Crème Fraîche",
+          "name": "Cucumber Cr\u00e8me Fra\u00eeche",
           "pill": "10 min",
-          "desc": "Grate and squeeze dry the cucumber. Fold into crème fraîche with fresh dill, capers and lemon. Cold, clean and bright against the warm fish.",
-          "icon": "🥒"
+          "desc": "Grate and squeeze dry the cucumber. Fold into cr\u00e8me fra\u00eeche with fresh dill, capers and lemon. Cold, clean and bright against the warm fish.",
+          "icon": "\ud83e\udd52"
         },
         {
           "name": "Crushed Potatoes",
           "pill": "20 min",
           "desc": "Boil new potatoes, drain and crush roughly with butter, salt and dill. Not mashed, not whole. Somewhere in between.",
-          "icon": "🫶"
+          "icon": "\ud83e\udef6"
         },
         {
           "name": "Rest & Serve",
           "pill": "5 min",
           "desc": "Let the salmon cool 5 minutes. Serve it on the baking parchment on a board. The presentation does all the work.",
-          "icon": "🎯"
+          "icon": "\ud83c\udfaf"
         }
       ],
       "nutritionPerServing": {
@@ -4984,7 +5018,7 @@
           20
         ],
         [
-          "Make crème fraîche",
+          "Make cr\u00e8me fra\u00eeche",
           10
         ],
         [
@@ -4999,7 +5033,7 @@
       "occasion": "The Big Match",
       "tier": "fill-the-room",
       "recipeTitle": "The Big Match: Build-Your-Own Chilli Station with Nachos, Sour Cream & Guacamole",
-      "cuisine": "American · Tex-Mex · Global Sport · Serves 16–60+",
+      "cuisine": "American \u00b7 Tex-Mex \u00b7 Global Sport \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -5012,7 +5046,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "160°C / 300°F"
+          "value": "160\u00b0C / 300\u00b0F"
         },
         {
           "label": "Active Time",
@@ -5024,7 +5058,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★☆☆"
+          "value": "\u2605\u2606\u2606"
         }
       ],
       "details": [
@@ -5038,7 +5072,7 @@
         },
         {
           "label": "Temp",
-          "value": "160°C"
+          "value": "160\u00b0C"
         },
         {
           "label": "Method",
@@ -5152,7 +5186,7 @@
         },
         {
           "category": "Vegan",
-          "text": "the vegetarian version is already vegan — skip sour cream and cheese"
+          "text": "the vegetarian version is already vegan \u2014 skip sour cream and cheese"
         },
         {
           "category": "Pasta Purists",
@@ -5163,32 +5197,32 @@
         {
           "name": "Brown the Beef",
           "pill": "20 min",
-          "desc": "In batches over high heat. Do not crowd the pan — steam makes grey meat. Sear makes flavour. Take your time with each batch.",
-          "icon": "🥩"
+          "desc": "In batches over high heat. Do not crowd the pan \u2014 steam makes grey meat. Sear makes flavour. Take your time with each batch.",
+          "icon": "\ud83e\udd69"
         },
         {
           "name": "Build the Base",
           "pill": "10 min",
           "desc": "Onions, garlic, chipotle paste, cumin, smoked paprika. Add tomatoes and stock. This is the whole recipe in three steps and it cannot go wrong.",
-          "icon": "🌶️"
+          "icon": "\ud83c\udf36\ufe0f"
         },
         {
           "name": "Slow Braise",
-          "pill": "2.5–3 hrs",
-          "desc": "Cover and leave it. The beef breaks down and the sauce deepens. Add the dark chocolate in the last 10 minutes. 160°C / 300°F",
-          "icon": "🍫"
+          "pill": "2.5\u20133 hrs",
+          "desc": "Cover and leave it. The beef breaks down and the sauce deepens. Add the dark chocolate in the last 10 minutes. 160\u00b0C / 300\u00b0F",
+          "icon": "\ud83c\udf6b"
         },
         {
           "name": "Set Up the Station",
           "pill": "10 min",
-          "desc": "Chips, sour cream, grated cheddar, guacamole, jalapenos — each in their own bowl. The station is the dish.",
-          "icon": "🎯"
+          "desc": "Chips, sour cream, grated cheddar, guacamole, jalapenos \u2014 each in their own bowl. The station is the dish.",
+          "icon": "\ud83c\udfaf"
         },
         {
           "name": "Hold & Serve",
           "pill": "match duration",
           "desc": "Chilli holds on the hob for 4 hours and improves. Set it up before kick-off. Serve whenever the room needs feeding.",
-          "icon": "📺"
+          "icon": "\ud83d\udcfa"
         }
       ],
       "nutritionPerServing": {
@@ -5199,8 +5233,8 @@
         "fibre": "10g"
       },
       "pairings": [
-        "Cold beer — all kinds, all welcome",
-        "Extra tortilla chips — always run out first"
+        "Cold beer \u2014 all kinds, all welcome",
+        "Extra tortilla chips \u2014 always run out first"
       ],
       "notes": [
         "Protein",
@@ -5232,7 +5266,7 @@
       "occasion": "Halloween",
       "tier": "fill-the-room",
       "recipeTitle": "Smoky Pumpkin & Chorizo Chilli with Black Beans, Chipotle Crema & Corn Chips",
-      "cuisine": "Mexican · Tex-Mex · Festive Dark · Serves 16–60+",
+      "cuisine": "Mexican \u00b7 Tex-Mex \u00b7 Festive Dark \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -5245,7 +5279,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "160°C / 320°F"
+          "value": "160\u00b0C / 320\u00b0F"
         },
         {
           "label": "Active Time",
@@ -5257,7 +5291,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★☆☆"
+          "value": "\u2605\u2606\u2606"
         }
       ],
       "details": [
@@ -5271,7 +5305,7 @@
         },
         {
           "label": "Temp",
-          "value": "160°C"
+          "value": "160\u00b0C"
         },
         {
           "label": "Method",
@@ -5381,11 +5415,11 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "skip the chorizo — use smoked paprika and a tablespoon of olive oil as the base fat instead"
+          "text": "skip the chorizo \u2014 use smoked paprika and a tablespoon of olive oil as the base fat instead"
         },
         {
           "category": "Vegan",
-          "text": "the vegetarian version is already vegan — replace sour cream with coconut yogurt"
+          "text": "the vegetarian version is already vegan \u2014 replace sour cream with coconut yogurt"
         },
         {
           "category": "Pasta Purists",
@@ -5396,32 +5430,32 @@
         {
           "name": "Roast the Squash",
           "pill": "30 min",
-          "desc": "Cube squash, toss in olive oil, smoked paprika and cumin. Roast until caramelised at the edges. The colour is already perfect for Halloween. 200°C / 390°F",
-          "icon": "🎃"
+          "desc": "Cube squash, toss in olive oil, smoked paprika and cumin. Roast until caramelised at the edges. The colour is already perfect for Halloween. 200\u00b0C / 390\u00b0F",
+          "icon": "\ud83c\udf83"
         },
         {
           "name": "Fry the Chorizo",
           "pill": "10 min",
           "desc": "The chorizo releases its deep red oil as it fries. This is the fat everything else cooks in. Do not drain a drop of it.",
-          "icon": "🌶️"
+          "icon": "\ud83c\udf36\ufe0f"
         },
         {
           "name": "Build the Chilli",
           "pill": "15 min",
           "desc": "Onions, garlic and chipotle paste in the chorizo fat. Add tomatoes and stock and black beans. The colour deepens to almost black.",
-          "icon": "🖤"
+          "icon": "\ud83d\udda4"
         },
         {
           "name": "Combine & Simmer",
           "pill": "1 hr",
-          "desc": "Add the roasted squash and let everything become one. The sauce grows darker and deeper with every minute. 160°C / 320°F",
-          "icon": "♨️"
+          "desc": "Add the roasted squash and let everything become one. The sauce grows darker and deeper with every minute. 160\u00b0C / 320\u00b0F",
+          "icon": "\u2668\ufe0f"
         },
         {
           "name": "Serve with Drama",
           "pill": "-",
           "desc": "Ladle into carved pumpkin bowls if you have them. Chipotle crema, coriander and lime alongside. Tortilla chips for dipping.",
-          "icon": "🕯️"
+          "icon": "\ud83d\udd6f\ufe0f"
         }
       ],
       "nutritionPerServing": {
@@ -5433,7 +5467,7 @@
       },
       "pairings": [
         "Spiced apple cider or a bold Malbec",
-        "Extra tortilla chips — they disappear first"
+        "Extra tortilla chips \u2014 they disappear first"
       ],
       "notes": [
         "Protein",
@@ -5469,7 +5503,7 @@
       "occasion": "Mother's Day Brunch",
       "tier": "around-the-table",
       "recipeTitle": "Smoked Salmon & Dill Eggs Benedict with Hollandaise, Avocado & Herb Salad",
-      "cuisine": "British · Brunch · Indulgent · Serves 6–16",
+      "cuisine": "British \u00b7 Brunch \u00b7 Indulgent \u00b7 Serves 6\u201316",
       "forTwo": false,
       "mode": "att",
       "slider": {
@@ -5482,7 +5516,7 @@
       "stats": [
         {
           "label": "Water Temperature",
-          "value": "90°C / 195°F"
+          "value": "90\u00b0C / 195\u00b0F"
         },
         {
           "label": "Active Time",
@@ -5494,7 +5528,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★★"
+          "value": "\u2605\u2605\u2605"
         }
       ],
       "details": [
@@ -5508,7 +5542,7 @@
         },
         {
           "label": "Temp",
-          "value": "90°C gentle"
+          "value": "90\u00b0C gentle"
         },
         {
           "label": "Method",
@@ -5608,11 +5642,11 @@
         },
         {
           "category": "Vegan",
-          "text": "silken tofu scramble on toast with avocado — skip the hollandaise entirely"
+          "text": "silken tofu scramble on toast with avocado \u2014 skip the hollandaise entirely"
         },
         {
           "category": "Pasta Purists",
-          "text": "scrambled eggs on buttered toast — no poaching, no hollandaise required"
+          "text": "scrambled eggs on buttered toast \u2014 no poaching, no hollandaise required"
         }
       ],
       "phases": [
@@ -5620,31 +5654,31 @@
           "name": "Hollandaise",
           "pill": "15 min",
           "desc": "Whisk egg yolks over barely simmering water with a splash of white wine vinegar. Add melted butter drop by drop. This is the one step that asks for attention. Give it.",
-          "icon": "🧈"
+          "icon": "\ud83e\uddc8"
         },
         {
           "name": "Poach the Eggs",
-          "pill": "6–8 min",
+          "pill": "6\u20138 min",
           "desc": "Deep pan, barely simmering water, a splash of vinegar. Swirl gently. A perfect poached egg is entirely achievable if the water is calm and the eggs are cold.",
-          "icon": "🌊"
+          "icon": "\ud83c\udf0a"
         },
         {
           "name": "Smash the Avocado",
           "pill": "5 min",
-          "desc": "Rough smash with lemon juice, salt and a pinch of chilli flakes. Not too smooth — texture is half the dish.",
-          "icon": "🥑"
+          "desc": "Rough smash with lemon juice, salt and a pinch of chilli flakes. Not too smooth \u2014 texture is half the dish.",
+          "icon": "\ud83e\udd51"
         },
         {
           "name": "Toast the Muffins",
           "pill": "3 min",
           "desc": "Split, toasted until golden on the cut side only. The contrast between the crisp base and the yielding egg above is the architecture of the dish.",
-          "icon": "🔥"
+          "icon": "\ud83d\udd25"
         },
         {
           "name": "Assemble in Order",
           "pill": "-",
-          "desc": "Muffin → avocado → smoked salmon → poached egg → hollandaise → dill. The order matters. Serve the moment it lands.",
-          "icon": "🌸"
+          "desc": "Muffin \u2192 avocado \u2192 smoked salmon \u2192 poached egg \u2192 hollandaise \u2192 dill. The order matters. Serve the moment it lands.",
+          "icon": "\ud83c\udf38"
         }
       ],
       "nutritionPerServing": {
@@ -5688,7 +5722,7 @@
       "occasion": "Father's Day BBQ",
       "tier": "fill-the-room",
       "recipeTitle": "Slow-Smoked Beef Brisket with Bourbon BBQ Glaze, Pickled Red Onions & Homemade Slaw",
-      "cuisine": "American BBQ · Southern · Serves 16–60+",
+      "cuisine": "American BBQ \u00b7 Southern \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -5701,7 +5735,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "120°C / 250°F"
+          "value": "120\u00b0C / 250\u00b0F"
         },
         {
           "label": "Active Time",
@@ -5713,7 +5747,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★★"
+          "value": "\u2605\u2605\u2605"
         }
       ],
       "details": [
@@ -5727,7 +5761,7 @@
         },
         {
           "label": "Temp",
-          "value": "120°C"
+          "value": "120\u00b0C"
         },
         {
           "label": "Method",
@@ -5844,7 +5878,7 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "whole roasted celeriac with the same spice rub, 3 hrs at 160°C"
+          "text": "whole roasted celeriac with the same spice rub, 3 hrs at 160\u00b0C"
         },
         {
           "category": "Vegan",
@@ -5852,39 +5886,39 @@
         },
         {
           "category": "Pasta Purists",
-          "text": "plain sliced beef with no glaze — same slaw and pickles on the side"
+          "text": "plain sliced beef with no glaze \u2014 same slaw and pickles on the side"
         }
       ],
       "phases": [
         {
-          "name": "The Rub — Night Before",
+          "name": "The Rub \u2014 Night Before",
           "pill": "-",
-          "desc": "Mix smoked paprika, sugar, pepper, garlic powder and onion powder. Cover the brisket entirely. Overnight in the fridge. This is not optional — the rub needs time.",
-          "icon": "🌙"
+          "desc": "Mix smoked paprika, sugar, pepper, garlic powder and onion powder. Cover the brisket entirely. Overnight in the fridge. This is not optional \u2014 the rub needs time.",
+          "icon": "\ud83c\udf19"
         },
         {
           "name": "Low & Slow",
-          "pill": "6–8 hrs",
-          "desc": "The brisket should not be rushed. At 8 hours the bark is set and the meat yields completely with no effort. 120°C / 250°F",
-          "icon": "♨️"
+          "pill": "6\u20138 hrs",
+          "desc": "The brisket should not be rushed. At 8 hours the bark is set and the meat yields completely with no effort. 120\u00b0C / 250\u00b0F",
+          "icon": "\u2668\ufe0f"
         },
         {
           "name": "Bourbon BBQ Sauce",
           "pill": "20 min",
           "desc": "Simmer bourbon, ketchup, vinegar and Worcestershire until glossy. The alcohol cooks off. What remains is depth and complexity.",
-          "icon": "🥃"
+          "icon": "\ud83e\udd43"
         },
         {
           "name": "Pickled Onions & Slaw",
           "pill": "30 min ahead",
           "desc": "Slice red onions into hot white wine vinegar brine. Dress cabbage and carrot with mayonnaise and vinegar. Both improve as they sit.",
-          "icon": "🫙"
+          "icon": "\ud83e\uded9"
         },
         {
           "name": "Rest & Pull",
           "pill": "45 min",
           "desc": "45 minutes under foil before pulling. A table that waited 8 hours can wait another 45. The patience pays every time.",
-          "icon": "🎯"
+          "icon": "\ud83c\udfaf"
         }
       ],
       "nutritionPerServing": {
@@ -5932,7 +5966,7 @@
       "occasion": "Gender Reveal",
       "tier": "fill-the-room",
       "recipeTitle": "Build-Your-Own Mexican Taco Fiesta with Slow-Cooked Pulled Beef, Grilled Corn & Guacamole",
-      "cuisine": "Mexican · Festive · Crowd Pleaser · Serves 16–60+",
+      "cuisine": "Mexican \u00b7 Festive \u00b7 Crowd Pleaser \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -5945,7 +5979,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "160°C / 320°F"
+          "value": "160\u00b0C / 320\u00b0F"
         },
         {
           "label": "Active Time",
@@ -5957,7 +5991,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★☆☆"
+          "value": "\u2605\u2606\u2606"
         }
       ],
       "details": [
@@ -5971,7 +6005,7 @@
         },
         {
           "label": "Temp",
-          "value": "160°C"
+          "value": "160\u00b0C"
         },
         {
           "label": "Method",
@@ -6071,7 +6105,7 @@
           "display": "6"
         },
         {
-          "name": "Pickled jalapeños",
+          "name": "Pickled jalape\u00f1os",
           "base": 400.0,
           "baseServes": 20,
           "unit": "g",
@@ -6088,11 +6122,11 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "spiced black beans and roasted peppers — same toppings, same station"
+          "text": "spiced black beans and roasted peppers \u2014 same toppings, same station"
         },
         {
           "category": "Vegan",
-          "text": "the black bean version is already vegan — replace sour cream with coconut yogurt"
+          "text": "the black bean version is already vegan \u2014 replace sour cream with coconut yogurt"
         },
         {
           "category": "Pasta Purists",
@@ -6104,31 +6138,31 @@
           "name": "Season & Sear",
           "pill": "15 min",
           "desc": "Rub beef all over with cumin, paprika, chipotle and salt. Sear every surface in a smoking-hot pot. The crust is where the flavour lives.",
-          "icon": "🥩"
+          "icon": "\ud83e\udd69"
         },
         {
           "name": "Braise",
           "pill": "4 hrs",
-          "desc": "Into the pot with tomatoes, stock and garlic. Cover and leave. Pull apart when it yields completely to two forks. 160°C / 320°F",
-          "icon": "♨️"
+          "desc": "Into the pot with tomatoes, stock and garlic. Cover and leave. Pull apart when it yields completely to two forks. 160\u00b0C / 320\u00b0F",
+          "icon": "\u2668\ufe0f"
         },
         {
           "name": "Grilled Corn",
           "pill": "15 min",
           "desc": "Grill corn cobs directly over gas or a griddle until visibly charred. Slice off the kernels. They go into everything and add sweetness.",
-          "icon": "🌽"
+          "icon": "\ud83c\udf3d"
         },
         {
           "name": "Guacamole & Salsa",
           "pill": "10 min",
           "desc": "Rough-smash avocado with lime and salt. Dice tomatoes and red onion. Neither needs to be precise. The energy of the occasion allows for some mess.",
-          "icon": "🥑"
+          "icon": "\ud83e\udd51"
         },
         {
           "name": "Set the Fiesta Table",
           "pill": "-",
           "desc": "Everything in bowls. Tortillas warm in foil. Let the table build its own plates. The noise and colour are the point of the whole occasion.",
-          "icon": "🎉"
+          "icon": "\ud83c\udf89"
         }
       ],
       "nutritionPerServing": {
@@ -6140,7 +6174,7 @@
       },
       "pairings": [
         "Margaritas or hibiscus agua fresca",
-        "A reveal cake for after — whichever colour it is"
+        "A reveal cake for after \u2014 whichever colour it is"
       ],
       "notes": [
         "Protein",
@@ -6176,7 +6210,7 @@
       "occasion": "Open House",
       "tier": "fill-the-room",
       "recipeTitle": "Slow-Roasted Spiced Lamb Shoulder with Flatbreads, Tzatziki & Tabbouleh",
-      "cuisine": "Middle Eastern · Mediterranean · All-Day · Serves 16–60+",
+      "cuisine": "Middle Eastern \u00b7 Mediterranean \u00b7 All-Day \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -6189,7 +6223,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "150°C / 300°F"
+          "value": "150\u00b0C / 300\u00b0F"
         },
         {
           "label": "Active Time",
@@ -6201,7 +6235,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★☆"
+          "value": "\u2605\u2605\u2606"
         }
       ],
       "details": [
@@ -6215,7 +6249,7 @@
         },
         {
           "label": "Temp",
-          "value": "150°C"
+          "value": "150\u00b0C"
         },
         {
           "label": "Method",
@@ -6332,7 +6366,7 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "whole roasted cauliflower head with the same spice rub, 1.5 hrs at 190°C"
+          "text": "whole roasted cauliflower head with the same spice rub, 1.5 hrs at 190\u00b0C"
         },
         {
           "category": "Vegan",
@@ -6340,39 +6374,39 @@
         },
         {
           "category": "Pasta Purists",
-          "text": "plain roasted chicken thighs, no spice rub — same flatbreads and tzatziki"
+          "text": "plain roasted chicken thighs, no spice rub \u2014 same flatbreads and tzatziki"
         }
       ],
       "phases": [
         {
-          "name": "Spice Rub — Night Before",
+          "name": "Spice Rub \u2014 Night Before",
           "pill": "-",
           "desc": "Mix cumin, coriander, paprika and cinnamon with olive oil into a thick paste. Rub into every surface of the lamb. Refrigerate overnight for maximum depth.",
-          "icon": "🌿"
+          "icon": "\ud83c\udf3f"
         },
         {
           "name": "Slow Roast",
-          "pill": "4–5 hrs",
-          "desc": "The shoulder is done when the bone slides out with no resistance at all. This is an honest 5 hours. It rewards the patience completely. 150°C / 300°F",
-          "icon": "♨️"
+          "pill": "4\u20135 hrs",
+          "desc": "The shoulder is done when the bone slides out with no resistance at all. This is an honest 5 hours. It rewards the patience completely. 150\u00b0C / 300\u00b0F",
+          "icon": "\u2668\ufe0f"
         },
         {
           "name": "Tzatziki",
           "pill": "10 min",
           "desc": "Grate cucumber and squeeze completely dry. Fold into Greek yogurt with fresh mint, garlic and lemon. Cold and clean against the warm lamb.",
-          "icon": "🥒"
+          "icon": "\ud83e\udd52"
         },
         {
           "name": "Tabbouleh",
           "pill": "20 min",
-          "desc": "Soak bulgur, drain, cool. Toss with lavish amounts of parsley, mint, cherry tomatoes and lemon. More herb than grain — always.",
-          "icon": "🌿"
+          "desc": "Soak bulgur, drain, cool. Toss with lavish amounts of parsley, mint, cherry tomatoes and lemon. More herb than grain \u2014 always.",
+          "icon": "\ud83c\udf3f"
         },
         {
           "name": "Pull at the Table",
           "pill": "20 min",
           "desc": "This is the centrepiece dish. The lamb arrives whole and is pulled apart at the table. That informality is the spirit of an open house.",
-          "icon": "🏡"
+          "icon": "\ud83c\udfe1"
         }
       ],
       "nutritionPerServing": {
@@ -6420,7 +6454,7 @@
       "occasion": "Shabbat Dinner",
       "tier": "around-the-table",
       "recipeTitle": "Roast Chicken with Golden Broth, Challah & Honey-Glazed Root Vegetables",
-      "cuisine": "Jewish · Eastern European · Ritual · Serves 6–16",
+      "cuisine": "Jewish \u00b7 Eastern European \u00b7 Ritual \u00b7 Serves 6\u201316",
       "forTwo": false,
       "mode": "att",
       "slider": {
@@ -6433,7 +6467,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "180°C / 355°F"
+          "value": "180\u00b0C / 355\u00b0F"
         },
         {
           "label": "Active Time",
@@ -6445,7 +6479,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★☆"
+          "value": "\u2605\u2605\u2606"
         }
       ],
       "details": [
@@ -6459,7 +6493,7 @@
         },
         {
           "label": "Temp",
-          "value": "180°C"
+          "value": "180\u00b0C"
         },
         {
           "label": "Method",
@@ -6580,7 +6614,7 @@
         },
         {
           "category": "Vegan",
-          "text": "same cauliflower with vegetable broth instead — use saffron for the golden colour"
+          "text": "same cauliflower with vegetable broth instead \u2014 use saffron for the golden colour"
         },
         {
           "category": "Pasta Purists",
@@ -6591,32 +6625,32 @@
         {
           "name": "Prep the Chicken",
           "pill": "15 min",
-          "desc": "Pat completely dry — this is the single most important step for golden skin. Rub inside and out with olive oil, lemon zest, garlic and thyme. Season generously.",
-          "icon": "🐔"
+          "desc": "Pat completely dry \u2014 this is the single most important step for golden skin. Rub inside and out with olive oil, lemon zest, garlic and thyme. Season generously.",
+          "icon": "\ud83d\udc14"
         },
         {
           "name": "Roast",
           "pill": "1.5 hrs",
-          "desc": "Vegetables underneath the chicken become the flavour foundation for the broth. The bird is done when the juices run completely clear. 180°C / 355°F",
-          "icon": "♨️"
+          "desc": "Vegetables underneath the chicken become the flavour foundation for the broth. The bird is done when the juices run completely clear. 180\u00b0C / 355\u00b0F",
+          "icon": "\u2668\ufe0f"
         },
         {
           "name": "The Golden Broth",
           "pill": "20 min",
           "desc": "Lift the rested chicken. Simmer pan juices with stock, turmeric and fresh dill until golden and fragrant. Strain into a warm jug. This is the soul of the table.",
-          "icon": "✨"
+          "icon": "\u2728"
         },
         {
           "name": "Honey Root Vegetables",
           "pill": "10 min",
           "desc": "Toss the roasted carrots and parsnips with honey in the last 10 minutes of cooking. The glaze caramelises while the chicken rests.",
-          "icon": "🍯"
+          "icon": "\ud83c\udf6f"
         },
         {
           "name": "The Table",
           "pill": "-",
           "desc": "The challah is torn, not cut. The broth is poured at the table. If there are candles, they were lit before you sat down. The week is behind you now.",
-          "icon": "🕯️"
+          "icon": "\ud83d\udd6f\ufe0f"
         }
       ],
       "nutritionPerServing": {
@@ -6663,8 +6697,8 @@
       "id": "nowruz",
       "occasion": "Nowruz",
       "tier": "around-the-table",
-      "recipeTitle": "Sabzi Polo Mahi — Herbed Saffron Rice with Tahdig, Pan-Fried Fish & Kuku Sabzi Herb Frittata",
-      "cuisine": "Persian · Iranian · Spring Equinox · Serves 6–16",
+      "recipeTitle": "Sabzi Polo Mahi \u2014 Herbed Saffron Rice with Tahdig, Pan-Fried Fish & Kuku Sabzi Herb Frittata",
+      "cuisine": "Persian \u00b7 Iranian \u00b7 Spring Equinox \u00b7 Serves 6\u201316",
       "forTwo": false,
       "mode": "att",
       "slider": {
@@ -6689,7 +6723,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★☆"
+          "value": "\u2605\u2605\u2606"
         }
       ],
       "details": [
@@ -6820,11 +6854,11 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "the kuku sabzi is already vegetarian — serve as the centrepiece with extra herbed rice"
+          "text": "the kuku sabzi is already vegetarian \u2014 serve as the centrepiece with extra herbed rice"
         },
         {
           "category": "Vegan",
-          "text": "replace eggs in the kuku with silken tofu and ground flaxseed — same herbs, same result"
+          "text": "replace eggs in the kuku with silken tofu and ground flaxseed \u2014 same herbs, same result"
         },
         {
           "category": "Pasta Purists",
@@ -6836,31 +6870,31 @@
           "name": "Herbed Saffron Rice",
           "pill": "30 min",
           "desc": "Parboil basmati until just tender. Steep saffron in hot water. Mix the fresh herbs into the drained rice. Layer into the pot with butter and saffron water.",
-          "icon": "🌿"
+          "icon": "\ud83c\udf3f"
         },
         {
           "name": "The Tahdig",
           "pill": "20 min",
-          "desc": "The crispy rice crust at the base of the pot — the most celebrated part of Persian cooking. Cloth under the lid, lowest heat possible. Do not open. The sound tells you when it is ready.",
-          "icon": "🥇"
+          "desc": "The crispy rice crust at the base of the pot \u2014 the most celebrated part of Persian cooking. Cloth under the lid, lowest heat possible. Do not open. The sound tells you when it is ready.",
+          "icon": "\ud83e\udd47"
         },
         {
           "name": "Kuku Sabzi",
           "pill": "20 min",
           "desc": "Whisk eggs with a mountain of fresh herbs, spring onions, barberries and walnuts. Cook in a wide pan in olive oil until just set. Cut into wedges.",
-          "icon": "🌱"
+          "icon": "\ud83c\udf31"
         },
         {
           "name": "Pan-Fried Fish",
           "pill": "10 min",
-          "desc": "Season with turmeric, salt and lemon. Pan-fry until golden — 3 to 4 minutes per side. Simple and ceremonial in equal measure.",
-          "icon": "🐟"
+          "desc": "Season with turmeric, salt and lemon. Pan-fry until golden \u2014 3 to 4 minutes per side. Simple and ceremonial in equal measure.",
+          "icon": "\ud83d\udc1f"
         },
         {
           "name": "Turn & Serve",
           "pill": "-",
-          "desc": "Invert the rice onto a platter — the golden tahdig on top. Everything arrives together. The table looks like the spring equinox arrived inside the room.",
-          "icon": "🌸"
+          "desc": "Invert the rice onto a platter \u2014 the golden tahdig on top. Everything arrives together. The table looks like the spring equinox arrived inside the room.",
+          "icon": "\ud83c\udf38"
         }
       ],
       "nutritionPerServing": {
@@ -6871,7 +6905,7 @@
         "fibre": "2g"
       },
       "pairings": [
-        "Fresh herb platter — radishes, walnuts, feta",
+        "Fresh herb platter \u2014 radishes, walnuts, feta",
         "Persian tea with rock sugar served after"
       ],
       "notes": [
@@ -6908,7 +6942,7 @@
       "occasion": "Chosen Family Dinner",
       "tier": "around-the-table",
       "recipeTitle": "Slow-Braised Short Ribs in Red Wine with Creamy Polenta & Gremolata",
-      "cuisine": "Italian · Modern · Comfort · Serves 6–16",
+      "cuisine": "Italian \u00b7 Modern \u00b7 Comfort \u00b7 Serves 6\u201316",
       "forTwo": false,
       "mode": "att",
       "slider": {
@@ -6921,7 +6955,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "160°C / 320°F"
+          "value": "160\u00b0C / 320\u00b0F"
         },
         {
           "label": "Active Time",
@@ -6933,7 +6967,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★☆"
+          "value": "\u2605\u2605\u2606"
         }
       ],
       "details": [
@@ -6947,7 +6981,7 @@
         },
         {
           "label": "Temp",
-          "value": "160°C"
+          "value": "160\u00b0C"
         },
         {
           "label": "Method",
@@ -7072,39 +7106,39 @@
         },
         {
           "category": "Pasta Purists",
-          "text": "plain buttered tagliatelle instead of polenta — same sauce ladled over"
+          "text": "plain buttered tagliatelle instead of polenta \u2014 same sauce ladled over"
         }
       ],
       "phases": [
         {
           "name": "Sear the Ribs",
           "pill": "15 min",
-          "desc": "Hard sear on every surface in a smoking-hot casserole. The crust is the flavour foundation. Do not crowd the pan — do this in batches if needed.",
-          "icon": "🔥"
+          "desc": "Hard sear on every surface in a smoking-hot casserole. The crust is the flavour foundation. Do not crowd the pan \u2014 do this in batches if needed.",
+          "icon": "\ud83d\udd25"
         },
         {
           "name": "Build the Braise",
           "pill": "10 min",
           "desc": "Onions, garlic and thyme in the same pan. Red wine, tomatoes and stock. Scrape every dark bit from the base. Cover tightly and into the oven.",
-          "icon": "🍷"
+          "icon": "\ud83c\udf77"
         },
         {
           "name": "Slow Braise",
           "pill": "3.5 hrs",
-          "desc": "The ribs are done when the meat falls completely from the bone with no resistance whatsoever. Patience is the only technique required here. 160°C / 320°F",
-          "icon": "♨️"
+          "desc": "The ribs are done when the meat falls completely from the bone with no resistance whatsoever. Patience is the only technique required here. 160\u00b0C / 320\u00b0F",
+          "icon": "\u2668\ufe0f"
         },
         {
           "name": "Creamy Polenta",
           "pill": "25 min",
           "desc": "Whisk polenta into simmering salted water and milk. Stir continuously. Finish with butter and Parmesan until it coats the spoon heavily. This is the bed the ribs sleep on.",
-          "icon": "🌕"
+          "icon": "\ud83c\udf15"
         },
         {
           "name": "Gremolata & Serve",
           "pill": "-",
-          "desc": "Lemon zest, parsley and a little raw garlic — rough-chopped together. Scattered at the table over the ribs. The brightness cuts through everything.",
-          "icon": "🌿"
+          "desc": "Lemon zest, parsley and a little raw garlic \u2014 rough-chopped together. Scattered at the table over the ribs. The brightness cuts through everything.",
+          "icon": "\ud83c\udf3f"
         }
       ],
       "nutritionPerServing": {
@@ -7116,7 +7150,7 @@
       },
       "pairings": [
         "A serious Barolo or a bold Nero d'Avola",
-        "Good candles — this table deserves them"
+        "Good candles \u2014 this table deserves them"
       ],
       "notes": [
         "Protein",
@@ -7152,7 +7186,7 @@
       "occasion": "Midsommar",
       "tier": "fill-the-room",
       "recipeTitle": "Gravlax with Dill Mustard Sauce, New Potatoes, Pickled Herring & Rye Crispbreads",
-      "cuisine": "Scandinavian · Swedish · Cold Table · Serves 16–60+",
+      "cuisine": "Scandinavian \u00b7 Swedish \u00b7 Cold Table \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -7181,7 +7215,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★☆"
+          "value": "\u2605\u2605\u2606"
         }
       ],
       "details": [
@@ -7253,7 +7287,7 @@
           "display": "600g"
         },
         {
-          "name": "Crème fraîche or sour cream",
+          "name": "Cr\u00e8me fra\u00eeche or sour cream",
           "base": 400.0,
           "baseServes": 20,
           "unit": "ml",
@@ -7305,11 +7339,11 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "skip the gravlax — build the table around herbed new potatoes, pickled cucumber, crispbreads and a strong cheese"
+          "text": "skip the gravlax \u2014 build the table around herbed new potatoes, pickled cucumber, crispbreads and a strong cheese"
         },
         {
           "category": "Vegan",
-          "text": "same table without the dairy — coconut crème fraîche works surprisingly well with dill"
+          "text": "same table without the dairy \u2014 coconut cr\u00e8me fra\u00eeche works surprisingly well with dill"
         },
         {
           "category": "Pasta Purists",
@@ -7320,32 +7354,32 @@
         {
           "name": "Cure the Gravlax",
           "pill": "48 hrs ahead",
-          "desc": "Mix salt, sugar and crushed white pepper. Pack thickly over the salmon with abundant dill. Wrap tightly in cling film. Refrigerate. The cure does everything — you do nothing for 48 hours.",
-          "icon": "🌿"
+          "desc": "Mix salt, sugar and crushed white pepper. Pack thickly over the salmon with abundant dill. Wrap tightly in cling film. Refrigerate. The cure does everything \u2014 you do nothing for 48 hours.",
+          "icon": "\ud83c\udf3f"
         },
         {
           "name": "Pickled Cucumber",
           "pill": "1 hr ahead",
           "desc": "Slice cucumber thinly into hot white wine vinegar with a pinch of sugar and dill. Cool. This is the sharp note that balances the rich cured fish.",
-          "icon": "🥒"
+          "icon": "\ud83e\udd52"
         },
         {
           "name": "Dill Mustard Sauce",
           "pill": "10 min",
-          "desc": "Whisk Dijon mustard with honey, a splash of white wine vinegar and abundant fresh dill. This sauce is inseparable from gravlax — they complete each other.",
-          "icon": "🟡"
+          "desc": "Whisk Dijon mustard with honey, a splash of white wine vinegar and abundant fresh dill. This sauce is inseparable from gravlax \u2014 they complete each other.",
+          "icon": "\ud83d\udfe1"
         },
         {
           "name": "New Potatoes",
           "pill": "20 min",
           "desc": "Boil in salted water until tender. Drain and toss with cold butter and dill while still hot. They absorb both completely.",
-          "icon": "🫧"
+          "icon": "\ud83e\udee7"
         },
         {
           "name": "Set the Midsommar Table",
           "pill": "-",
           "desc": "Everything cold, everything fresh, everything arrives together. Gravlax sliced thin at the table. Crispbreads, herring, potatoes and sauces around it. The longest day deserves the longest table.",
-          "icon": "☀️"
+          "icon": "\u2600\ufe0f"
         }
       ],
       "nutritionPerServing": {
@@ -7357,7 +7391,7 @@
       },
       "pairings": [
         "Aquavit ice-cold, or elderflower cordial",
-        "Fresh strawberries with cream to finish — always"
+        "Fresh strawberries with cream to finish \u2014 always"
       ],
       "notes": [
         "Protein",
@@ -7389,7 +7423,7 @@
       "occasion": "Lunar New Year",
       "tier": "fill-the-room",
       "recipeTitle": "Red-Braised Pork Belly with Longevity Noodles, Steamed Whole Fish & Pan-Fried Dumplings",
-      "cuisine": "Chinese · East Asian · Ceremonial · Serves 16–60+",
+      "cuisine": "Chinese \u00b7 East Asian \u00b7 Ceremonial \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -7402,7 +7436,7 @@
       "stats": [
         {
           "label": "Braise Temp",
-          "value": "160°C / 320°F"
+          "value": "160\u00b0C / 320\u00b0F"
         },
         {
           "label": "Active Time",
@@ -7414,7 +7448,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★☆"
+          "value": "\u2605\u2605\u2606"
         }
       ],
       "details": [
@@ -7428,7 +7462,7 @@
         },
         {
           "label": "Temp",
-          "value": "160°C"
+          "value": "160\u00b0C"
         },
         {
           "label": "Method",
@@ -7538,11 +7572,11 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "replace pork belly with twice-cooked tofu in the same red braise — same sauce, same colour"
+          "text": "replace pork belly with twice-cooked tofu in the same red braise \u2014 same sauce, same colour"
         },
         {
           "category": "Vegan",
-          "text": "tofu braise with mushroom-filled dumplings — both are widely available"
+          "text": "tofu braise with mushroom-filled dumplings \u2014 both are widely available"
         },
         {
           "category": "Pasta Purists",
@@ -7553,32 +7587,32 @@
         {
           "name": "Red-Braise the Pork Belly",
           "pill": "2.5 hrs",
-          "desc": "Blanch pork belly 5 minutes, drain. Braise in soy, Shaoxing wine, rock sugar, star anise and cinnamon. The colour turns lacquer red. The fat becomes silk. 160°C / 320°F",
-          "icon": "🔴"
+          "desc": "Blanch pork belly 5 minutes, drain. Braise in soy, Shaoxing wine, rock sugar, star anise and cinnamon. The colour turns lacquer red. The fat becomes silk. 160\u00b0C / 320\u00b0F",
+          "icon": "\ud83d\udd34"
         },
         {
           "name": "Steam the Whole Fish",
           "pill": "12 min",
-          "desc": "Score the fish deeply on both sides. Steam over high heat exactly 12 minutes. Flood with hot sesame oil and soy at the table. A whole fish means prosperity — it is never served already portioned.",
-          "icon": "🐟"
+          "desc": "Score the fish deeply on both sides. Steam over high heat exactly 12 minutes. Flood with hot sesame oil and soy at the table. A whole fish means prosperity \u2014 it is never served already portioned.",
+          "icon": "\ud83d\udc1f"
         },
         {
           "name": "Pan-Fry the Dumplings",
           "pill": "8 min",
           "desc": "Cold pan, oil, dumplings. High heat until the base is golden and crackling. Add water, cover, steam 5 minutes. Uncover to crisp again. The pleated side faces up always.",
-          "icon": "🥟"
+          "icon": "\ud83e\udd5f"
         },
         {
           "name": "Longevity Noodles",
           "pill": "5 min",
-          "desc": "Boil the noodles but do not cut them — ever. Long noodles mean long life. Breaking them is considered deeply unlucky. Toss in sesame oil and oyster sauce.",
-          "icon": "🍜"
+          "desc": "Boil the noodles but do not cut them \u2014 ever. Long noodles mean long life. Breaking them is considered deeply unlucky. Toss in sesame oil and oyster sauce.",
+          "icon": "\ud83c\udf5c"
         },
         {
           "name": "The New Year Table",
           "pill": "-",
-          "desc": "Red pork, whole fish, golden dumplings, long noodles. Every dish carries meaning. The table is not decoration — it is a wish made edible.",
-          "icon": "🧧"
+          "desc": "Red pork, whole fish, golden dumplings, long noodles. Every dish carries meaning. The table is not decoration \u2014 it is a wish made edible.",
+          "icon": "\ud83e\udde7"
         }
       ],
       "nutritionPerServing": {
@@ -7590,7 +7624,7 @@
       },
       "pairings": [
         "Chrysanthemum tea or a light oolong",
-        "Red envelopes for the children — always"
+        "Red envelopes for the children \u2014 always"
       ],
       "notes": [
         "Protein",
@@ -7630,7 +7664,7 @@
       "occasion": "Diwali",
       "tier": "fill-the-room",
       "recipeTitle": "Lamb Rogan Josh with Dal Makhani, Jeera Rice & Warm Naan Breads",
-      "cuisine": "Indian · North Indian · Festive Feast · Serves 16–60+",
+      "cuisine": "Indian \u00b7 North Indian \u00b7 Festive Feast \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -7643,7 +7677,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "160°C / 320°F"
+          "value": "160\u00b0C / 320\u00b0F"
         },
         {
           "label": "Active Time",
@@ -7655,7 +7689,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★☆"
+          "value": "\u2605\u2605\u2606"
         }
       ],
       "details": [
@@ -7669,7 +7703,7 @@
         },
         {
           "label": "Temp",
-          "value": "160°C"
+          "value": "160\u00b0C"
         },
         {
           "label": "Method",
@@ -7786,47 +7820,47 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "replace lamb with whole roasted cauliflower florets in the same spice base — 45 min"
+          "text": "replace lamb with whole roasted cauliflower florets in the same spice base \u2014 45 min"
         },
         {
           "category": "Vegan",
-          "text": "same cauliflower version with coconut yogurt — the dal is already vegan"
+          "text": "same cauliflower version with coconut yogurt \u2014 the dal is already vegan"
         },
         {
           "category": "Pasta Purists",
-          "text": "plain basmati rice with a mild butter sauce — same naan breads"
+          "text": "plain basmati rice with a mild butter sauce \u2014 same naan breads"
         }
       ],
       "phases": [
         {
           "name": "The Rogan Josh Base",
           "pill": "20 min",
-          "desc": "Brown onions until deeply caramelised — 15 minutes minimum. Garlic and ginger paste, Kashmiri chilli, coriander and cumin. The colour should be brick red before the lamb goes in.",
-          "icon": "🌶️"
+          "desc": "Brown onions until deeply caramelised \u2014 15 minutes minimum. Garlic and ginger paste, Kashmiri chilli, coriander and cumin. The colour should be brick red before the lamb goes in.",
+          "icon": "\ud83c\udf36\ufe0f"
         },
         {
           "name": "Slow Braise",
           "pill": "2.5 hrs",
-          "desc": "Lamb shoulder sealed in the spice base with tomatoes and yogurt. Low and slow. The yogurt tenderises. The spices deepen. 160°C / 320°F",
-          "icon": "♨️"
+          "desc": "Lamb shoulder sealed in the spice base with tomatoes and yogurt. Low and slow. The yogurt tenderises. The spices deepen. 160\u00b0C / 320\u00b0F",
+          "icon": "\u2668\ufe0f"
         },
         {
           "name": "Dal Makhani",
           "pill": "1 hr alongside",
           "desc": "Red lentils simmered with onion, tomato, cumin and coconut milk until creamy and rich. This is the dish that steals the table every time. Make double.",
-          "icon": "🟠"
+          "icon": "\ud83d\udfe0"
         },
         {
           "name": "Jeera Rice",
           "pill": "20 min",
           "desc": "Basmati tempered in butter with whole cumin seeds until they splutter. Add the rice and water. Every grain should be separate and fragrant.",
-          "icon": "🍚"
+          "icon": "\ud83c\udf5a"
         },
         {
           "name": "The Diwali Table",
           "pill": "-",
-          "desc": "Both dishes in the centre, basmati and warm naan around them. The table should be lit. Diwali is the Festival of Light — the candles are not optional.",
-          "icon": "✨"
+          "desc": "Both dishes in the centre, basmati and warm naan around them. The table should be lit. Diwali is the Festival of Light \u2014 the candles are not optional.",
+          "icon": "\u2728"
         }
       ],
       "nutritionPerServing": {
@@ -7837,7 +7871,7 @@
         "fibre": "3g"
       },
       "pairings": [
-        "Diyas — small oil lamps placed around the table",
+        "Diyas \u2014 small oil lamps placed around the table",
         "Mango lassi or masala chai to finish"
       ],
       "notes": [
@@ -7874,7 +7908,7 @@
       "occasion": "Carnival",
       "tier": "fill-the-room",
       "recipeTitle": "New Orleans Chicken & Andouille Gumbo with Dark Roux, White Rice & Hot Sauce Station",
-      "cuisine": "Creole · New Orleans · Southern · Serves 16–60+",
+      "cuisine": "Creole \u00b7 New Orleans \u00b7 Southern \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -7899,7 +7933,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★★"
+          "value": "\u2605\u2605\u2605"
         }
       ],
       "details": [
@@ -8030,15 +8064,15 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "replace chicken and sausage with mushrooms, butter beans and extra okra — the roux carries the flavour"
+          "text": "replace chicken and sausage with mushrooms, butter beans and extra okra \u2014 the roux carries the flavour"
         },
         {
           "category": "Vegan",
-          "text": "the vegetarian version is already vegan — use vegetable stock throughout"
+          "text": "the vegetarian version is already vegan \u2014 use vegetable stock throughout"
         },
         {
           "category": "Pasta Purists",
-          "text": "plain steamed rice with mild tomato sauce — same cornbread on the side"
+          "text": "plain steamed rice with mild tomato sauce \u2014 same cornbread on the side"
         }
       ],
       "phases": [
@@ -8046,31 +8080,31 @@
           "name": "The Dark Roux",
           "pill": "30 min",
           "desc": "Equal parts flour and oil in a heavy pot over medium heat. Stir without stopping. The roux goes from blonde to peanut butter to chocolate. Stop at dark chocolate. This is the soul of gumbo and it cannot be rushed.",
-          "icon": "🟫"
+          "icon": "\ud83d\udfeb"
         },
         {
           "name": "The Holy Trinity",
           "pill": "10 min",
-          "desc": "Onions, celery and green pepper — the Creole foundation. Into the hot roux. They sizzle and steam and release everything they have.",
-          "icon": "🌿"
+          "desc": "Onions, celery and green pepper \u2014 the Creole foundation. Into the hot roux. They sizzle and steam and release everything they have.",
+          "icon": "\ud83c\udf3f"
         },
         {
           "name": "Build the Gumbo",
           "pill": "2 hrs",
-          "desc": "Garlic, Cajun spice, tomatoes, stock, chicken and sausage. Simmer low. Add okra in the last 30 minutes — it thickens the pot naturally. Low simmer",
-          "icon": "🌶️"
+          "desc": "Garlic, Cajun spice, tomatoes, stock, chicken and sausage. Simmer low. Add okra in the last 30 minutes \u2014 it thickens the pot naturally. Low simmer",
+          "icon": "\ud83c\udf36\ufe0f"
         },
         {
           "name": "Steamed White Rice",
           "pill": "20 min",
-          "desc": "Plain, separate, perfectly cooked long-grain rice. The gumbo is ladled over it at the table — never mixed before serving.",
-          "icon": "🍚"
+          "desc": "Plain, separate, perfectly cooked long-grain rice. The gumbo is ladled over it at the table \u2014 never mixed before serving.",
+          "icon": "\ud83c\udf5a"
         },
         {
           "name": "Hot Sauce Station",
           "pill": "-",
           "desc": "A bottle of Crystal or Tabasco at every place. In New Orleans, adding hot sauce is personal, sacred and non-negotiable. The heat level belongs to each guest.",
-          "icon": "🎭"
+          "icon": "\ud83c\udfad"
         }
       ],
       "nutritionPerServing": {
@@ -8082,7 +8116,7 @@
       },
       "pairings": [
         "Cold Abita beer or a Hurricane cocktail",
-        "Music loud enough to cook by — non-negotiable"
+        "Music loud enough to cook by \u2014 non-negotiable"
       ],
       "notes": [
         "Protein",
@@ -8118,7 +8152,7 @@
       "occasion": "Juneteenth",
       "tier": "fill-the-room",
       "recipeTitle": "Slow-Smoked BBQ Chicken with Black-Eyed Peas, Collard Greens, Cornbread & Hibiscus Tea",
-      "cuisine": "American South · Liberation · Tradition · Serves 16–60+",
+      "cuisine": "American South \u00b7 Liberation \u00b7 Tradition \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -8131,7 +8165,7 @@
       "stats": [
         {
           "label": "Smoke Temp",
-          "value": "120°C / 250°F"
+          "value": "120\u00b0C / 250\u00b0F"
         },
         {
           "label": "Active Time",
@@ -8143,7 +8177,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★☆"
+          "value": "\u2605\u2605\u2606"
         }
       ],
       "details": [
@@ -8157,7 +8191,7 @@
         },
         {
           "label": "Temp",
-          "value": "120°C"
+          "value": "120\u00b0C"
         },
         {
           "label": "Method",
@@ -8267,47 +8301,47 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "smoked jackfruit with the same dry rub, same roast time — deeply convincing"
+          "text": "smoked jackfruit with the same dry rub, same roast time \u2014 deeply convincing"
         },
         {
           "category": "Vegan",
-          "text": "same jackfruit option — skip the bacon in the peas, use smoked paprika oil instead"
+          "text": "same jackfruit option \u2014 skip the bacon in the peas, use smoked paprika oil instead"
         },
         {
           "category": "Pasta Purists",
-          "text": "plain roasted chicken with no rub — same cornbread and peas alongside"
+          "text": "plain roasted chicken with no rub \u2014 same cornbread and peas alongside"
         }
       ],
       "phases": [
         {
-          "name": "Dry Rub — Night Before",
+          "name": "Dry Rub \u2014 Night Before",
           "pill": "-",
           "desc": "Mix smoked paprika, sugar, garlic powder and black pepper. Cover the chicken entirely. Overnight in the fridge. The rub needs time to become the bark.",
-          "icon": "🌙"
+          "icon": "\ud83c\udf19"
         },
         {
           "name": "Slow Smoke or Roast",
           "pill": "2 hrs",
-          "desc": "120°C / 250°F for the first 90 minutes, then blast at 220°C / 430°F for the final 30 minutes. The skin turns lacquered and crackling. 120°C / 250°F",
-          "icon": "🔥"
+          "desc": "120\u00b0C / 250\u00b0F for the first 90 minutes, then blast at 220\u00b0C / 430\u00b0F for the final 30 minutes. The skin turns lacquered and crackling. 120\u00b0C / 250\u00b0F",
+          "icon": "\ud83d\udd25"
         },
         {
           "name": "Black-Eyed Peas",
           "pill": "1 hr alongside",
           "desc": "Simmer with smoked bacon or turkey leg, onion and bay leaves until soft and deeply smoky. These peas carry centuries of tradition to every table they sit on.",
-          "icon": "🫘"
+          "icon": "\ud83e\uded8"
         },
         {
           "name": "Collard Greens",
           "pill": "45 min",
-          "desc": "Low and slow with apple cider vinegar, onion and a pinch of sugar. Southern greens need time. They should be silky, never crisp. The pot liquor is precious — serve it too.",
-          "icon": "🌿"
+          "desc": "Low and slow with apple cider vinegar, onion and a pinch of sugar. Southern greens need time. They should be silky, never crisp. The pot liquor is precious \u2014 serve it too.",
+          "icon": "\ud83c\udf3f"
         },
         {
           "name": "Cornbread & the Table",
           "pill": "25 min",
           "desc": "Cast iron, high heat, golden crust. The hibiscus tea is already cold and deep red in a pitcher. Everything arrives together.",
-          "icon": "🌽"
+          "icon": "\ud83c\udf3d"
         }
       ],
       "nutritionPerServing": {
@@ -8318,7 +8352,7 @@
         "fibre": "12g"
       },
       "pairings": [
-        "Strawberry hibiscus agua fresca — cold, red, ceremonial",
+        "Strawberry hibiscus agua fresca \u2014 cold, red, ceremonial",
         "Gospel music or whatever makes the room feel free"
       ],
       "notes": [
@@ -8356,10 +8390,10 @@
     {
       "page": 39,
       "id": "dia-de-los-muertos",
-      "occasion": "Día de los Muertos",
+      "occasion": "D\u00eda de los Muertos",
       "tier": "fill-the-room",
       "recipeTitle": "Slow-Braised Chicken in Red Mole with Mexican Rice, Tortillas & Toasted Seeds",
-      "cuisine": "Mexican · Oaxacan · Ceremonial · Serves 16–60+",
+      "cuisine": "Mexican \u00b7 Oaxacan \u00b7 Ceremonial \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -8372,7 +8406,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "160°C / 320°F"
+          "value": "160\u00b0C / 320\u00b0F"
         },
         {
           "label": "Active Time",
@@ -8384,7 +8418,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★★"
+          "value": "\u2605\u2605\u2605"
         }
       ],
       "details": [
@@ -8398,7 +8432,7 @@
         },
         {
           "label": "Temp",
-          "value": "160°C"
+          "value": "160\u00b0C"
         },
         {
           "label": "Method",
@@ -8515,11 +8549,11 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "roasted pumpkin and black beans in the mole instead of chicken — the sauce carries everything"
+          "text": "roasted pumpkin and black beans in the mole instead of chicken \u2014 the sauce carries everything"
         },
         {
           "category": "Vegan",
-          "text": "same pumpkin option — the mole base is already vegan"
+          "text": "same pumpkin option \u2014 the mole base is already vegan"
         },
         {
           "category": "Pasta Purists",
@@ -8531,31 +8565,31 @@
           "name": "Toast & Soak the Chillies",
           "pill": "30 min",
           "desc": "Dry-toast ancho and pasilla chillies in a hot pan until the kitchen fills with smoke and fragrance. Remove seeds. Soak in hot water 20 minutes until soft.",
-          "icon": "🌶️"
+          "icon": "\ud83c\udf36\ufe0f"
         },
         {
           "name": "Blend the Mole Base",
           "pill": "10 min",
-          "desc": "Blend soaked chillies with tomatoes, sesame seeds, cumin and cinnamon. It should smell ancient — earthy, smoky, complex. This is the whole architecture of mole.",
-          "icon": "🌑"
+          "desc": "Blend soaked chillies with tomatoes, sesame seeds, cumin and cinnamon. It should smell ancient \u2014 earthy, smoky, complex. This is the whole architecture of mole.",
+          "icon": "\ud83c\udf11"
         },
         {
           "name": "Build & Deepen",
           "pill": "20 min",
           "desc": "Fry onions and garlic dark. Add the blended base. Cook until it deepens in colour. Add stock and broken dark chocolate. The mole thickens as the chocolate melts in.",
-          "icon": "🍫"
+          "icon": "\ud83c\udf6b"
         },
         {
           "name": "Braise the Chicken",
           "pill": "1.5 hrs",
-          "desc": "Chicken into the mole. Covered. Barely moving. The sauce becomes the cooking liquid and the sauce simultaneously. 160°C / 320°F",
-          "icon": "♨️"
+          "desc": "Chicken into the mole. Covered. Barely moving. The sauce becomes the cooking liquid and the sauce simultaneously. 160\u00b0C / 320\u00b0F",
+          "icon": "\u2668\ufe0f"
         },
         {
           "name": "The Ofrenda Table",
           "pill": "-",
-          "desc": "Marigold colours, warm tortillas, rice. Place a plate for whoever is absent — that is the tradition. The dish is for the living and the dead both.",
-          "icon": "🌼"
+          "desc": "Marigold colours, warm tortillas, rice. Place a plate for whoever is absent \u2014 that is the tradition. The dish is for the living and the dead both.",
+          "icon": "\ud83c\udf3c"
         }
       ],
       "nutritionPerServing": {
@@ -8566,8 +8600,8 @@
         "fibre": "3g"
       },
       "pairings": [
-        "Horchata or Mexican hot chocolate — both cold and warm",
-        "Marigolds on the table — cempasúchitl, the flower of the dead"
+        "Horchata or Mexican hot chocolate \u2014 both cold and warm",
+        "Marigolds on the table \u2014 cempas\u00fachitl, the flower of the dead"
       ],
       "notes": [
         "Protein",
@@ -8602,8 +8636,8 @@
       "id": "eid-al-fitr",
       "occasion": "Eid al-Fitr",
       "tier": "fill-the-room",
-      "recipeTitle": "Mansaf — Slow-Braised Lamb in Yogurt Sauce with Saffron Rice, Pine Nuts & Flatbreads",
-      "cuisine": "Levantine · Arab · Celebration Feast · Serves 16–60+",
+      "recipeTitle": "Mansaf \u2014 Slow-Braised Lamb in Yogurt Sauce with Saffron Rice, Pine Nuts & Flatbreads",
+      "cuisine": "Levantine \u00b7 Arab \u00b7 Celebration Feast \u00b7 Serves 16\u201360+",
       "forTwo": false,
       "mode": "ftr",
       "slider": {
@@ -8616,7 +8650,7 @@
       "stats": [
         {
           "label": "Oven Temperature",
-          "value": "160°C / 320°F"
+          "value": "160\u00b0C / 320\u00b0F"
         },
         {
           "label": "Active Time",
@@ -8628,7 +8662,7 @@
         },
         {
           "label": "Difficulty",
-          "value": "★★☆"
+          "value": "\u2605\u2605\u2606"
         }
       ],
       "details": [
@@ -8642,7 +8676,7 @@
         },
         {
           "label": "Temp",
-          "value": "160°C"
+          "value": "160\u00b0C"
         },
         {
           "label": "Method",
@@ -8752,47 +8786,47 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "whole roasted aubergines and chickpeas on the saffron rice — same yogurt sauce poured over"
+          "text": "whole roasted aubergines and chickpeas on the saffron rice \u2014 same yogurt sauce poured over"
         },
         {
           "category": "Vegan",
-          "text": "same aubergine option with coconut yogurt instead of labneh — stir in a pinch of turmeric for colour"
+          "text": "same aubergine option with coconut yogurt instead of labneh \u2014 stir in a pinch of turmeric for colour"
         },
         {
           "category": "Pasta Purists",
-          "text": "plain rice with mild lamb in tomato sauce — same flatbreads and pine nuts"
+          "text": "plain rice with mild lamb in tomato sauce \u2014 same flatbreads and pine nuts"
         }
       ],
       "phases": [
         {
-          "name": "Season & Rest — Overnight",
+          "name": "Season & Rest \u2014 Overnight",
           "pill": "-",
           "desc": "Rub lamb generously with turmeric, cinnamon, cardamom, salt and olive oil. The spice needs to reach the bone. Refrigerate overnight.",
-          "icon": "🌙"
+          "icon": "\ud83c\udf19"
         },
         {
           "name": "Brown & Braise",
           "pill": "2.5 hrs",
-          "desc": "Brown lamb pieces all over in a hot pot. Add stock and onions. Cover tightly and braise until the meat falls from the bone with no resistance. 160°C / 320°F",
-          "icon": "♨️"
+          "desc": "Brown lamb pieces all over in a hot pot. Add stock and onions. Cover tightly and braise until the meat falls from the bone with no resistance. 160\u00b0C / 320\u00b0F",
+          "icon": "\u2668\ufe0f"
         },
         {
           "name": "The Yogurt Sauce",
           "pill": "20 min",
           "desc": "The critical step: temper labneh into the warm braising liquid very slowly, stirring constantly. Added cold to hot it will split. The patience here creates the silky ivory sauce that defines mansaf.",
-          "icon": "🤍"
+          "icon": "\ud83e\udd0d"
         },
         {
           "name": "Saffron Rice",
           "pill": "30 min",
-          "desc": "Basmati tempered in ghee with cardamom and saffron water. Every grain should be golden, fragrant and perfectly separate. This rice is not a side — it is half the dish.",
-          "icon": "🟡"
+          "desc": "Basmati tempered in ghee with cardamom and saffron water. Every grain should be golden, fragrant and perfectly separate. This rice is not a side \u2014 it is half the dish.",
+          "icon": "\ud83d\udfe1"
         },
         {
           "name": "Assemble the Platter",
           "pill": "-",
           "desc": "Rice first, lamb on top, yogurt sauce poured generously over everything. Pine nuts and almonds toasted in ghee scattered last. The platter should look like abundance itself.",
-          "icon": "🌹"
+          "icon": "\ud83c\udf39"
         }
       ],
       "nutritionPerServing": {
