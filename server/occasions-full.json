@@ -169,6 +169,26 @@
               "unit": "g",
               "display": "800g"
             }
+          ],
+          "phases": [
+            {
+              "name": "Prep",
+              "pill": "10 min",
+              "desc": "Toss diced squash and drained chickpeas with the same spices as the lamb rub, plus a little oil. Spread on a separate tray.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "55 min",
+              "desc": "Slide the tray into the same oven as the lamb, alongside the casserole, for the last 55 minutes of the braise \u2014 160\u00b0C, same shelf if there's room, otherwise the shelf below.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Straight from the oven, no rest needed. Finishes right as the lamb comes out.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
           ]
         },
         {
@@ -182,6 +202,26 @@
               "unit": "kg",
               "display": "1.2 kg"
             }
+          ],
+          "phases": [
+            {
+              "name": "Prep",
+              "pill": "10 min",
+              "desc": "Pat salmon fillets dry. Rub with half the ras el hanout \u2014 the milder spicing lets the fish stay the point, not the spice. Season with salt.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "25 min",
+              "desc": "Oven up to 200\u00b0C once the lamb comes out. Roast salmon skin-side down on a lined tray until just cooked through and lightly flaking.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Straight from the oven \u2014 salmon doesn't rest like the lamb does. Plate alongside the same couscous, yogurt, and mint.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
           ]
         },
         {
@@ -194,6 +234,38 @@
               "baseServes": 8,
               "unit": "kg",
               "display": "1.4 kg"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Prep",
+              "pill": "5 min",
+              "desc": "Season chicken thighs plainly \u2014 salt and pepper only, no ras el hanout. Keep it separate from the spiced braising liquid.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Sear",
+              "pill": "8 min",
+              "desc": "Brown thighs in their own pan on the stovetop while the lamb is still braising.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Simmer",
+              "pill": "20 min",
+              "desc": "Add a ladle of the lamb's braising liquid (strained, no whole spices) to keep it mild. Cover, simmer until cooked through.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Rest",
+              "pill": "5 min",
+              "desc": "Off the heat, loosely covered.",
+              "icon": "\u23f3"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Alongside the same couscous and yogurt.",
+              "icon": "\ud83c\udf7d\ufe0f"
             }
           ]
         }
