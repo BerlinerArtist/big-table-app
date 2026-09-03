@@ -142,15 +142,26 @@ function dayPlanPage(doc: jsPDF, occ: OccasionData, system: UnitSystem, serveMin
 }
 
 /* ── Page 3: Shopping List ─────────────────────────────────── */
-function shoppingPage(doc: jsPDF, occ: OccasionData, serves: number, system: UnitSystem): void {
+function shoppingPage(
+  doc: jsPDF, occ: OccasionData, mainDishServes: number, system: UnitSystem,
+  extras: { ingredients: import("../data/types").Ingredient[]; count: number }[] = [],
+  totalServes: number = mainDishServes
+): void {
   const accent = accentOf(occ);
   eyebrow(doc, occ.occasion, 26);
   doc.setFont("Cormorant", "normal").setFontSize(24).setTextColor(NAVY);
   doc.text("Shopping List", PAGE_W / 2, 38, { align: "center" });
   goldRule(doc, 44);
-  eyebrow(doc, `For ${serves} guests`, 52, NAVY);
+  eyebrow(
+    doc,
+    mainDishServes === totalServes
+      ? `For ${totalServes} guests`
+      : `For ${totalServes} guests (${mainDishServes} main dish + swaps)`,
+    52,
+    NAVY
+  );
 
-  const items = buildShoppingList(occ, serves, system);
+  const items = buildShoppingList(occ, mainDishServes, system, extras);
   let y = 68;
   for (const it of items) {
     doc.setDrawColor(accent).setLineWidth(0.4);
@@ -178,7 +189,9 @@ function serveMinutes(serveAt: string): number {
 }
 
 export function buildKitchenPack(
-  occ: OccasionData, serves: number, system: UnitSystem, serveAt: string, note: string
+  occ: OccasionData, serves: number, system: UnitSystem, serveAt: string, note: string,
+  mainDishServes: number = serves,
+  extras: { ingredients: import("../data/types").Ingredient[]; count: number }[] = []
 ): jsPDF {
   const doc = newDoc();
   const sm = serveMinutes(serveAt);
@@ -186,26 +199,32 @@ export function buildKitchenPack(
   doc.addPage();
   dayPlanPage(doc, occ, system, sm, note);
   doc.addPage();
-  shoppingPage(doc, occ, serves, system);
+  shoppingPage(doc, occ, mainDishServes, system, extras, serves);
   return doc;
 }
 
 export function buildShoppingOnly(
-  occ: OccasionData, serves: number, system: UnitSystem
+  occ: OccasionData, serves: number, system: UnitSystem,
+  mainDishServes: number = serves,
+  extras: { ingredients: import("../data/types").Ingredient[]; count: number }[] = []
 ): jsPDF {
   const doc = newDoc();
-  shoppingPage(doc, occ, serves, system);
+  shoppingPage(doc, occ, mainDishServes, system, extras, serves);
   return doc;
 }
 
 export function exportKitchenPack(
-  occ: OccasionData, serves: number, system: UnitSystem, serveAt: string, note: string
+  occ: OccasionData, serves: number, system: UnitSystem, serveAt: string, note: string,
+  mainDishServes: number = serves,
+  extras: { ingredients: import("../data/types").Ingredient[]; count: number }[] = []
 ): void {
-  buildKitchenPack(occ, serves, system, serveAt, note).save(`big-table-${occ.id}-kitchen-pack.pdf`);
+  buildKitchenPack(occ, serves, system, serveAt, note, mainDishServes, extras).save(`big-table-${occ.id}-kitchen-pack.pdf`);
 }
 
 export function exportShoppingList(
-  occ: OccasionData, serves: number, system: UnitSystem
+  occ: OccasionData, serves: number, system: UnitSystem,
+  mainDishServes: number = serves,
+  extras: { ingredients: import("../data/types").Ingredient[]; count: number }[] = []
 ): void {
-  buildShoppingOnly(occ, serves, system).save(`big-table-${occ.id}-shopping-list.pdf`);
+  buildShoppingOnly(occ, serves, system, mainDishServes, extras).save(`big-table-${occ.id}-shopping-list.pdf`);
 }
