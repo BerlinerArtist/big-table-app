@@ -24,6 +24,14 @@ export interface Swap {
   /** "Vegetarian" | "Pescatarian" | "Pasta Purists" | "Meat" | ... */
   category: string;
   text: string;
+  /**
+   * Optional: this swap's own scalable ingredients, same shape and same
+   * scaling function (engine/scale.ts::scaledDisplay) as the main dish.
+   * Undefined means the swap has no separate shopping list yet (older
+   * occasions not yet migrated) — UI should fall back to showing `text`
+   * only, exactly as it does today.
+   */
+  ingredients?: Ingredient[];
 }
 
 export interface Phase {
