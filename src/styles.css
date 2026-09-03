@@ -135,6 +135,9 @@ ul.ing li,ul.shop li{display:flex;align-items:baseline;gap:10px;padding:7px 0;bo
 .swap-stepper-control button:disabled{opacity:.35;cursor:not-allowed;}
 .swap-stepper-control span{font-size:13px;font-weight:600;color:var(--ink);min-width:14px;text-align:center;}
 .swaps-sum-hint{font-size:10px;color:var(--ink-soft);text-align:center;margin:6px 0 0;}
+.method-swap-note{font-size:12px;color:var(--ink-soft);background:var(--ivory-w);border-radius:6px;padding:8px 10px;margin-bottom:12px;line-height:1.5;}
+.swap-method-block{margin-top:18px;padding-top:14px;border-top:2px solid var(--ivory-d);}
+.swap-method-lbl{font-family:'Josefin Sans',sans-serif;font-weight:700;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:6px;}
 
 .serve-row{display:flex;align-items:center;gap:12px;margin:12px 0 6px;}
 .serve-row label{font-family:'Josefin Sans',sans-serif;font-size:9px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft);}
