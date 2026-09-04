@@ -177,12 +177,32 @@ export default function Recipe(props: {
         <h1 className="r-title">{occ.recipeTitle}</h1>
         <div className="r-cuisine">{occ.cuisine}</div>
         {occ.swaps.length > 0 && (
-          <p className="diet-hint">
-            Cooking for a mix of diets? This recipe covers {occ.swaps.map((sw) => sw.category.toLowerCase()).join(", ")}
-            , alongside the main dish — use the diet counters in Smart Swaps below, and each portion
-            scales to exactly how many guests chose it. Every dish is timed to cook together, so read the
-            full method once before you start.
-          </p>
+          <div className="diet-hint">
+            <span className="diet-hint-label">Mixed-diet table? 👀</span>
+            <div className="diet-hint-badges">
+              {occ.swaps.map((sw) => (
+                <button
+                  key={sw.category}
+                  type="button"
+                  className="diet-hint-badge"
+                  onClick={() => {
+                    setSwapsExpanded(true);
+                    document.getElementById("smart-swaps-section")?.scrollIntoView({
+                      behavior: "smooth",
+                      block: "start",
+                    });
+                  }}
+                >
+                  {sw.category}
+                </button>
+              ))}
+            </div>
+            <p className="diet-hint-text">
+              Alongside the main dish — use the diet counters in Smart Swaps below, and each portion
+              scales to exactly how many guests chose it. Every dish is timed to cook together, so read
+              the full method once before you start.
+            </p>
+          </div>
         )}
       </header>
 
@@ -315,7 +335,7 @@ export default function Recipe(props: {
             ))}
           </ul>
           {occ.swaps.length > 0 && (
-            <div className="swaps">
+            <div className="swaps" id="smart-swaps-section">
               <div className="swaps-lbl">Smart Swaps · Nobody Left Behind</div>
 
               {!swapsExpanded && (
