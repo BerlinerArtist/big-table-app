@@ -137,7 +137,12 @@ ul.ing li,ul.shop li{display:flex;align-items:baseline;gap:10px;padding:7px 0;bo
 .swaps-sum-hint{font-size:10px;color:var(--ink-soft);text-align:center;margin:6px 0 0;}
 .method-swap-note{font-size:12px;color:var(--ink-soft);background:var(--ivory-w);border-radius:6px;padding:8px 10px;margin-bottom:12px;line-height:1.5;}
 .main-dish-low-warning{background:var(--burg-pale);color:var(--burg-mid);border:1px solid var(--burg);}
-.diet-hint{font-size:12px;color:var(--ink-mid);background:var(--gold-pale);border-radius:6px;padding:9px 12px;margin-top:12px;line-height:1.55;max-width:520px;margin-left:auto;margin-right:auto;}
+.diet-hint{font-size:12.5px;color:var(--ink-mid);background:#EEF3F6;border-left:3px solid var(--gold);border-radius:4px;padding:11px 15px 13px 13px;margin-top:14px;line-height:1.6;max-width:560px;margin-left:auto;margin-right:auto;text-align:left;}
+.diet-hint-label{display:block;font-family:'Josefin Sans',sans-serif;font-weight:600;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#4A6B80;margin-bottom:8px;}
+.diet-hint-badges{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:9px;}
+.diet-hint-badge{background:var(--ivory);border:1px solid var(--gold);border-radius:20px;padding:2px 10px;font-size:10.5px;color:var(--gold-dim);font-weight:600;cursor:pointer;transition:background .15s,color .15s;}
+.diet-hint-badge:hover{background:var(--gold);color:var(--ivory);}
+.diet-hint-text{font-size:12px;color:var(--ink-mid);line-height:1.6;margin:0;}
 .swap-method-block{margin-top:18px;padding-top:14px;border-top:2px solid var(--ivory-d);}
 .swap-method-lbl{font-family:'Josefin Sans',sans-serif;font-weight:700;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--accent);margin-bottom:6px;}
 
