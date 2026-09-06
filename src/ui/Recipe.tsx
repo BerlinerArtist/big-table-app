@@ -284,6 +284,9 @@ export default function Recipe(props: {
                 <div className="swap-method-lbl">
                   {sw.category} — for {swapCounts[sw.category]}{" "}
                   {swapCounts[sw.category] === 1 ? "guest" : "guests"}
+                  {sw.ovenCelsius != null && (
+                    <span className="swap-oven-chip">{fmtOven(sw.ovenCelsius, system)}</span>
+                  )}
                 </div>
                 {sw.phases && sw.phases.length > 0 ? (
                   sw.phases.map((ph) => (
@@ -367,12 +370,30 @@ export default function Recipe(props: {
                   </div>
 
                   {occ.swaps.map((sw) => {
+                    if (sw.noStepper) {
+                      return (
+                        <div className="swap-note-row" key={sw.category}>
+                          <strong>{sw.category}</strong>
+                          <span className="swap-stepper-desc">
+                            {sw.text}
+                            {sw.ovenCelsius != null && (
+                              <span className="swap-oven-chip">{fmtOven(sw.ovenCelsius, system)}</span>
+                            )}
+                          </span>
+                        </div>
+                      );
+                    }
                     const count = swapCounts[sw.category] ?? 0;
                     return (
                       <div className="swap-stepper-row" key={sw.category}>
                         <div className="swap-stepper-label">
                           <strong>{sw.category}</strong>
-                          <span className="swap-stepper-desc">{sw.text}</span>
+                          <span className="swap-stepper-desc">
+                            {sw.text}
+                            {sw.ovenCelsius != null && (
+                              <span className="swap-oven-chip">{fmtOven(sw.ovenCelsius, system)}</span>
+                            )}
+                          </span>
                         </div>
                         <div className="swap-stepper-control">
                           <button
@@ -424,7 +445,7 @@ export default function Recipe(props: {
                     );
                   })}
                   <p className="swaps-sum-hint">
-                    {mainDishCount} + {occ.swaps.map((sw) => swapCounts[sw.category] ?? 0).join(" + ")} = {serves}, added up as you go
+                    {mainDishCount} + {occ.swaps.filter((sw) => !sw.noStepper).map((sw) => swapCounts[sw.category] ?? 0).join(" + ")} = {serves}, added up as you go
                   </p>
                 </>
               )}
