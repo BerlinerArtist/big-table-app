@@ -37,8 +37,26 @@ export interface Swap {
    * main dish's timeline (see Recipe.tsx method section). Undefined means
    * no separate method has been authored yet — UI shows a notice pointing
    * back to this swap's one-line `text` instead of fabricating steps.
+   *
+   * IMPORTANT: phase `desc` text must NOT hard-code a temperature (e.g.
+   * "200°C") — that bypasses fmtOven()'s metric/US conversion and always
+   * shows Celsius regardless of the user's unit toggle. Use `ovenCelsius`
+   * below and reference it generically in prose ("same oven temperature
+   * as the lamb") instead.
    */
   phases?: Phase[];
+  /** Optional: this swap's own oven temperature, shown via fmtOven() the
+   *  same way occ.ovenCelsius is — keeps unit conversion correct instead
+   *  of a hard-coded string in phase text. */
+  ovenCelsius?: number | null;
+  /**
+   * Optional: true when this "swap" is really just a confirmation, not a
+   * separate dish with its own headcount — e.g. "the whole board is
+   * already vegan." No stepper is shown; `text` renders as a plain note
+   * instead. Ingredients/phases should be omitted when this is true,
+   * since there's nothing separate to scale or cook.
+   */
+  noStepper?: boolean;
 }
 
 export interface Phase {
