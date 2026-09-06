@@ -153,7 +153,7 @@
       "swaps": [
         {
           "category": "Vegetarian",
-          "text": "butternut squash + chickpeas, same spices at 180\u00b0C",
+          "text": "butternut squash + chickpeas, same spices, roasted alongside the lamb",
           "ingredients": [
             {
               "name": "Butternut squash, diced",
@@ -180,7 +180,7 @@
             {
               "name": "Roast",
               "pill": "55 min",
-              "desc": "Slide the tray into the same oven as the lamb, alongside the casserole, for the last 55 minutes of the braise \u2014 160\u00b0C, same shelf if there's room, otherwise the shelf below.",
+              "desc": "Slide the tray into the same oven as the lamb, alongside the casserole, for the last 55 minutes of the braise \u2014 same shelf if there's room, otherwise the shelf below.",
               "icon": "\u2668\ufe0f"
             },
             {
@@ -189,11 +189,12 @@
               "desc": "Straight from the oven, no rest needed. Finishes right as the lamb comes out.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "ovenCelsius": 160
         },
         {
           "category": "Pescatarian",
-          "text": "salmon, half the ras el hanout, 25 min at 200\u00b0C",
+          "text": "salmon, half the ras el hanout, roasted after the lamb comes out",
           "ingredients": [
             {
               "name": "Salmon fillets",
@@ -213,7 +214,7 @@
             {
               "name": "Roast",
               "pill": "25 min",
-              "desc": "Oven up to 200\u00b0C once the lamb comes out. Roast salmon skin-side down on a lined tray until just cooked through and lightly flaking.",
+              "desc": "Oven up once the lamb comes out. Roast salmon skin-side down on a lined tray until just cooked through and lightly flaking.",
               "icon": "\u2668\ufe0f"
             },
             {
@@ -222,7 +223,8 @@
               "desc": "Straight from the oven \u2014 salmon doesn't rest like the lamb does. Plate alongside the same couscous, yogurt, and mint.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "ovenCelsius": 200
         },
         {
           "category": "Pasta Purists",
@@ -234,6 +236,13 @@
               "baseServes": 8,
               "unit": "kg",
               "display": "1.4 kg"
+            },
+            {
+              "name": "Orzo",
+              "base": 1.0,
+              "baseServes": 8,
+              "unit": "kg",
+              "display": "1 kg"
             }
           ],
           "phases": [
@@ -256,15 +265,21 @@
               "icon": "\u2668\ufe0f"
             },
             {
+              "name": "Cook the orzo",
+              "pill": "10 min",
+              "desc": "In a separate pot, cook the orzo in salted water, or in a second ladle of the same strained braising liquid for extra flavor without the spice. Drain if using water.",
+              "icon": "\ud83c\udf5a"
+            },
+            {
               "name": "Rest",
               "pill": "5 min",
-              "desc": "Off the heat, loosely covered.",
+              "desc": "Chicken off the heat, loosely covered.",
               "icon": "\u23f3"
             },
             {
               "name": "Serve",
               "pill": "at the table",
-              "desc": "Alongside the same couscous and yogurt.",
+              "desc": "Chicken over the orzo, both moistened with a little extra braising liquid if needed.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
           ]
@@ -376,7 +391,109 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "jackfruit, full chipotle rub, same 4-hour braise",
+          "ingredients": [
+            {
+              "name": "Tinned young jackfruit, drained",
+              "base": 2.4,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "2.4 kg"
+            }
+          ],
+          "ovenCelsius": 130,
+          "phases": [
+            {
+              "name": "Rub",
+              "pill": "10 min",
+              "desc": "Toss drained jackfruit in the same full-strength chipotle rub as the pork.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Braise",
+              "pill": "4 hrs",
+              "desc": "Same oven, same temperature as the pork, in a separate covered dish. Jackfruit needs about half the pork's time \u2014 start it partway through the pork's cook, timed to finish together.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Shred & Build",
+              "pill": "at the table",
+              "desc": "Shreds easily with two forks, just like the pork. Same station.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "chipotle cauliflower steaks, roasted separately",
+          "ingredients": [
+            {
+              "name": "Large cauliflowers, cut into steaks",
+              "base": 3.0,
+              "baseServes": 16,
+              "unit": "",
+              "display": "3"
+            }
+          ],
+          "ovenCelsius": 200,
+          "phases": [
+            {
+              "name": "Rub",
+              "pill": "10 min",
+              "desc": "Coat cauliflower steaks in the same chipotle rub, thinned with a little oil.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "45 min",
+              "desc": "This needs much higher heat than the pork's slow-cook oven, so it can't share the oven at the same time. Use a second small oven or toaster oven if you have one, or roast after the pork comes out, once the main oven has come up to temperature. Timed to finish as the pork rests.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Shred & Build",
+              "pill": "at the table",
+              "desc": "Same station, alongside the pulled pork and jackfruit.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain pulled chicken, separate pot, same station",
+          "ingredients": [
+            {
+              "name": "Chicken thighs, boneless",
+              "base": 2.0,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "2 kg"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Simmer",
+              "pill": "45 min",
+              "desc": "Plain chicken thighs in a separate pot on the stovetop, covered in stock or water only \u2014 no chipotle, no spices.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Shred",
+              "pill": "5 min",
+              "desc": "Shred with two forks once fully cooked and tender.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Build",
+              "pill": "at the table",
+              "desc": "Same station as the pork \u2014 tortillas, cheese only, no sauce.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -436,7 +553,156 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "mushrooms & root veg, same cream sauce",
+          "ingredients": [
+            {
+              "name": "Mixed mushrooms",
+              "base": 0.9,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "900g"
+            },
+            {
+              "name": "Carrots and parsnips, diced",
+              "base": 0.6,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "600g"
+            }
+          ],
+          "ovenCelsius": 180,
+          "phases": [
+            {
+              "name": "Simmer",
+              "pill": "20 min",
+              "desc": "Saut\u00e9 mushrooms and root veg, then simmer in a portion of the same cream sauce as the main pie filling.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Fill & Top",
+              "pill": "10 min",
+              "desc": "Into its own small pie dish, topped with the same pastry.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Bake",
+              "pill": "35 min",
+              "desc": "Same oven as the main pie, same shelf if there's room.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Rest & Serve",
+              "pill": "10 min",
+              "desc": "Finishes together with the main pie.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "coconut cream, plant butter, vegan pastry",
+          "ingredients": [
+            {
+              "name": "Mixed mushrooms",
+              "base": 0.9,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "900g"
+            },
+            {
+              "name": "Coconut cream",
+              "base": 0.4,
+              "baseServes": 6,
+              "unit": "ml",
+              "display": "400ml"
+            },
+            {
+              "name": "Vegan puff pastry",
+              "base": 2.0,
+              "baseServes": 6,
+              "unit": "",
+              "display": "2"
+            }
+          ],
+          "ovenCelsius": 180,
+          "phases": [
+            {
+              "name": "Simmer",
+              "pill": "20 min",
+              "desc": "Saut\u00e9 mushrooms in plant butter, simmer in coconut cream instead of dairy cream.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Fill & Top",
+              "pill": "10 min",
+              "desc": "Into its own small pie dish, topped with vegan puff pastry.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Bake",
+              "pill": "35 min",
+              "desc": "Same oven, same shelf if there's room.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Rest & Serve",
+              "pill": "10 min",
+              "desc": "Finishes together with the main pie.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "potato-topped section, no pastry, side of the dish",
+          "ingredients": [
+            {
+              "name": "Chicken thighs, boneless",
+              "base": 0.9,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "900g"
+            },
+            {
+              "name": "Floury potatoes (for topping)",
+              "base": 0.8,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "800g"
+            }
+          ],
+          "ovenCelsius": 180,
+          "phases": [
+            {
+              "name": "Simmer",
+              "pill": "20 min",
+              "desc": "Plain chicken thighs simmered in stock only, no cream sauce.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Mash the Topping",
+              "pill": "15 min",
+              "desc": "Boil and mash potatoes plainly \u2014 this replaces the pastry lid.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Bake",
+              "pill": "25 min",
+              "desc": "Chicken in its own dish, potato mash spread on top instead of pastry. Same oven, until the top is lightly golden.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Rest & Serve",
+              "pill": "10 min",
+              "desc": "Finishes together with the main pie.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -496,7 +762,150 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "glazed cauliflower crown, same glaze, roasted alongside the ham",
+          "ingredients": [
+            {
+              "name": "Whole cauliflower crowns",
+              "base": 4.0,
+              "baseServes": 16,
+              "unit": "",
+              "display": "4"
+            }
+          ],
+          "ovenCelsius": 190,
+          "phases": [
+            {
+              "name": "Glaze",
+              "pill": "5 min",
+              "desc": "Brush cauliflower crowns with the same honey and clementine glaze as the ham.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "45 min",
+              "desc": "Same oven as the ham's Roast & Lacquer step \u2014 the temperature matches exactly, so they can go in together.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Carve & Serve",
+              "pill": "at the table",
+              "desc": "Finishes together with the ham.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pescatarian",
+          "text": "whole baked salmon with dill and lemon cream",
+          "ingredients": [
+            {
+              "name": "Whole salmon side",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            },
+            {
+              "name": "Fresh dill",
+              "base": 1.0,
+              "baseServes": 16,
+              "unit": "bunch",
+              "display": "1 bunch"
+            },
+            {
+              "name": "Double cream",
+              "base": 0.3,
+              "baseServes": 16,
+              "unit": "ml",
+              "display": "300ml"
+            }
+          ],
+          "ovenCelsius": 190,
+          "phases": [
+            {
+              "name": "Prep",
+              "pill": "5 min",
+              "desc": "Season salmon with dill, lemon, salt. Wrap loosely in foil.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Bake",
+              "pill": "25 min",
+              "desc": "Same oven as the ham, on a lower shelf \u2014 salmon needs less time, so add it partway through the ham's roasting step.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Lemon Cream",
+              "pill": "5 min",
+              "desc": "Warm double cream with lemon zest and dill while the salmon rests briefly.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Carve & Serve",
+              "pill": "at the table",
+              "desc": "Finishes together with the ham.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "glazed beetroot & lentil Wellington, same table",
+          "ingredients": [
+            {
+              "name": "Cooked beetroot, chopped",
+              "base": 1.2,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.2 kg"
+            },
+            {
+              "name": "Cooked green lentils",
+              "base": 0.8,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "800g"
+            },
+            {
+              "name": "Vegan puff pastry",
+              "base": 4.0,
+              "baseServes": 16,
+              "unit": "",
+              "display": "4"
+            }
+          ],
+          "ovenCelsius": 200,
+          "phases": [
+            {
+              "name": "Filling",
+              "pill": "10 min",
+              "desc": "Mix beetroot and lentils with a little of the ham's glaze for sweetness.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Wrap",
+              "pill": "10 min",
+              "desc": "Wrap the filling in vegan puff pastry.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Bake",
+              "pill": "30 min",
+              "desc": "A little hotter than the ham's oven \u2014 bake separately, timed to come out as the ham finishes resting.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Carve & Serve",
+              "pill": "at the table",
+              "desc": "Sliced at the table, same as the ham.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -556,7 +965,121 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "black bean & sweetcorn patties, same spices",
+          "ingredients": [
+            {
+              "name": "Tinned black beans, drained",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            },
+            {
+              "name": "Sweetcorn kernels",
+              "base": 0.4,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "400g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Season & Form",
+              "pill": "10 min",
+              "desc": "Mash black beans and sweetcorn with the same seasoning as the beef patties, form into equal-sized patties.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Cook the Patties",
+              "pill": "8 min",
+              "desc": "Pan-fry until crisp on both sides \u2014 same pan or grill as the beef, cooked separately.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Build the Station",
+              "pill": "at the table",
+              "desc": "Same buns, same station as the beef sliders.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "portobello mushroom, soy & smoked paprika marinade",
+          "ingredients": [
+            {
+              "name": "Portobello mushrooms",
+              "base": 16.0,
+              "baseServes": 16,
+              "unit": "",
+              "display": "16"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Marinate",
+              "pill": "15 min",
+              "desc": "Soak portobello caps in soy sauce and smoked paprika.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Cook",
+              "pill": "8 min",
+              "desc": "Grill or pan-fry until tender, same station as the beef, cooked separately.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Build the Station",
+              "pill": "at the table",
+              "desc": "Same buns, no cheese unless a vegan slice is available.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain beef, no seasoning, cheese only, separate pile",
+          "ingredients": [
+            {
+              "name": "Ground beef (20% fat)",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            },
+            {
+              "name": "Cheddar slices",
+              "base": 16.0,
+              "baseServes": 16,
+              "unit": "",
+              "display": "16"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Form",
+              "pill": "10 min",
+              "desc": "Form plain patties \u2014 no garlic powder, no seasoning at all.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Cook the Patties",
+              "pill": "8 min",
+              "desc": "Pan-fry or grill, same as the main patties but kept in a separate pile.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Build the Station",
+              "pill": "at the table",
+              "desc": "Bun, plain patty, cheese only \u2014 no sauce, no toppings.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -616,7 +1139,74 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegan",
+          "text": "the entire spread is already plant-based",
+          "noStepper": true
+        },
+        {
+          "category": "Gluten-free",
+          "text": "replace flatbreads with crudit\u00e9s",
+          "ingredients": [
+            {
+              "name": "Extra cucumber (for crudit\u00e9s)",
+              "base": 2.0,
+              "baseServes": 20,
+              "unit": "",
+              "display": "2"
+            },
+            {
+              "name": "Extra bell peppers (for crudit\u00e9s)",
+              "base": 4.0,
+              "baseServes": 20,
+              "unit": "",
+              "display": "4"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Cut Crudit\u00e9s",
+              "pill": "10 min",
+              "desc": "Cut cucumber and peppers into dipping sticks for these guests \u2014 no separate cooking needed.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Set aside a share of flatbreads equal to this count and swap it for the crudit\u00e9s when assembling the board \u2014 same hummus, feta and falafel.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Sesame allergy",
+          "text": "sunflower seed butter instead of tahini",
+          "ingredients": [
+            {
+              "name": "Sunflower seed butter (in place of tahini)",
+              "base": 300.0,
+              "baseServes": 20,
+              "unit": "g",
+              "display": "300g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Make a Separate Batch",
+              "pill": "10 min",
+              "desc": "Whip a small separate portion of hummus using sunflower seed butter instead of tahini, scaled to this count. Also double-check the falafel recipe itself for sesame \u2014 most are seed-free, but confirm before serving.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Label this portion clearly, since it's easy to mix up with the regular hummus once plated.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -676,7 +1266,122 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "aubergine & halloumi, same glaze, 20 min BBQ",
+          "ingredients": [
+            {
+              "name": "Large aubergines, sliced",
+              "base": 3.0,
+              "baseServes": 16,
+              "unit": "",
+              "display": "3"
+            },
+            {
+              "name": "Halloumi",
+              "base": 0.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "600g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Glaze",
+              "pill": "5 min",
+              "desc": "Brush aubergine slices and halloumi with the same tamarind and honey glaze as the chicken.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Grill",
+              "pill": "20 min",
+              "desc": "Same BBQ or grill pan as the chicken, alongside it \u2014 aubergine and halloumi char beautifully at the same heat.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Serve Outdoors",
+              "pill": "at the table",
+              "desc": "Finishes together with the chicken.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "glazed tofu & tempeh hold the char beautifully",
+          "ingredients": [
+            {
+              "name": "Firm tofu",
+              "base": 1.2,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.2 kg"
+            },
+            {
+              "name": "Tempeh",
+              "base": 0.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "600g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Press & Glaze",
+              "pill": "10 min",
+              "desc": "Press tofu to remove excess water, slice both tofu and tempeh, brush with the same glaze.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Grill",
+              "pill": "20 min",
+              "desc": "Same BBQ or grill pan as the chicken, alongside it.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Serve Outdoors",
+              "pill": "at the table",
+              "desc": "Finishes together with the chicken.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain grilled chicken in a bread roll, ketchup on the side, separate plate",
+          "ingredients": [
+            {
+              "name": "Chicken thighs, boneless",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            },
+            {
+              "name": "Bread rolls",
+              "base": 16.0,
+              "baseServes": 16,
+              "unit": "",
+              "display": "16"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Grill",
+              "pill": "35 min",
+              "desc": "Plain chicken thighs, salt only, no marinade \u2014 same BBQ, kept on a separate part of the grill.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Serve Outdoors",
+              "pill": "at the table",
+              "desc": "In a bread roll, separate plate, ketchup on the side, no glaze.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -736,7 +1441,135 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "roasted beetroot steaks with the same cherry sauce",
+          "ingredients": [
+            {
+              "name": "Large beetroots, whole",
+              "base": 4.0,
+              "baseServes": 8,
+              "unit": "",
+              "display": "4"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Roast",
+              "pill": "40 min",
+              "desc": "Roast beetroots whole, wrapped in foil \u2014 start well before the duck, since this takes longer than the duck's whole method combined.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Slice",
+              "pill": "5 min",
+              "desc": "Once cool enough to handle, peel and slice into thick 'steaks.'",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Warm through in a dry pan for 2 minutes, then top with the same cherry and port sauce (made without the duck fat).",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ],
+          "ovenCelsius": 200
+        },
+        {
+          "category": "Pescatarian",
+          "text": "pan-seared salmon with dill butter, no port sauce",
+          "ingredients": [
+            {
+              "name": "Salmon fillets",
+              "base": 1.2,
+              "baseServes": 8,
+              "unit": "kg",
+              "display": "1.2 kg"
+            },
+            {
+              "name": "Fresh dill",
+              "base": 1.0,
+              "baseServes": 8,
+              "unit": "bunch",
+              "display": "1 bunch"
+            },
+            {
+              "name": "Butter (for dill butter)",
+              "base": 80.0,
+              "baseServes": 8,
+              "unit": "g",
+              "display": "80g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Sear",
+              "pill": "8 min",
+              "desc": "Pan-sear salmon skin-side down in its own pan while the duck renders \u2014 no need for the oven.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Dill Butter",
+              "pill": "3 min",
+              "desc": "Melt butter with chopped dill and a squeeze of lemon. No port, no duck fat \u2014 kept separate.",
+              "icon": "\ud83e\uddc8"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Salmon topped with dill butter. Timed to finish as the duck rests.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "chicken breast, same pan method, sauce made mild",
+          "ingredients": [
+            {
+              "name": "Chicken breast, skin-on",
+              "base": 1.2,
+              "baseServes": 8,
+              "unit": "kg",
+              "display": "1.2 kg"
+            },
+            {
+              "name": "Tagliatelle",
+              "base": 0.9,
+              "baseServes": 8,
+              "unit": "kg",
+              "display": "900g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Sear",
+              "pill": "10 min",
+              "desc": "Same pan method as the duck \u2014 skin-side down first to render, then flip.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Finish",
+              "pill": "8 min",
+              "desc": "Finish in the oven alongside the duck, same temperature, until just cooked through.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Cook the pasta",
+              "pill": "10 min",
+              "desc": "Boil tagliatelle in salted water. Toss with a spoon of the pan juices, no port or cherries.",
+              "icon": "\ud83c\udf5a"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Chicken sliced over the pasta. Timed to finish as the duck rests.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -796,7 +1629,137 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "baked portobello stack with herb crust, roasted alongside the lamb",
+          "ingredients": [
+            {
+              "name": "Large portobello mushrooms",
+              "base": 16.0,
+              "baseServes": 8,
+              "unit": "",
+              "display": "16"
+            },
+            {
+              "name": "Fresh breadcrumbs (for topping)",
+              "base": 100.0,
+              "baseServes": 8,
+              "unit": "g",
+              "display": "100g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Herb Crust",
+              "pill": "5 min",
+              "desc": "Use a portion of the same herb crust mixture \u2014 press onto the gill side of each mushroom.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "25 min",
+              "desc": "Same oven as the lamb, same shelf if there's room, alongside the racks.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Stack two mushrooms per portion. Finishes together with the lamb.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ],
+          "ovenCelsius": 200
+        },
+        {
+          "category": "Pescatarian",
+          "text": "herb-crusted salmon en cro\u00fbte, same bake",
+          "ingredients": [
+            {
+              "name": "Salmon fillets",
+              "base": 1.6,
+              "baseServes": 8,
+              "unit": "kg",
+              "display": "1.6 kg"
+            },
+            {
+              "name": "Puff pastry sheets",
+              "base": 4.0,
+              "baseServes": 8,
+              "unit": "",
+              "display": "4"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Wrap",
+              "pill": "10 min",
+              "desc": "Spread a portion of the herb crust mixture over each salmon fillet, wrap in puff pastry.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "20 min",
+              "desc": "Same oven as the lamb \u2014 pastry should be golden and salmon just cooked through.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Slice thickly. Finishes together with the lamb.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ],
+          "ovenCelsius": 200
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "chicken supremes, same herb crust, roasted alongside the lamb",
+          "ingredients": [
+            {
+              "name": "Chicken supremes (skin-on breast)",
+              "base": 1.6,
+              "baseServes": 8,
+              "unit": "kg",
+              "display": "1.6 kg"
+            },
+            {
+              "name": "Tagliatelle",
+              "base": 0.9,
+              "baseServes": 8,
+              "unit": "kg",
+              "display": "900g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Herb Crust",
+              "pill": "5 min",
+              "desc": "Press a portion of the same herb crust mixture onto the skin side of each chicken supreme.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "25 min",
+              "desc": "Same oven, a shelf below the lamb if temperatures need to sit slightly apart.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Cook the pasta",
+              "pill": "10 min",
+              "desc": "Boil tagliatelle in salted water while the chicken roasts. Drain, toss with a little olive oil.",
+              "icon": "\ud83c\udf5a"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Chicken sliced over the pasta. Finishes together with the lamb.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ],
+          "ovenCelsius": 190
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -856,7 +1819,134 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "whole roasted celeriac and root veg, same braising liquid",
+          "ingredients": [
+            {
+              "name": "Celeriac, whole",
+              "base": 2.0,
+              "baseServes": 8,
+              "unit": "kg",
+              "display": "2 kg"
+            },
+            {
+              "name": "Carrots and parsnips, mixed",
+              "base": 1.0,
+              "baseServes": 8,
+              "unit": "kg",
+              "display": "1 kg"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Prep",
+              "pill": "10 min",
+              "desc": "Peel celeriac and cut root veg into large chunks \u2014 big enough to hold their shape through a long braise.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Braise",
+              "pill": "2.5\u20133 hrs",
+              "desc": "Add to the oven alongside the beef, in a separate covered dish with a ladle of the same braising liquid. Same oven, same shelf if there's room.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Finishes together with the beef. Serve with the same crusty bread.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pescatarian",
+          "text": "monkfish and chorizo stew, same method, less time",
+          "ingredients": [
+            {
+              "name": "Monkfish tail",
+              "base": 1.4,
+              "baseServes": 8,
+              "unit": "kg",
+              "display": "1.4 kg"
+            },
+            {
+              "name": "Cooking chorizo",
+              "base": 0.3,
+              "baseServes": 8,
+              "unit": "kg",
+              "display": "300g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Sear",
+              "pill": "5 min",
+              "desc": "Brown chorizo in its own pan to release its oil, then remove. Sear monkfish briefly in the same pan.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Simmer",
+              "pill": "15 min",
+              "desc": "Return chorizo to the pan with a ladle of the beef's braising liquid. Add monkfish, simmer gently \u2014 it cooks fast and toughens if rushed or overdone.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Timed to finish right as the beef comes out to rest. Serve with the same crusty bread.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "chicken thighs braised separately, same vegetables and sauce",
+          "ingredients": [
+            {
+              "name": "Chicken thighs, boneless",
+              "base": 1.4,
+              "baseServes": 8,
+              "unit": "kg",
+              "display": "1.4 kg"
+            },
+            {
+              "name": "Pappardelle",
+              "base": 0.9,
+              "baseServes": 8,
+              "unit": "kg",
+              "display": "900g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Sear",
+              "pill": "8 min",
+              "desc": "Brown chicken thighs in their own pan on the stovetop while the beef is still braising.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Braise",
+              "pill": "40 min",
+              "desc": "Add the same bacon, pearl onions and mushrooms as the main braise, plus a ladle of the beef's braising liquid. Cover, simmer until chicken is tender.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Cook the pasta",
+              "pill": "10 min",
+              "desc": "Boil pappardelle in salted water while the chicken finishes. Drain.",
+              "icon": "\ud83c\udf5a"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Chicken and sauce over the pappardelle. Timed to finish as the beef comes out to rest.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -916,7 +2006,117 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "whole roasted cauliflower, same marinade, roasted alongside the chicken",
+          "ingredients": [
+            {
+              "name": "Whole cauliflowers",
+              "base": 2.0,
+              "baseServes": 6,
+              "unit": "",
+              "display": "2"
+            }
+          ],
+          "ovenCelsius": 190,
+          "phases": [
+            {
+              "name": "Marinate",
+              "pill": "10 min",
+              "desc": "Coat whole cauliflowers in the same preserved lemon marinade as the chicken.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "45 min",
+              "desc": "Same oven as the chicken, a shelf below if there's room.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve Family Style",
+              "pill": "at the table",
+              "desc": "Finishes together with the chicken.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "aubergine steaks and chickpeas, same spices, same table",
+          "ingredients": [
+            {
+              "name": "Large aubergines, sliced thick",
+              "base": 2.0,
+              "baseServes": 6,
+              "unit": "",
+              "display": "2"
+            },
+            {
+              "name": "Tinned chickpeas, drained",
+              "base": 0.6,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "600g"
+            }
+          ],
+          "ovenCelsius": 190,
+          "phases": [
+            {
+              "name": "Marinate",
+              "pill": "10 min",
+              "desc": "Coat aubergine steaks and chickpeas in the same preserved lemon marinade.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "35 min",
+              "desc": "Same oven as the chicken, a shelf below if there's room.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve Family Style",
+              "pill": "at the table",
+              "desc": "Finishes together with the chicken.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain roasted chicken thighs, no marinade, same couscous",
+          "ingredients": [
+            {
+              "name": "Chicken thighs, boneless",
+              "base": 1.2,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "1.2 kg"
+            }
+          ],
+          "ovenCelsius": 180,
+          "phases": [
+            {
+              "name": "Season",
+              "pill": "2 min",
+              "desc": "Salt only, no marinade.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "30 min",
+              "desc": "Same oven, a shelf below the main chicken.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve Family Style",
+              "pill": "at the table",
+              "desc": "Alongside the same herbed couscous.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -976,7 +2176,165 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "mushroom, spinach and goat's cheese Wellington, same bake",
+          "ingredients": [
+            {
+              "name": "Mixed mushrooms, finely chopped",
+              "base": 0.9,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "900g"
+            },
+            {
+              "name": "Fresh spinach",
+              "base": 0.4,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "400g"
+            },
+            {
+              "name": "Goat's cheese log",
+              "base": 0.4,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "400g"
+            },
+            {
+              "name": "Puff pastry sheets",
+              "base": 6.0,
+              "baseServes": 6,
+              "unit": "",
+              "display": "6"
+            }
+          ],
+          "ovenCelsius": 220,
+          "phases": [
+            {
+              "name": "Duxelles",
+              "pill": "15 min",
+              "desc": "Cook mushrooms and spinach down until dry, exactly like the main duxelles, then cool.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Wrap",
+              "pill": "10 min",
+              "desc": "Layer duxelles and goat's cheese in individual pastry parcels.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Bake",
+              "pill": "20 min",
+              "desc": "Same oven as the beef Wellingtons, same shelf if there's room \u2014 no chilling needed first since there's no raw meat inside.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Rest & Reveal",
+              "pill": "5 min",
+              "desc": "Finishes together with the beef.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pescatarian",
+          "text": "salmon Wellington with dill cream, baked alongside the beef",
+          "ingredients": [
+            {
+              "name": "Salmon fillets",
+              "base": 0.9,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "900g"
+            },
+            {
+              "name": "Fresh dill",
+              "base": 1.0,
+              "baseServes": 6,
+              "unit": "bunch",
+              "display": "1 bunch"
+            },
+            {
+              "name": "Puff pastry sheets",
+              "base": 6.0,
+              "baseServes": 6,
+              "unit": "",
+              "display": "6"
+            }
+          ],
+          "ovenCelsius": 200,
+          "phases": [
+            {
+              "name": "Wrap",
+              "pill": "10 min",
+              "desc": "Spread a dill cream over each salmon fillet, wrap individually in puff pastry.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Bake",
+              "pill": "20 min",
+              "desc": "Slightly cooler than the beef Wellingtons \u2014 bake on a separate shelf, timed to finish together.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Rest & Reveal",
+              "pill": "5 min",
+              "desc": "Finishes together with the beef.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "chicken fillet wrapped in Parma ham and pastry, same bake",
+          "ingredients": [
+            {
+              "name": "Chicken breast fillets",
+              "base": 0.9,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "900g"
+            },
+            {
+              "name": "Parma ham",
+              "base": 0.2,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "200g"
+            },
+            {
+              "name": "Puff pastry sheets",
+              "base": 6.0,
+              "baseServes": 6,
+              "unit": "",
+              "display": "6"
+            }
+          ],
+          "ovenCelsius": 220,
+          "phases": [
+            {
+              "name": "Wrap",
+              "pill": "10 min",
+              "desc": "Wrap each chicken fillet in Parma ham, no mushroom duxelles, then in puff pastry.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Bake",
+              "pill": "25 min",
+              "desc": "Same oven as the beef Wellingtons, same shelf if there's room \u2014 chicken needs a few minutes longer than the beef.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Rest & Reveal",
+              "pill": "5 min",
+              "desc": "Finishes together with the beef.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -1036,7 +2394,95 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "pan-seared tofu steak with the same beurre blanc and samphire",
+          "ingredients": [
+            {
+              "name": "Firm tofu, sliced into steaks",
+              "base": 0.9,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "900g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Press",
+              "pill": "10 min",
+              "desc": "Press tofu firmly to remove excess water \u2014 this is what lets it sear properly.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Sear",
+              "pill": "6 min",
+              "desc": "Pan-sear in its own pan until golden on both sides, alongside the halibut.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Plate & Serve",
+              "pill": "at the table",
+              "desc": "Same saffron beurre blanc and samphire, same potatoes.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pescatarian",
+          "text": "swap halibut for sea bass, cod or turbot",
+          "ingredients": [
+            {
+              "name": "Sea bass, cod, or turbot fillets",
+              "base": 0.9,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "900g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Sear the Fish",
+              "pill": "4\u20135 min",
+              "desc": "Same pan method as the halibut, timing may vary slightly by thickness \u2014 check for opaque, just-flaking flesh.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Plate & Serve",
+              "pill": "at the table",
+              "desc": "Same saffron beurre blanc, samphire, and potatoes.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain pan-fried chicken breast, same potatoes, butter sauce only",
+          "ingredients": [
+            {
+              "name": "Chicken breast fillets",
+              "base": 0.9,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "900g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Pan-Fry",
+              "pill": "12 min",
+              "desc": "Season plainly, pan-fry until cooked through \u2014 takes longer than the fish.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Plate & Serve",
+              "pill": "at the table",
+              "desc": "Same potatoes, plain butter sauce only \u2014 no saffron, no samphire.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -1096,7 +2542,52 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "the base risotto is already vegetarian \u2014 use vegetable stock, skip the prosciutto",
+          "noStepper": true
+        },
+        {
+          "category": "Vegan",
+          "text": "plant butter and nutritional yeast instead of dairy",
+          "ingredients": [
+            {
+              "name": "Plant butter (in place of unsalted butter)",
+              "base": 150.0,
+              "baseServes": 8,
+              "unit": "g",
+              "display": "150g"
+            },
+            {
+              "name": "Nutritional yeast (in place of Parmesan)",
+              "base": 80.0,
+              "baseServes": 8,
+              "unit": "g",
+              "display": "80g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Build",
+              "pill": "20 min",
+              "desc": "Same risotto method, using vegetable stock, plant butter and nutritional yeast in place of dairy \u2014 no truffle oil finish unless a vegan version is on hand.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Finish & Serve",
+              "pill": "at the table",
+              "desc": "No prosciutto. Extra chives for garnish instead.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain risotto bianco, no truffle oil or prosciutto, same base",
+          "noStepper": true
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -1156,7 +2647,58 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "roasted peppers, courgette and smoked paprika \u2014 no prawns or chorizo",
+          "ingredients": [
+            {
+              "name": "Mixed peppers, sliced",
+              "base": 0.4,
+              "baseServes": 2,
+              "unit": "kg",
+              "display": "400g"
+            },
+            {
+              "name": "Courgette, sliced",
+              "base": 0.3,
+              "baseServes": 2,
+              "unit": "kg",
+              "display": "300g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Roast",
+              "pill": "15 min",
+              "desc": "Roast peppers and courgette with smoked paprika and olive oil while the pasta water comes to the boil.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Build the Sauce",
+              "pill": "8 min",
+              "desc": "Same white wine and cherry tomato base as the main dish, no chorizo \u2014 swap in the roasted vegetables.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Combine & Serve",
+              "pill": "at the table",
+              "desc": "Toss with the same linguine, finishes together.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "the vegetarian version is already vegan",
+          "noStepper": true
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain pasta with butter and Parmesan served alongside",
+          "noStepper": true
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -1216,7 +2758,110 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "halloumi skewers with the same honey-paprika glaze",
+          "ingredients": [
+            {
+              "name": "Halloumi, cubed",
+              "base": 1.4,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.4 kg"
+            }
+          ],
+          "ovenCelsius": 200,
+          "phases": [
+            {
+              "name": "Marinate",
+              "pill": "1 hr",
+              "desc": "Same honey-paprika glaze as the chicken skewers, shorter marinating time since halloumi doesn't need to tenderize.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Grill or Roast",
+              "pill": "15 min",
+              "desc": "Same grill or oven as the chicken, alongside it \u2014 halloumi cooks faster, so add partway through.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve the Board",
+              "pill": "at the table",
+              "desc": "Same tabbouleh, flatbreads and labneh.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "cauliflower florets, same glaze, same grill time",
+          "ingredients": [
+            {
+              "name": "Cauliflower florets",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            }
+          ],
+          "ovenCelsius": 200,
+          "phases": [
+            {
+              "name": "Marinate",
+              "pill": "1 hr",
+              "desc": "Same honey-paprika glaze \u2014 check the honey is swapped for maple syrup to keep it vegan.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Grill or Roast",
+              "pill": "25 min",
+              "desc": "Same grill or oven as the chicken, same timing.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve the Board",
+              "pill": "at the table",
+              "desc": "Same tabbouleh and flatbreads, labneh swapped for a plant-based yogurt.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain grilled chicken, no glaze, same tabbouleh",
+          "ingredients": [
+            {
+              "name": "Chicken thighs, boneless",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            }
+          ],
+          "ovenCelsius": 200,
+          "phases": [
+            {
+              "name": "Skewer",
+              "pill": "5 min",
+              "desc": "Plain, no marinade or glaze.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Grill or Roast",
+              "pill": "25 min",
+              "desc": "Same grill or oven, kept separate from the glazed skewers.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve the Board",
+              "pill": "at the table",
+              "desc": "Same tabbouleh, flatbreads and labneh.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -1276,7 +2921,95 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "roasted butternut squash crown with herb crust, same presentation",
+          "ingredients": [
+            {
+              "name": "Whole butternut squash, halved",
+              "base": 4.0,
+              "baseServes": 16,
+              "unit": "",
+              "display": "4"
+            }
+          ],
+          "ovenCelsius": 160,
+          "phases": [
+            {
+              "name": "Herb Crust",
+              "pill": "10 min",
+              "desc": "Same herb crust mixture as the beef, pressed onto the flesh side of each squash half.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "1 hr",
+              "desc": "Same oven as the beef, on a separate shelf \u2014 squash needs far less time than the slow-roasted topside.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Carve",
+              "pill": "at the table",
+              "desc": "Sliced and presented alongside the beef, same Yorkshire puddings and gravy.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pescatarian",
+          "text": "whole baked side of salmon with dill and lemon cream",
+          "ingredients": [
+            {
+              "name": "Whole salmon side",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            },
+            {
+              "name": "Fresh dill",
+              "base": 1.0,
+              "baseServes": 16,
+              "unit": "bunch",
+              "display": "1 bunch"
+            },
+            {
+              "name": "Double cream",
+              "base": 0.3,
+              "baseServes": 16,
+              "unit": "ml",
+              "display": "300ml"
+            }
+          ],
+          "ovenCelsius": 160,
+          "phases": [
+            {
+              "name": "Prep",
+              "pill": "5 min",
+              "desc": "Season salmon with dill and lemon, wrap loosely in foil.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Bake",
+              "pill": "25 min",
+              "desc": "Same oven, added near the end of the beef's slow roast since salmon needs far less time.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Carve",
+              "pill": "at the table",
+              "desc": "Finishes together with the beef, alongside the same gravy (kept separate for the salmon).",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain sliced roast beef, no herb crust, same gravy and puddings",
+          "noStepper": true
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -1336,7 +3069,88 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "five-spice roasted aubergine and tofu, same glaze, 35 min",
+          "ingredients": [
+            {
+              "name": "Large aubergines, halved",
+              "base": 3.0,
+              "baseServes": 16,
+              "unit": "",
+              "display": "3"
+            },
+            {
+              "name": "Firm tofu",
+              "base": 0.8,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "800g"
+            }
+          ],
+          "ovenCelsius": 160,
+          "phases": [
+            {
+              "name": "Score & Glaze",
+              "pill": "10 min",
+              "desc": "Score aubergine flesh, brush both aubergine and tofu with the same orange and star anise glaze.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "35 min",
+              "desc": "Same oven as the duck, added partway through since this needs far less time than the duck's slow roast.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Glaze & Serve",
+              "pill": "at the table",
+              "desc": "Finishes together with the duck, same crispy potatoes and braised cabbage.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "the vegetarian option is already vegan",
+          "noStepper": true
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain roasted chicken thighs, no marinade, same potatoes",
+          "ingredients": [
+            {
+              "name": "Chicken thighs, boneless",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            }
+          ],
+          "ovenCelsius": 180,
+          "phases": [
+            {
+              "name": "Season",
+              "pill": "2 min",
+              "desc": "Salt only, no marinade, no orange or star anise.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "35 min",
+              "desc": "Same oven as the duck, a shelf apart if temperatures need to sit slightly differently.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Same crispy potatoes, no red cabbage unless requested.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -1396,7 +3210,58 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "whole stuffed butternut squash, same herb butter and glaze",
+          "ingredients": [
+            {
+              "name": "Whole butternut squash, halved",
+              "base": 4.0,
+              "baseServes": 16,
+              "unit": "",
+              "display": "4"
+            }
+          ],
+          "ovenCelsius": 180,
+          "phases": [
+            {
+              "name": "Herb Butter",
+              "pill": "5 min",
+              "desc": "Same herb butter as the turkey, rubbed into the flesh of each squash half.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Maple Glaze",
+              "pill": "3 min",
+              "desc": "Same maple glaze as the turkey.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "1 hr",
+              "desc": "Same oven as the turkey, added partway through since squash needs less time than the full turkey crown.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Finishes together with the turkey, same cornbread stuffing and cranberry sauce.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "same squash option with plant butter and maple",
+          "noStepper": true
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain roasted turkey breast, no glaze, same stuffing and cranberry",
+          "noStepper": true
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -1456,7 +3321,124 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "whole roasted cauliflower with herb crust, same mint sauce",
+          "ingredients": [
+            {
+              "name": "Whole cauliflowers",
+              "base": 4.0,
+              "baseServes": 16,
+              "unit": "",
+              "display": "4"
+            }
+          ],
+          "ovenCelsius": 190,
+          "phases": [
+            {
+              "name": "Herb Crust",
+              "pill": "10 min",
+              "desc": "Same herb rub as the lamb, pressed over each whole cauliflower.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "45 min",
+              "desc": "Different oven temperature than the lamb's slow roast \u2014 roast separately, timed to finish as the lamb rests.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Rest & Serve",
+              "pill": "at the table",
+              "desc": "Same mint and pea sauce, same rosemary potatoes.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "same cauliflower option with coconut cr\u00e8me fra\u00eeche in the sauce",
+          "noStepper": false,
+          "ingredients": [
+            {
+              "name": "Whole cauliflowers",
+              "base": 4.0,
+              "baseServes": 16,
+              "unit": "",
+              "display": "4"
+            },
+            {
+              "name": "Coconut cr\u00e8me fra\u00eeche (for the sauce)",
+              "base": 0.3,
+              "baseServes": 16,
+              "unit": "ml",
+              "display": "300ml"
+            }
+          ],
+          "ovenCelsius": 190,
+          "phases": [
+            {
+              "name": "Herb Crust",
+              "pill": "10 min",
+              "desc": "Same herb rub as the lamb, pressed over each whole cauliflower.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "45 min",
+              "desc": "Same as the vegetarian cauliflower, roasted separately, timed to finish as the lamb rests.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Mint Sauce",
+              "pill": "10 min",
+              "desc": "Same mint and pea sauce, coconut cr\u00e8me fra\u00eeche in place of dairy.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Rest & Serve",
+              "pill": "at the table",
+              "desc": "Same rosemary potatoes.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain roasted chicken thighs, no garlic studding, same potatoes",
+          "ingredients": [
+            {
+              "name": "Chicken thighs, boneless",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            }
+          ],
+          "ovenCelsius": 180,
+          "phases": [
+            {
+              "name": "Season",
+              "pill": "2 min",
+              "desc": "Salt only, no garlic or rosemary studding.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "35 min",
+              "desc": "Own dish, separate oven window from the lamb's long slow roast.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Same rosemary potatoes, no mint sauce unless requested.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -1516,7 +3498,100 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "replace chicken with chickpeas and extra paneer \u2014 the sauce is already vegetarian",
+          "ingredients": [
+            {
+              "name": "Tinned chickpeas, drained",
+              "base": 1.2,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.2 kg"
+            },
+            {
+              "name": "Paneer, cubed (extra)",
+              "base": 0.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "600g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Char",
+              "pill": "10 min",
+              "desc": "Pan-fry chickpeas and paneer cubes until lightly golden, in place of the charred chicken.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Build the Sauce",
+              "pill": "20 min",
+              "desc": "Same tomato and cream sauce \u2014 it's already vegetarian, just simmer the chickpeas and paneer in it instead of chicken.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve Family Style",
+              "pill": "at the table",
+              "desc": "Same rice, saag paneer, and naan.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "coconut cream instead of dairy, tofu instead of paneer",
+          "ingredients": [
+            {
+              "name": "Tinned chickpeas, drained",
+              "base": 1.2,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.2 kg"
+            },
+            {
+              "name": "Firm tofu, cubed",
+              "base": 0.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "600g"
+            },
+            {
+              "name": "Coconut cream (in place of double cream)",
+              "base": 0.4,
+              "baseServes": 16,
+              "unit": "ml",
+              "display": "400ml"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Char",
+              "pill": "10 min",
+              "desc": "Pan-fry chickpeas and pressed tofu cubes until lightly golden.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Build the Sauce",
+              "pill": "20 min",
+              "desc": "Same tomato base, coconut cream in place of dairy and butter.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve Family Style",
+              "pill": "at the table",
+              "desc": "Same rice and naan, saag made with a plant-based butter.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain naan with butter, minimal spice in a separate portion",
+          "noStepper": true
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -1576,7 +3651,88 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "whole roasted cauliflower with dill and lemon treatment, same sauce",
+          "ingredients": [
+            {
+              "name": "Whole cauliflowers",
+              "base": 4.0,
+              "baseServes": 16,
+              "unit": "",
+              "display": "4"
+            }
+          ],
+          "ovenCelsius": 190,
+          "phases": [
+            {
+              "name": "Prep",
+              "pill": "5 min",
+              "desc": "Same dill and lemon treatment as the salmon.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "40 min",
+              "desc": "A little hotter than the salmon's gentle bake \u2014 roast separately, timed to finish together.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Rest & Serve",
+              "pill": "at the table",
+              "desc": "Same cucumber cr\u00e8me fra\u00eeche and crushed potatoes.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "same cauliflower with coconut cr\u00e8me fra\u00eeche",
+          "ingredients": [
+            {
+              "name": "Whole cauliflowers",
+              "base": 4.0,
+              "baseServes": 16,
+              "unit": "",
+              "display": "4"
+            },
+            {
+              "name": "Coconut cr\u00e8me fra\u00eeche",
+              "base": 0.3,
+              "baseServes": 16,
+              "unit": "ml",
+              "display": "300ml"
+            }
+          ],
+          "ovenCelsius": 190,
+          "phases": [
+            {
+              "name": "Prep",
+              "pill": "5 min",
+              "desc": "Same dill and lemon treatment.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "40 min",
+              "desc": "Same as the vegetarian cauliflower, timed to finish together.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Rest & Serve",
+              "pill": "at the table",
+              "desc": "Coconut cr\u00e8me fra\u00eeche in place of dairy, same crushed potatoes.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain baked salmon fillet, no herbs, same potatoes and cucumber sauce",
+          "noStepper": true
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -1636,7 +3792,121 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "black beans and lentils in place of beef, same spices and sauce",
+          "ingredients": [
+            {
+              "name": "Tinned black beans, drained",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            },
+            {
+              "name": "Cooked green lentils",
+              "base": 0.8,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "800g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Build the Base",
+              "pill": "10 min",
+              "desc": "Same onions, garlic, and spice base as the beef chilli.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Braise",
+              "pill": "45 min",
+              "desc": "Black beans and lentils in the same tomato sauce and stock \u2014 much shorter than the beef's 2.5-3 hour braise, since there's no tough meat to tenderize.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Set Up the Station",
+              "pill": "10 min",
+              "desc": "Same nachos, sour cream and guacamole.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "the vegetarian version is already vegan \u2014 skip sour cream and cheese",
+          "ingredients": [
+            {
+              "name": "Tinned black beans, drained",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            },
+            {
+              "name": "Cooked green lentils",
+              "base": 0.8,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "800g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Build the Base",
+              "pill": "10 min",
+              "desc": "Same as the vegetarian version \u2014 onions, garlic, and spice base.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Braise",
+              "pill": "45 min",
+              "desc": "Same bean and lentil braise as the vegetarian version.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Set Up the Station",
+              "pill": "10 min",
+              "desc": "Same nachos and guacamole, no sour cream or cheese.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain beef mince in mild tomato sauce, separate bowl, same chips",
+          "ingredients": [
+            {
+              "name": "Ground beef (20% fat)",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Brown the Beef",
+              "pill": "15 min",
+              "desc": "Plain, no smoked paprika, cumin, or chipotle.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Simmer",
+              "pill": "20 min",
+              "desc": "In a mild tomato sauce only \u2014 a ladle of the tinned tomatoes from the main batch, unspiced.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Set Up the Station",
+              "pill": "10 min",
+              "desc": "Separate bowl, same tortilla chips.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -1696,7 +3966,46 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "skip the chorizo \u2014 use smoked paprika and a tablespoon of olive oil as the base fat instead",
+          "noStepper": true
+        },
+        {
+          "category": "Vegan",
+          "text": "the vegetarian version is already vegan \u2014 replace sour cream with coconut yogurt",
+          "noStepper": true
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain baked potato with mild tomato sauce, served alongside the main dish",
+          "ingredients": [
+            {
+              "name": "Baking potatoes",
+              "base": 16.0,
+              "baseServes": 16,
+              "unit": "",
+              "display": "16"
+            }
+          ],
+          "ovenCelsius": 200,
+          "phases": [
+            {
+              "name": "Bake",
+              "pill": "1 hr",
+              "desc": "Bake potatoes whole until the skins are crisp and the inside is fluffy \u2014 can share the oven with the squash roasting step.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Split open, topped with a mild ladle of the tomato base from the chilli, no beans or spice.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -1756,7 +4065,122 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "wilted spinach and roasted cherry tomatoes in place of smoked salmon",
+          "ingredients": [
+            {
+              "name": "Baby spinach",
+              "base": 0.3,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "300g"
+            },
+            {
+              "name": "Cherry tomatoes",
+              "base": 0.4,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "400g"
+            }
+          ],
+          "ovenCelsius": 200,
+          "phases": [
+            {
+              "name": "Roast the Tomatoes",
+              "pill": "15 min",
+              "desc": "Roast cherry tomatoes with a little oil and salt while the hollandaise is made.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Wilt the Spinach",
+              "pill": "3 min",
+              "desc": "Quickly wilted in a hot pan just before assembling.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Assemble in Order",
+              "pill": "at the table",
+              "desc": "Same poached eggs, hollandaise, and avocado \u2014 spinach and tomatoes in place of salmon.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "silken tofu scramble on toast with avocado \u2014 skip the hollandaise entirely",
+          "ingredients": [
+            {
+              "name": "Silken tofu",
+              "base": 0.9,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "900g"
+            },
+            {
+              "name": "Turmeric (for colour)",
+              "base": 1.0,
+              "baseServes": 6,
+              "unit": "tsp",
+              "display": "1 tsp"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Scramble",
+              "pill": "8 min",
+              "desc": "Crumble and pan-fry silken tofu with turmeric until it takes on an egg-like texture and colour.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Toast the Muffins",
+              "pill": "3 min",
+              "desc": "Same muffins, toasted plain.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Assemble in Order",
+              "pill": "at the table",
+              "desc": "Tofu scramble and avocado on toast \u2014 no hollandaise, no eggs.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "scrambled eggs on buttered toast \u2014 no poaching, no hollandaise required",
+          "ingredients": [
+            {
+              "name": "Eggs (for scrambling)",
+              "base": 12.0,
+              "baseServes": 6,
+              "unit": "",
+              "display": "12"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Scramble",
+              "pill": "6 min",
+              "desc": "Plain scrambled eggs, gently cooked.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Toast the Muffins",
+              "pill": "3 min",
+              "desc": "Buttered plainly.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Assemble in Order",
+              "pill": "at the table",
+              "desc": "No hollandaise, no avocado unless requested.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -1816,7 +4240,81 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "whole roasted celeriac with the same spice rub",
+          "ingredients": [
+            {
+              "name": "Celeriac, whole",
+              "base": 2.4,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "2.4 kg"
+            }
+          ],
+          "ovenCelsius": 160,
+          "phases": [
+            {
+              "name": "Rub",
+              "pill": "10 min",
+              "desc": "Same dry rub as the brisket, pressed all over the whole celeriac.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "3 hrs",
+              "desc": "Same low oven as the brisket, much shorter than the 6-8 hour smoke \u2014 add partway through.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Rest & Serve",
+              "pill": "at the table",
+              "desc": "Same bourbon BBQ sauce brushed on at the end, same slaw and pickles.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "same celeriac with plant-based mayo in the slaw",
+          "ingredients": [
+            {
+              "name": "Celeriac, whole",
+              "base": 2.4,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "2.4 kg"
+            }
+          ],
+          "ovenCelsius": 160,
+          "phases": [
+            {
+              "name": "Rub",
+              "pill": "10 min",
+              "desc": "Same dry rub, pressed over the celeriac.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "3 hrs",
+              "desc": "Same as the vegetarian celeriac.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Rest & Serve",
+              "pill": "at the table",
+              "desc": "Same BBQ sauce and pickles, slaw made with plant-based mayo.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain sliced beef with no glaze \u2014 same slaw and pickles on the side",
+          "noStepper": true
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -1876,7 +4374,115 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "spiced black beans and roasted peppers \u2014 same toppings, same station",
+          "ingredients": [
+            {
+              "name": "Tinned black beans, drained",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            },
+            {
+              "name": "Mixed peppers, sliced",
+              "base": 0.8,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "800g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Build the Base",
+              "pill": "10 min",
+              "desc": "Same spices as the beef braise.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Simmer",
+              "pill": "30 min",
+              "desc": "Black beans and roasted peppers simmered together \u2014 far shorter than the beef's 4-hour braise.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Set the Fiesta Table",
+              "pill": "at the table",
+              "desc": "Same grilled corn, guacamole, and salsa.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "the black bean version is already vegan \u2014 replace sour cream with coconut yogurt",
+          "ingredients": [
+            {
+              "name": "Tinned black beans, drained",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            },
+            {
+              "name": "Mixed peppers, sliced",
+              "base": 0.8,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "800g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Build the Base",
+              "pill": "10 min",
+              "desc": "Same as the vegetarian version.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Simmer",
+              "pill": "30 min",
+              "desc": "Same black bean and pepper simmer.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Set the Fiesta Table",
+              "pill": "at the table",
+              "desc": "Coconut yogurt in place of sour cream, same corn and guacamole.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain beef in a soft flour tortilla, no spice, just cheese and sour cream",
+          "ingredients": [
+            {
+              "name": "Ground beef (20% fat)",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Brown",
+              "pill": "12 min",
+              "desc": "Plain, no spice mix.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Set the Fiesta Table",
+              "pill": "at the table",
+              "desc": "Soft flour tortilla, cheese and sour cream only.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -1936,7 +4542,117 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "whole roasted cauliflower head with the same spice rub",
+          "ingredients": [
+            {
+              "name": "Whole cauliflower heads",
+              "base": 4.0,
+              "baseServes": 16,
+              "unit": "",
+              "display": "4"
+            }
+          ],
+          "ovenCelsius": 190,
+          "phases": [
+            {
+              "name": "Spice Rub",
+              "pill": "10 min",
+              "desc": "Same rub as the lamb, pressed over each whole cauliflower.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "1.5 hrs",
+              "desc": "Different oven temperature than the lamb's long slow roast \u2014 roast separately, timed to finish together.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Pull",
+              "pill": "at the table",
+              "desc": "Same tzatziki and tabbouleh.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "same cauliflower with coconut yogurt tzatziki instead of dairy",
+          "ingredients": [
+            {
+              "name": "Whole cauliflower heads",
+              "base": 4.0,
+              "baseServes": 16,
+              "unit": "",
+              "display": "4"
+            },
+            {
+              "name": "Coconut yogurt (for tzatziki)",
+              "base": 0.4,
+              "baseServes": 16,
+              "unit": "ml",
+              "display": "400ml"
+            }
+          ],
+          "ovenCelsius": 190,
+          "phases": [
+            {
+              "name": "Spice Rub",
+              "pill": "10 min",
+              "desc": "Same as the vegetarian cauliflower.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "1.5 hrs",
+              "desc": "Same as the vegetarian version.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Pull",
+              "pill": "at the table",
+              "desc": "Coconut yogurt tzatziki, same tabbouleh.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain roasted chicken thighs, no spice rub \u2014 same flatbreads and tzatziki",
+          "ingredients": [
+            {
+              "name": "Chicken thighs, boneless",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            }
+          ],
+          "ovenCelsius": 180,
+          "phases": [
+            {
+              "name": "Season",
+              "pill": "2 min",
+              "desc": "Salt only.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "35 min",
+              "desc": "Own dish, separate from the lamb's long roast.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Same flatbreads and tzatziki.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -1996,7 +4712,123 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "whole roasted cauliflower with the same herb rub, same root vegetables alongside",
+          "ingredients": [
+            {
+              "name": "Whole cauliflowers",
+              "base": 1.5,
+              "baseServes": 6,
+              "unit": "",
+              "display": "1.5"
+            }
+          ],
+          "ovenCelsius": 180,
+          "phases": [
+            {
+              "name": "Herb Rub",
+              "pill": "10 min",
+              "desc": "Same rub as the chicken.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "50 min",
+              "desc": "Same oven as the chicken, alongside it.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "The Table",
+              "pill": "at the table",
+              "desc": "Same honey root vegetables.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "same cauliflower with vegetable broth instead \u2014 use saffron for the golden colour",
+          "ingredients": [
+            {
+              "name": "Whole cauliflowers",
+              "base": 1.5,
+              "baseServes": 6,
+              "unit": "",
+              "display": "1.5"
+            },
+            {
+              "name": "Saffron threads",
+              "base": 1.0,
+              "baseServes": 6,
+              "unit": "tsp",
+              "display": "1 tsp"
+            }
+          ],
+          "ovenCelsius": 180,
+          "phases": [
+            {
+              "name": "Herb Rub",
+              "pill": "10 min",
+              "desc": "Same as the vegetarian cauliflower.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "50 min",
+              "desc": "Same oven, same time.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "The Golden Broth",
+              "pill": "20 min",
+              "desc": "Vegetable broth with saffron in place of the chicken broth, for the same golden colour.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "The Table",
+              "pill": "at the table",
+              "desc": "Same root vegetables.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain roasted chicken breast, no herbs, same vegetables and torn challah",
+          "ingredients": [
+            {
+              "name": "Chicken breast fillets",
+              "base": 0.9,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "900g"
+            }
+          ],
+          "ovenCelsius": 180,
+          "phases": [
+            {
+              "name": "Season",
+              "pill": "2 min",
+              "desc": "Salt only, no herbs.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "25 min",
+              "desc": "Same oven as the whole chicken, a shelf apart.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "The Table",
+              "pill": "at the table",
+              "desc": "Same root vegetables and challah.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -2056,7 +4888,87 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "the kuku sabzi is already vegetarian \u2014 serve as the centrepiece with extra herbed rice",
+          "noStepper": true
+        },
+        {
+          "category": "Vegan",
+          "text": "replace eggs in the kuku with silken tofu and ground flaxseed \u2014 same herbs, same result",
+          "ingredients": [
+            {
+              "name": "Silken tofu (in place of eggs)",
+              "base": 0.6,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "600g"
+            },
+            {
+              "name": "Ground flaxseed",
+              "base": 30.0,
+              "baseServes": 6,
+              "unit": "g",
+              "display": "30g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Kuku Sabzi",
+              "pill": "20 min",
+              "desc": "Same herb mixture, silken tofu and ground flaxseed in place of eggs to bind \u2014 same pan method.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Turn & Serve",
+              "pill": "at the table",
+              "desc": "Same herbed rice and tahdig.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain basmati rice with butter and simply grilled fish, no herb mixing",
+          "ingredients": [
+            {
+              "name": "Basmati rice (plain)",
+              "base": 0.5,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "500g"
+            },
+            {
+              "name": "White fish fillets",
+              "base": 0.6,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "600g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Plain Rice",
+              "pill": "20 min",
+              "desc": "Same basmati, no herbs, no tahdig crust.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Grill the Fish",
+              "pill": "10 min",
+              "desc": "Simply grilled, no herb crust.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Rice with butter, fish plain.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -2116,7 +5028,124 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "slow-braised portobello mushrooms and puy lentils, same braise and same polenta",
+          "ingredients": [
+            {
+              "name": "Large portobello mushrooms",
+              "base": 12.0,
+              "baseServes": 6,
+              "unit": "",
+              "display": "12"
+            },
+            {
+              "name": "Puy lentils, cooked",
+              "base": 0.6,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "600g"
+            }
+          ],
+          "ovenCelsius": 160,
+          "phases": [
+            {
+              "name": "Sear",
+              "pill": "8 min",
+              "desc": "Sear mushrooms in their own pan.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Braise",
+              "pill": "1 hr",
+              "desc": "Same red wine braise as the short ribs, in a separate covered dish \u2014 needs far less time than the beef.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Gremolata & Serve",
+              "pill": "at the table",
+              "desc": "Same creamy polenta and gremolata.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "same mushroom option with plant butter and nutritional yeast stirred into the polenta",
+          "ingredients": [
+            {
+              "name": "Large portobello mushrooms",
+              "base": 12.0,
+              "baseServes": 6,
+              "unit": "",
+              "display": "12"
+            },
+            {
+              "name": "Puy lentils, cooked",
+              "base": 0.6,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "600g"
+            },
+            {
+              "name": "Nutritional yeast (for polenta)",
+              "base": 60.0,
+              "baseServes": 6,
+              "unit": "g",
+              "display": "60g"
+            }
+          ],
+          "ovenCelsius": 160,
+          "phases": [
+            {
+              "name": "Sear",
+              "pill": "8 min",
+              "desc": "Same as the vegetarian mushroom braise.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Braise",
+              "pill": "1 hr",
+              "desc": "Same braise, same timing.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Gremolata & Serve",
+              "pill": "at the table",
+              "desc": "Polenta made with plant butter and nutritional yeast in place of dairy.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain buttered tagliatelle instead of polenta \u2014 same sauce ladled over",
+          "ingredients": [
+            {
+              "name": "Tagliatelle",
+              "base": 0.9,
+              "baseServes": 6,
+              "unit": "kg",
+              "display": "900g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Cook the Pasta",
+              "pill": "10 min",
+              "desc": "Boil in salted water, toss with butter.",
+              "icon": "\ud83c\udf5a"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "A ladle of the same braising sauce over the top, no gremolata unless requested.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -2180,7 +5209,61 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "skip the gravlax \u2014 build the table around herbed new potatoes, pickled cucumber, crispbreads and a strong cheese",
+          "ingredients": [
+            {
+              "name": "Strong aged cheese (e.g. V\u00e4sterbotten)",
+              "base": 0.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "600g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Set the Table",
+              "pill": "at the table",
+              "desc": "Same new potatoes, pickled cucumber, and crispbreads \u2014 cheese in place of the cured salmon.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "same table without the dairy \u2014 coconut cr\u00e8me fra\u00eeche works surprisingly well with dill",
+          "ingredients": [
+            {
+              "name": "Coconut cr\u00e8me fra\u00eeche",
+              "base": 0.3,
+              "baseServes": 16,
+              "unit": "ml",
+              "display": "300ml"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Dill Sauce",
+              "pill": "10 min",
+              "desc": "Coconut cr\u00e8me fra\u00eeche whipped with dill and mustard, in place of the dairy sauce.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Set the Table",
+              "pill": "at the table",
+              "desc": "Same potatoes, pickled cucumber, and crispbreads, no cheese.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain boiled new potatoes with butter, crispbreads and mild cream cheese",
+          "noStepper": true
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -2240,7 +5323,127 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "replace pork belly with twice-cooked tofu in the same red braise \u2014 same sauce, same colour",
+          "ingredients": [
+            {
+              "name": "Firm tofu, twice-cooked (pan-fried then braised)",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Pan-Fry",
+              "pill": "8 min",
+              "desc": "Fry tofu until golden before braising \u2014 this is what gives it structure to hold together.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Red-Braise",
+              "pill": "45 min",
+              "desc": "Same red braising sauce as the pork belly, much shorter time since tofu doesn't need to tenderize.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "The New Year Table",
+              "pill": "at the table",
+              "desc": "Same longevity noodles, dumplings, and fish.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "tofu braise with mushroom-filled dumplings \u2014 both are widely available",
+          "ingredients": [
+            {
+              "name": "Firm tofu, twice-cooked",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            },
+            {
+              "name": "Mushroom dumplings (vegan)",
+              "base": 32.0,
+              "baseServes": 16,
+              "unit": "",
+              "display": "32"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Pan-Fry",
+              "pill": "8 min",
+              "desc": "Same tofu method as the vegetarian version.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "Red-Braise",
+              "pill": "45 min",
+              "desc": "Same braise.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Pan-Fry the Dumplings",
+              "pill": "8 min",
+              "desc": "Mushroom-filled dumplings in place of pork ones.",
+              "icon": "\ud83d\udd25"
+            },
+            {
+              "name": "The New Year Table",
+              "pill": "at the table",
+              "desc": "Same longevity noodles.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain steamed rice, mild soy-glazed chicken, same dumplings on the side",
+          "ingredients": [
+            {
+              "name": "Chicken thighs, boneless",
+              "base": 1.4,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.4 kg"
+            },
+            {
+              "name": "Steamed white rice (plain)",
+              "base": 1.2,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.2 kg"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Glaze & Cook",
+              "pill": "20 min",
+              "desc": "Chicken cooked with a mild soy glaze only, no five-spice or chilli.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Steam the Rice",
+              "pill": "20 min",
+              "desc": "Plain, no seasoning.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "The New Year Table",
+              "pill": "at the table",
+              "desc": "Same dumplings on the side, no fish.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -2300,7 +5503,88 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "replace lamb with whole roasted cauliflower florets in the same spice base \u2014 45 min",
+          "ingredients": [
+            {
+              "name": "Cauliflower florets",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            }
+          ],
+          "ovenCelsius": 200,
+          "phases": [
+            {
+              "name": "Coat",
+              "pill": "5 min",
+              "desc": "Toss cauliflower florets in the same rogan josh spice base.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "45 min",
+              "desc": "Much hotter and shorter than the lamb's slow braise \u2014 roast separately, timed to finish together.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "The Diwali Table",
+              "pill": "at the table",
+              "desc": "Same dal makhani, jeera rice and naan.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "same cauliflower version with coconut yogurt \u2014 the dal is already vegan",
+          "ingredients": [
+            {
+              "name": "Cauliflower florets",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            },
+            {
+              "name": "Coconut yogurt",
+              "base": 0.3,
+              "baseServes": 16,
+              "unit": "ml",
+              "display": "300ml"
+            }
+          ],
+          "ovenCelsius": 200,
+          "phases": [
+            {
+              "name": "Coat",
+              "pill": "5 min",
+              "desc": "Same as the vegetarian cauliflower.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "45 min",
+              "desc": "Same as the vegetarian version.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "The Diwali Table",
+              "pill": "at the table",
+              "desc": "Coconut yogurt alongside, same dal (already vegan) and rice.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain basmati rice with a mild butter sauce \u2014 same naan breads",
+          "noStepper": true
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -2360,7 +5644,135 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "replace chicken and sausage with mushrooms, butter beans and extra okra \u2014 the roux carries the flavour",
+          "ingredients": [
+            {
+              "name": "Mixed mushrooms",
+              "base": 1.2,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.2 kg"
+            },
+            {
+              "name": "Tinned butter beans, drained",
+              "base": 0.8,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "800g"
+            },
+            {
+              "name": "Okra, extra",
+              "base": 0.4,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "400g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "The Holy Trinity",
+              "pill": "10 min",
+              "desc": "Same onions, celery and peppers as the main gumbo.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Build the Gumbo",
+              "pill": "45 min",
+              "desc": "Mushrooms, butter beans and extra okra in a share of the same dark roux \u2014 needs far less time than the chicken and andouille version.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Hot Sauce Station",
+              "pill": "at the table",
+              "desc": "Same rice and hot sauce station.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "the vegetarian version is already vegan \u2014 use vegetable stock throughout",
+          "ingredients": [
+            {
+              "name": "Mixed mushrooms",
+              "base": 1.2,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.2 kg"
+            },
+            {
+              "name": "Tinned butter beans, drained",
+              "base": 0.8,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "800g"
+            },
+            {
+              "name": "Okra, extra",
+              "base": 0.4,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "400g"
+            }
+          ],
+          "phases": [
+            {
+              "name": "The Holy Trinity",
+              "pill": "10 min",
+              "desc": "Same as the vegetarian version.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Build the Gumbo",
+              "pill": "45 min",
+              "desc": "Same mushroom and bean gumbo, made entirely with vegetable stock.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Hot Sauce Station",
+              "pill": "at the table",
+              "desc": "Same rice and hot sauce.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain steamed rice with mild tomato sauce \u2014 same cornbread on the side",
+          "ingredients": [
+            {
+              "name": "White rice (plain)",
+              "base": 1.2,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.2 kg"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Steam the Rice",
+              "pill": "20 min",
+              "desc": "Plain, no seasoning.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Mild Sauce",
+              "pill": "10 min",
+              "desc": "A ladle of plain tomato sauce, no roux, no spice.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Same cornbread on the side.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -2420,7 +5832,110 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "smoked jackfruit with the same dry rub, same roast time \u2014 deeply convincing",
+          "ingredients": [
+            {
+              "name": "Tinned young jackfruit, drained",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            }
+          ],
+          "ovenCelsius": 120,
+          "phases": [
+            {
+              "name": "Dry Rub",
+              "pill": "10 min",
+              "desc": "Same dry rub as the chicken, night before if possible.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Slow Smoke or Roast",
+              "pill": "1.5 hrs",
+              "desc": "Same low oven as the chicken, alongside it \u2014 jackfruit takes a little less time.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Cornbread & the Table",
+              "pill": "at the table",
+              "desc": "Same black-eyed peas, collard greens, and cornbread.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "same jackfruit option \u2014 skip the bacon in the peas, use smoked paprika oil instead",
+          "ingredients": [
+            {
+              "name": "Tinned young jackfruit, drained",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            }
+          ],
+          "ovenCelsius": 120,
+          "phases": [
+            {
+              "name": "Dry Rub",
+              "pill": "10 min",
+              "desc": "Same as the vegetarian jackfruit.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Slow Smoke or Roast",
+              "pill": "1.5 hrs",
+              "desc": "Same as the vegetarian version.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Cornbread & the Table",
+              "pill": "at the table",
+              "desc": "Black-eyed peas made with smoked paprika oil in place of bacon.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain roasted chicken with no rub \u2014 same cornbread and peas alongside",
+          "ingredients": [
+            {
+              "name": "Chicken thighs, boneless",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            }
+          ],
+          "ovenCelsius": 180,
+          "phases": [
+            {
+              "name": "Season",
+              "pill": "2 min",
+              "desc": "Salt only, no dry rub.",
+              "icon": "\ud83d\udd2a"
+            },
+            {
+              "name": "Roast",
+              "pill": "35 min",
+              "desc": "Own dish, separate oven window from the chicken's long slow smoke.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Same cornbread and black-eyed peas.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -2480,7 +5995,117 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "roasted pumpkin and black beans in the mole instead of chicken \u2014 the sauce carries everything",
+          "ingredients": [
+            {
+              "name": "Pumpkin, cubed",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            },
+            {
+              "name": "Tinned black beans, drained",
+              "base": 0.8,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "800g"
+            }
+          ],
+          "ovenCelsius": 200,
+          "phases": [
+            {
+              "name": "Roast the Pumpkin",
+              "pill": "30 min",
+              "desc": "Roast pumpkin cubes while the mole base builds.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Braise",
+              "pill": "30 min",
+              "desc": "Pumpkin and black beans simmered in a share of the same mole sauce \u2014 far shorter than the chicken's braise.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "The Ofrenda Table",
+              "pill": "at the table",
+              "desc": "Same rice and warm tortillas.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "same pumpkin option \u2014 the mole base is already vegan",
+          "ingredients": [
+            {
+              "name": "Pumpkin, cubed",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            },
+            {
+              "name": "Tinned black beans, drained",
+              "base": 0.8,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "800g"
+            }
+          ],
+          "ovenCelsius": 200,
+          "phases": [
+            {
+              "name": "Roast the Pumpkin",
+              "pill": "30 min",
+              "desc": "Same as the vegetarian version.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Braise",
+              "pill": "30 min",
+              "desc": "Same braise \u2014 the mole base is already vegan, nothing further to change.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "The Ofrenda Table",
+              "pill": "at the table",
+              "desc": "Same rice and tortillas.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain chicken in mild tomato sauce, same rice and warm tortillas on the side",
+          "ingredients": [
+            {
+              "name": "Chicken thighs, boneless",
+              "base": 1.6,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.6 kg"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Simmer",
+              "pill": "30 min",
+              "desc": "Plain chicken in a mild tomato sauce, no chillies or mole spices.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Same rice and warm tortillas.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
@@ -2540,7 +6165,112 @@
         }
       ],
       "ingredients": [],
-      "swaps": [],
+      "swaps": [
+        {
+          "category": "Vegetarian",
+          "text": "whole roasted aubergines and chickpeas on the saffron rice \u2014 same yogurt sauce poured over",
+          "ingredients": [
+            {
+              "name": "Whole aubergines",
+              "base": 4.0,
+              "baseServes": 16,
+              "unit": "",
+              "display": "4"
+            },
+            {
+              "name": "Tinned chickpeas, drained",
+              "base": 1.2,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.2 kg"
+            }
+          ],
+          "ovenCelsius": 200,
+          "phases": [
+            {
+              "name": "Roast",
+              "pill": "40 min",
+              "desc": "Roast whole aubergines and chickpeas together, much hotter and shorter than the lamb's slow braise.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Assemble the Platter",
+              "pill": "at the table",
+              "desc": "Over the same saffron rice, same yogurt sauce poured over, same pine nuts and flatbreads.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Vegan",
+          "text": "same aubergine option with coconut yogurt instead of labneh \u2014 stir in a pinch of turmeric for colour",
+          "ingredients": [
+            {
+              "name": "Whole aubergines",
+              "base": 4.0,
+              "baseServes": 16,
+              "unit": "",
+              "display": "4"
+            },
+            {
+              "name": "Tinned chickpeas, drained",
+              "base": 1.2,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.2 kg"
+            },
+            {
+              "name": "Coconut yogurt (for the sauce)",
+              "base": 0.4,
+              "baseServes": 16,
+              "unit": "ml",
+              "display": "400ml"
+            }
+          ],
+          "ovenCelsius": 200,
+          "phases": [
+            {
+              "name": "Roast",
+              "pill": "40 min",
+              "desc": "Same as the vegetarian version.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Assemble the Platter",
+              "pill": "at the table",
+              "desc": "Coconut yogurt sauce with a pinch of turmeric for colour, same rice, pine nuts and flatbreads.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        },
+        {
+          "category": "Pasta Purists",
+          "text": "plain rice with mild lamb in tomato sauce \u2014 same flatbreads and pine nuts",
+          "ingredients": [
+            {
+              "name": "Lamb shoulder, diced",
+              "base": 1.2,
+              "baseServes": 16,
+              "unit": "kg",
+              "display": "1.2 kg"
+            }
+          ],
+          "phases": [
+            {
+              "name": "Simmer",
+              "pill": "1.5 hrs",
+              "desc": "Lamb in a mild tomato sauce, no yogurt, no heavy spicing.",
+              "icon": "\u2668\ufe0f"
+            },
+            {
+              "name": "Serve",
+              "pill": "at the table",
+              "desc": "Same plain saffron rice, flatbreads and pine nuts.",
+              "icon": "\ud83c\udf7d\ufe0f"
+            }
+          ]
+        }
+      ],
       "phases": [],
       "nutritionPerServing": {},
       "pairings": [],
