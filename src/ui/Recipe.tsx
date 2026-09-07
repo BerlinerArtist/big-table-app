@@ -97,7 +97,13 @@ export default function Recipe(props: {
   const accent = occ.tier === "around-the-table" ? "att" : "ftr";
 
   const swapCountSum = Object.values(swapCounts).reduce((a, b) => a + b, 0);
-  const mainDishCount = Math.max(0, serves - swapCountSum);
+  // sharesMainDish swaps have their own counter for bookkeeping, but their
+  // guests still eat the main dish's own portion — so they must NOT be
+  // subtracted from how much of the main dish gets bought/cooked.
+  const deductibleSwapCount = occ.swaps
+    .filter((sw) => !sw.sharesMainDish)
+    .reduce((sum, sw) => sum + (swapCounts[sw.category] ?? 0), 0);
+  const mainDishCount = Math.max(0, serves - deductibleSwapCount);
   const activeSwapExtras = useMemo(
     () =>
       occ.swaps
@@ -301,6 +307,10 @@ export default function Recipe(props: {
                       </div>
                     </div>
                   ))
+                ) : sw.sharesMainDish ? (
+                  <p className="method-swap-note">
+                    Same method as the main dish above — {sw.text}
+                  </p>
                 ) : (
                   <p className="method-swap-note">
                     Full steps for this swap aren't written up yet — for now: {sw.text}
@@ -413,7 +423,7 @@ export default function Recipe(props: {
                           <button
                             type="button"
                             aria-label={`More ${sw.category}`}
-                            disabled={mainDishCount <= 0}
+                            disabled={sw.sharesMainDish ? count >= mainDishCount : mainDishCount <= 0}
                             onClick={() =>
                               setSwapCounts((prev) => {
                                 // Guard against overshoot inside the functional
@@ -422,8 +432,21 @@ export default function Recipe(props: {
                                 // fired before a re-render would both read the
                                 // same stale mainDishCount otherwise, letting
                                 // the true sum exceed `serves`.
-                                const sum = Object.values(prev).reduce((a, b) => a + b, 0);
-                                if (sum >= serves) return prev;
+                                //
+                                // sharesMainDish counters (e.g. "eats the same
+                                // turkey, just without glaze") don't compete
+                                // for the same "slot" as real swaps — their
+                                // guests still count toward mainDishCount — so
+                                // only deductible (non-sharesMainDish) swaps
+                                // are checked against `serves` here.
+                                const deductibleSum = occ.swaps
+                                  .filter((s) => !s.sharesMainDish)
+                                  .reduce((total, s) => total + (prev[s.category] ?? 0), 0);
+                                if (!sw.sharesMainDish && deductibleSum >= serves) return prev;
+                                if (sw.sharesMainDish) {
+                                  const currentMainDishCount = Math.max(0, serves - deductibleSum);
+                                  if ((prev[sw.category] ?? 0) >= currentMainDishCount) return prev;
+                                }
                                 return { ...prev, [sw.category]: (prev[sw.category] ?? 0) + 1 };
                               })
                             }
@@ -445,7 +468,16 @@ export default function Recipe(props: {
                     );
                   })}
                   <p className="swaps-sum-hint">
-                    {mainDishCount} + {occ.swaps.filter((sw) => !sw.noStepper).map((sw) => swapCounts[sw.category] ?? 0).join(" + ")} = {serves}, added up as you go
+                    {mainDishCount} + {occ.swaps.filter((sw) => !sw.noStepper && !sw.sharesMainDish).map((sw) => swapCounts[sw.category] ?? 0).join(" + ")} = {serves}, added up as you go
+                    {occ.swaps.some((sw) => sw.sharesMainDish && (swapCounts[sw.category] ?? 0) > 0) && (
+                      <>
+                        {" "}({occ.swaps
+                          .filter((sw) => sw.sharesMainDish && (swapCounts[sw.category] ?? 0) > 0)
+                          .map((sw) => `${swapCounts[sw.category]} ${sw.category.toLowerCase()}`)
+                          .join(", ")}{" "}
+                        already counted within the main dish)
+                      </>
+                    )}
                   </p>
                 </>
               )}
