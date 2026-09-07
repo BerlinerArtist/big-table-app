@@ -4465,7 +4465,8 @@
         {
           "category": "Vegetarian",
           "text": "the base risotto is already vegetarian \u2014 use vegetable stock, skip the prosciutto",
-          "noStepper": true
+          "sharesMainDish": true,
+          "ingredients": []
         },
         {
           "category": "Vegan",
@@ -4504,7 +4505,8 @@
         {
           "category": "Pasta Purists",
           "text": "plain risotto bianco, no truffle oil or prosciutto, same base",
-          "noStepper": true
+          "sharesMainDish": true,
+          "ingredients": []
         }
       ],
       "phases": [
@@ -4749,12 +4751,14 @@
         {
           "category": "Vegan",
           "text": "the vegetarian version is already vegan",
-          "noStepper": true
+          "sharesMainDish": true,
+          "ingredients": []
         },
         {
           "category": "Pasta Purists",
           "text": "plain pasta with butter and Parmesan served alongside",
-          "noStepper": true
+          "sharesMainDish": true,
+          "ingredients": []
         }
       ],
       "phases": [
@@ -5389,7 +5393,8 @@
         {
           "category": "Pasta Purists",
           "text": "plain sliced roast beef, no herb crust, same gravy and puddings",
-          "noStepper": true
+          "sharesMainDish": true,
+          "ingredients": []
         }
       ],
       "phases": [
@@ -5653,7 +5658,8 @@
         {
           "category": "Vegan",
           "text": "the vegetarian option is already vegan",
-          "noStepper": true
+          "sharesMainDish": true,
+          "ingredients": []
         },
         {
           "category": "Pasta Purists",
@@ -5961,12 +5967,14 @@
         {
           "category": "Vegan",
           "text": "same squash option with plant butter and maple",
-          "noStepper": true
+          "sharesMainDish": true,
+          "ingredients": []
         },
         {
           "category": "Pasta Purists",
           "text": "plain roasted turkey breast, no glaze, same stuffing and cranberry",
-          "noStepper": true
+          "sharesMainDish": true,
+          "ingredients": []
         }
       ],
       "phases": [
@@ -6617,7 +6625,8 @@
         {
           "category": "Pasta Purists",
           "text": "plain naan with butter, minimal spice in a separate portion",
-          "noStepper": true
+          "sharesMainDish": true,
+          "ingredients": []
         }
       ],
       "phases": [
@@ -6908,7 +6917,8 @@
         {
           "category": "Pasta Purists",
           "text": "plain baked salmon fillet, no herbs, same potatoes and cucumber sauce",
-          "noStepper": true
+          "sharesMainDish": true,
+          "ingredients": []
         }
       ],
       "phases": [
@@ -7472,12 +7482,14 @@
         {
           "category": "Vegetarian",
           "text": "skip the chorizo \u2014 use smoked paprika and a tablespoon of olive oil as the base fat instead",
-          "noStepper": true
+          "sharesMainDish": true,
+          "ingredients": []
         },
         {
           "category": "Vegan",
           "text": "the vegetarian version is already vegan \u2014 replace sour cream with coconut yogurt",
-          "noStepper": true
+          "sharesMainDish": true,
+          "ingredients": []
         },
         {
           "category": "Pasta Purists",
@@ -8131,7 +8143,8 @@
         {
           "category": "Pasta Purists",
           "text": "plain sliced beef with no glaze \u2014 same slaw and pickles on the side",
-          "noStepper": true
+          "sharesMainDish": true,
+          "ingredients": []
         }
       ],
       "phases": [
@@ -9395,7 +9408,8 @@
         {
           "category": "Vegetarian",
           "text": "the kuku sabzi is already vegetarian \u2014 serve as the centrepiece with extra herbed rice",
-          "noStepper": true
+          "sharesMainDish": true,
+          "ingredients": []
         },
         {
           "category": "Vegan",
@@ -10099,7 +10113,8 @@
         {
           "category": "Pasta Purists",
           "text": "plain boiled new potatoes with butter, crispbreads and mild cream cheese",
-          "noStepper": true
+          "sharesMainDish": true,
+          "ingredients": []
         }
       ],
       "phases": [
@@ -10755,7 +10770,8 @@
         {
           "category": "Pasta Purists",
           "text": "plain basmati rice with a mild butter sauce \u2014 same naan breads",
-          "noStepper": true
+          "sharesMainDish": true,
+          "ingredients": []
         }
       ],
       "phases": [
