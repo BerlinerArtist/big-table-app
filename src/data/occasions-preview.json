@@ -2085,15 +2085,7 @@
         {
           "category": "Pasta Purists",
           "text": "plain roasted chicken thighs, no marinade, same couscous",
-          "ingredients": [
-            {
-              "name": "Chicken thighs, boneless",
-              "base": 1.2,
-              "baseServes": 6,
-              "unit": "kg",
-              "display": "1.2 kg"
-            }
-          ],
+          "ingredients": [],
           "ovenCelsius": 180,
           "phases": [
             {
@@ -2114,7 +2106,8 @@
               "desc": "Alongside the same herbed couscous.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "sharesMainDish": true
         }
       ],
       "phases": [],
@@ -2834,15 +2827,7 @@
         {
           "category": "Pasta Purists",
           "text": "plain grilled chicken, no glaze, same tabbouleh",
-          "ingredients": [
-            {
-              "name": "Chicken thighs, boneless",
-              "base": 1.6,
-              "baseServes": 16,
-              "unit": "kg",
-              "display": "1.6 kg"
-            }
-          ],
+          "ingredients": [],
           "ovenCelsius": 200,
           "phases": [
             {
@@ -2863,7 +2848,8 @@
               "desc": "Same tabbouleh, flatbreads and labneh.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "sharesMainDish": true
         }
       ],
       "phases": [],
@@ -5920,15 +5906,7 @@
         {
           "category": "Pasta Purists",
           "text": "plain roasted chicken with no rub \u2014 same cornbread and peas alongside",
-          "ingredients": [
-            {
-              "name": "Chicken thighs, boneless",
-              "base": 1.6,
-              "baseServes": 16,
-              "unit": "kg",
-              "display": "1.6 kg"
-            }
-          ],
+          "ingredients": [],
           "ovenCelsius": 180,
           "phases": [
             {
@@ -5949,7 +5927,8 @@
               "desc": "Same cornbread and black-eyed peas.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "sharesMainDish": true
         }
       ],
       "phases": [],
