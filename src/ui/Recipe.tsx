@@ -111,6 +111,13 @@ export default function Recipe(props: {
         .filter((e) => e.count > 0 && e.ingredients.length > 0),
     [occ.swaps, swapCounts]
   );
+  // For the "Main Dish Ingredients" pointer hint — which swap categories
+  // currently have their own separate ingredients (not sharesMainDish,
+  // not noStepper) that a reader would otherwise only find in the
+  // combined Shopping List further down the page.
+  const activeSwapIngredientCategories = occ.swaps.filter(
+    (sw) => (swapCounts[sw.category] ?? 0) > 0 && (sw.ingredients?.length ?? 0) > 0
+  );
   const shopping = useMemo(
     () => (fullOcc ? buildShoppingList(occ, mainDishCount, system, activeSwapExtras) : []),
     [occ, mainDishCount, system, fullOcc, activeSwapExtras]
@@ -321,10 +328,21 @@ export default function Recipe(props: {
         </section>
 
         <section className="panel">
-          <div className="panel-lbl">Ingredients</div>
+          <div className="panel-lbl">Main Dish Ingredients</div>
           <div className="panel-sub">
             {mainDishCount === serves ? "scaled to your table" : `scaled to ${mainDishCount} eating the main dish`}
           </div>
+          {activeSwapIngredientCategories.length > 0 && (
+            <p className="method-swap-note">
+              Swap ingredients ({Array.from(
+                new Set(
+                  activeSwapIngredientCategories.flatMap((sw) =>
+                    (sw.ingredients ?? []).map((ing) => ing.name.toLowerCase())
+                  )
+                )
+              ).join("; ")}) aren't listed here — they're in the combined Shopping List below.
+            </p>
+          )}
           {swapCountSum > 0 && mainDishCount === 0 && (
             <p className="method-swap-note main-dish-low-warning">
               Nobody's on the main dish — {occ.recipeTitle} won't be served at all tonight, only the
