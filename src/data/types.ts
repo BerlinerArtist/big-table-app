@@ -57,6 +57,17 @@ export interface Swap {
    * since there's nothing separate to scale or cook.
    */
   noStepper?: boolean;
+  /**
+   * Optional: true when this swap's guests eat the SAME main-dish portion
+   * as everyone else (just without one ingredient/glaze/spice) rather
+   * than a genuinely separate dish. The counter is shown for consistency
+   * and bookkeeping, but — unlike a normal swap — it must NOT be
+   * subtracted from mainDishCount, since these guests still need their
+   * share of the main dish's ingredients. Only meaningful when
+   * `noStepper` is false/undefined; ingredients should be [] or
+   * undefined, since there's nothing separate to buy.
+   */
+  sharesMainDish?: boolean;
 }
 
 export interface Phase {
