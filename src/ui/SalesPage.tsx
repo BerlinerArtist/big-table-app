@@ -3,6 +3,18 @@ import { gumroadPurchaseUrl, PRICE_LABEL } from "../lib/access";
 
 const COVER_IMAGE = "https://public-files.gumroad.com/wzrhectlsuc5c64pa61d3z2vhzrp";
 
+const OCCASION_NAMES = [
+  "Romantic Anniversary Dinner", "Adult Birthday Party", "Funeral", "Christmas Dinner",
+  "Kids' Birthday Party", "Cocktail Party & Nibbles", "Garden Party & Summer BBQ",
+  "Valentine's Dinner", "Graduation Supper", "Farewell & Going Away", "Welcome Home Feast",
+  "Engagement Dinner", "Upscale Dinner Party", "Promotion Celebration", "First Date Night In",
+  "Baby Shower", "Home Wedding Reception", "New Year's Eve", "Thanksgiving & Harvest",
+  "Spring Table", "Housewarming Party", "Retirement Celebration", "The Big Match",
+  "Halloween", "Mother's Day Brunch", "Father's Day BBQ", "Gender Reveal", "Open House",
+  "Shabbat Dinner", "Nowruz", "Chosen Family Dinner", "Midsommar", "Lunar New Year",
+  "Diwali", "Carnival", "Juneteenth", "Día de los Muertos", "Eid al-Fitr",
+];
+
 function GumroadCta({ children, className = "" }: { children: ReactNode; className?: string }) {
   return (
     <a className={`sales-cta ${className}`.trim()} href={gumroadPurchaseUrl()} target="_blank" rel="noreferrer">
@@ -124,6 +136,14 @@ export default function SalesPage(props: { onPreview: () => void; onOpenGuide: (
             <li>Future updates included</li>
           </ul>
         </div>
+        <p className="sales-occasion-roll">
+          {OCCASION_NAMES.map((name, i) => (
+            <span key={name}>
+              {name}
+              {i < OCCASION_NAMES.length - 1 && <span className="sales-occasion-dot"> · </span>}
+            </span>
+          ))}
+        </p>
       </section>
 
       <section className="sales-reviews" aria-label="Verified customer reviews">
