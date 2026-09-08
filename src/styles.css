@@ -301,6 +301,8 @@ a.primary:hover{background:var(--navy-mid)}
 .sales-included ul{list-style:none;margin:0;padding:0;}
 .sales-included li{padding:8px 0;border-bottom:1px dashed #d7cfbf;color:#4f4b44;font-size:14px;line-height:1.38;}
 .sales-included li::before{color:#a8893c;content:'◆';font-size:8px;margin-right:11px;}
+.sales-occasion-roll{grid-column:1 / -1;margin:6px 0 0;padding-top:28px;border-top:1px solid #d7cfbf;color:#7b7367;font-family:'Josefin Sans',sans-serif;font-size:11px;font-weight:500;letter-spacing:.03em;line-height:2.1;}
+.sales-occasion-dot{color:#c9a84c;}
 .sales-reviews{background:#f0e8d8;max-width:none;padding-left:max(7vw,28px);padding-right:max(7vw,28px);}
 .sales-reviews h2{color:var(--sales-navy);font-size:clamp(40px,4vw,57px);line-height:.96;margin:17px 0 46px;}
 .sales-review-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;max-width:1070px;}
