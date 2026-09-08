@@ -50,6 +50,17 @@ export interface Swap {
    *  of a hard-coded string in phase text. */
   ovenCelsius?: number | null;
   /**
+   * Optional: this swap's own per-serving nutrition, same shape as
+   * OccasionData.nutritionPerServing. When present and the swap has an
+   * active count, the UI shows this instead of the main dish's figures —
+   * a vegetarian swap genuinely has different calories/protein/fat than
+   * the meat main dish, and showing the main dish's numbers regardless
+   * of which version someone's actually eating would be misleading.
+   * Undefined means no nutrition data has been computed for this swap
+   * yet — UI falls back to showing nothing rather than a wrong number.
+   */
+  nutritionPerServing?: Record<string, string>;
+  /**
    * Optional: true when this "swap" is really just a confirmation, not a
    * separate dish with its own headcount — e.g. "the whole board is
    * already vegan." No stepper is shown; `text` renders as a plain note
