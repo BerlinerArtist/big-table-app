@@ -190,7 +190,14 @@
               "icon": "\ud83c\udf7d\ufe0f"
             }
           ],
-          "ovenCelsius": 160
+          "ovenCelsius": 160,
+          "nutritionPerServing": {
+            "kcal": "392",
+            "protein": "21g",
+            "fat": "9g",
+            "carbs": "70g",
+            "fibre": "13g"
+          }
         },
         {
           "category": "Pescatarian",
@@ -224,7 +231,14 @@
               "icon": "\ud83c\udf7d\ufe0f"
             }
           ],
-          "ovenCelsius": 200
+          "ovenCelsius": 200,
+          "nutritionPerServing": {
+            "kcal": "474",
+            "protein": "42g",
+            "fat": "26g",
+            "carbs": "23g",
+            "fibre": "3g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -282,7 +296,14 @@
               "desc": "Chicken over the orzo, both moistened with a little extra braising liquid if needed.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "876",
+            "protein": "65g",
+            "fat": "18g",
+            "carbs": "116g",
+            "fibre": "7g"
+          }
         }
       ],
       "phases": [
@@ -527,7 +548,14 @@
               "desc": "Shreds easily with two forks, just like the pork. Same station.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "382",
+            "protein": "16g",
+            "fat": "6g",
+            "carbs": "68g",
+            "fibre": "7g"
+          }
         },
         {
           "category": "Vegan",
@@ -561,7 +589,14 @@
               "desc": "Same station, alongside the pulled pork and jackfruit.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "363",
+            "protein": "18g",
+            "fat": "6g",
+            "carbs": "63g",
+            "fibre": "8g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -594,7 +629,14 @@
               "desc": "Same station as the pork \u2014 tortillas, cheese only, no sauce.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "509",
+            "protein": "42g",
+            "fat": "14g",
+            "carbs": "56g",
+            "fibre": "5g"
+          }
         }
       ],
       "phases": [
@@ -852,7 +894,14 @@
               "desc": "Finishes together with the main pie.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "824",
+            "protein": "24g",
+            "fat": "50g",
+            "carbs": "68g",
+            "fibre": "10g"
+          }
         },
         {
           "category": "Vegan",
@@ -906,7 +955,14 @@
               "desc": "Finishes together with the main pie.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "1351",
+            "protein": "31g",
+            "fat": "90g",
+            "carbs": "102g",
+            "fibre": "8g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -953,7 +1009,14 @@
               "desc": "Finishes together with the main pie.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "1043",
+            "protein": "53g",
+            "fat": "58g",
+            "carbs": "72g",
+            "fibre": "8g"
+          }
         }
       ],
       "phases": [
@@ -1198,7 +1261,14 @@
               "desc": "Finishes together with the ham.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "605",
+            "protein": "29g",
+            "fat": "28g",
+            "carbs": "58g",
+            "fibre": "8g"
+          }
         },
         {
           "category": "Pescatarian",
@@ -1252,7 +1322,14 @@
               "desc": "Finishes together with the ham.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "770",
+            "protein": "45g",
+            "fat": "40g",
+            "carbs": "49g",
+            "fibre": "4g"
+          }
         },
         {
           "category": "Vegan",
@@ -1306,7 +1383,14 @@
               "desc": "Sliced at the table, same as the ham.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "1096",
+            "protein": "37g",
+            "fat": "58g",
+            "carbs": "102g",
+            "fibre": "11g"
+          }
         }
       ],
       "phases": [
@@ -1557,7 +1641,14 @@
               "desc": "Same buns, same station as the beef sliders.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "998",
+            "protein": "43g",
+            "fat": "49g",
+            "carbs": "108g",
+            "fibre": "12g"
+          }
         },
         {
           "category": "Vegan",
@@ -1590,7 +1681,14 @@
               "desc": "Same buns, no cheese unless a vegan slice is available.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "904",
+            "protein": "37g",
+            "fat": "48g",
+            "carbs": "89g",
+            "fibre": "6g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -1630,7 +1728,14 @@
               "desc": "Bun, plain patty, cheese only \u2014 no sauce, no toppings.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "1221",
+            "protein": "57g",
+            "fat": "75g",
+            "carbs": "87g",
+            "fibre": "5g"
+          }
         }
       ],
       "phases": [
@@ -1876,7 +1981,14 @@
               "desc": "Set aside a share of flatbreads equal to this count and swap it for the crudit\u00e9s when assembling the board \u2014 same hummus, feta and falafel.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "812",
+            "protein": "24g",
+            "fat": "50g",
+            "carbs": "66g",
+            "fibre": "13g"
+          }
         },
         {
           "category": "Sesame allergy",
@@ -1903,7 +2015,14 @@
               "desc": "Label this portion clearly, since it's easy to mix up with the regular hummus once plated.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "890",
+            "protein": "27g",
+            "fat": "58g",
+            "carbs": "65g",
+            "fibre": "13g"
+          }
         }
       ],
       "phases": [
@@ -2157,7 +2276,14 @@
               "desc": "Finishes together with the chicken.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "467",
+            "protein": "19g",
+            "fat": "29g",
+            "carbs": "26g",
+            "fibre": "5g"
+          }
         },
         {
           "category": "Vegan",
@@ -2197,7 +2323,14 @@
               "desc": "Finishes together with the chicken.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "506",
+            "protein": "31g",
+            "fat": "30g",
+            "carbs": "26g",
+            "fibre": "5g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -2231,7 +2364,14 @@
               "desc": "In a bread roll, separate plate, ketchup on the side, no glaze.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "642",
+            "protein": "37g",
+            "fat": "27g",
+            "carbs": "54g",
+            "fibre": "4g"
+          }
         }
       ],
       "phases": [
@@ -2476,7 +2616,14 @@
               "icon": "\ud83c\udf7d\ufe0f"
             }
           ],
-          "ovenCelsius": 200
+          "ovenCelsius": 200,
+          "nutritionPerServing": {
+            "kcal": "287",
+            "protein": "12g",
+            "fat": "12g",
+            "carbs": "33g",
+            "fibre": "5g"
+          }
         },
         {
           "category": "Pescatarian",
@@ -2523,7 +2670,14 @@
               "desc": "Salmon topped with dill butter. Timed to finish as the duck rests.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "629",
+            "protein": "40g",
+            "fat": "40g",
+            "carbs": "23g",
+            "fibre": "2g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -2569,7 +2723,14 @@
               "desc": "Chicken sliced over the pasta. Timed to finish as the duck rests.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "856",
+            "protein": "59g",
+            "fat": "21g",
+            "carbs": "103g",
+            "fibre": "5g"
+          }
         }
       ],
       "phases": [
@@ -2828,7 +2989,14 @@
               "icon": "\ud83c\udf7d\ufe0f"
             }
           ],
-          "ovenCelsius": 200
+          "ovenCelsius": 200,
+          "nutritionPerServing": {
+            "kcal": "700",
+            "protein": "36g",
+            "fat": "41g",
+            "carbs": "57g",
+            "fibre": "5g"
+          }
         },
         {
           "category": "Pescatarian",
@@ -2869,7 +3037,14 @@
               "icon": "\ud83c\udf7d\ufe0f"
             }
           ],
-          "ovenCelsius": 200
+          "ovenCelsius": 200,
+          "nutritionPerServing": {
+            "kcal": "1283",
+            "protein": "72g",
+            "fat": "84g",
+            "carbs": "63g",
+            "fibre": "4g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -2916,7 +3091,14 @@
               "icon": "\ud83c\udf7d\ufe0f"
             }
           ],
-          "ovenCelsius": 190
+          "ovenCelsius": 190,
+          "nutritionPerServing": {
+            "kcal": "1289",
+            "protein": "89g",
+            "fat": "51g",
+            "carbs": "123g",
+            "fibre": "6g"
+          }
         }
       ],
       "phases": [
@@ -3174,7 +3356,14 @@
               "desc": "Finishes together with the beef. Serve with the same crusty bread.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "526",
+            "protein": "35g",
+            "fat": "21g",
+            "carbs": "54g",
+            "fibre": "10g"
+          }
         },
         {
           "category": "Pescatarian",
@@ -3214,7 +3403,14 @@
               "desc": "Timed to finish right as the beef comes out to rest. Serve with the same crusty bread.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "567",
+            "protein": "61g",
+            "fat": "30g",
+            "carbs": "14g",
+            "fibre": "2g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -3260,7 +3456,14 @@
               "desc": "Chicken and sauce over the pappardelle. Timed to finish as the beef comes out to rest.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "1022",
+            "protein": "82g",
+            "fat": "36g",
+            "carbs": "93g",
+            "fibre": "5g"
+          }
         }
       ],
       "phases": [
@@ -3501,7 +3704,14 @@
               "desc": "Finishes together with the chicken.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "538",
+            "protein": "13g",
+            "fat": "34g",
+            "carbs": "43g",
+            "fibre": "7g"
+          }
         },
         {
           "category": "Vegan",
@@ -3542,7 +3752,14 @@
               "desc": "Finishes together with the chicken.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "648",
+            "protein": "16g",
+            "fat": "37g",
+            "carbs": "60g",
+            "fibre": "11g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -3848,7 +4065,14 @@
               "desc": "Finishes together with the beef.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "1464",
+            "protein": "41g",
+            "fat": "109g",
+            "carbs": "97g",
+            "fibre": "6g"
+          }
         },
         {
           "category": "Pescatarian",
@@ -3896,7 +4120,14 @@
               "desc": "Finishes together with the beef.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "1554",
+            "protein": "53g",
+            "fat": "114g",
+            "carbs": "90g",
+            "fibre": "4g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -3944,7 +4175,14 @@
               "desc": "Finishes together with the beef.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "1504",
+            "protein": "65g",
+            "fat": "104g",
+            "carbs": "90g",
+            "fibre": "3g"
+          }
         }
       ],
       "phases": [
@@ -4192,7 +4430,14 @@
               "desc": "Same saffron beurre blanc and samphire, same potatoes.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "792",
+            "protein": "40g",
+            "fat": "57g",
+            "carbs": "38g",
+            "fibre": "6g"
+          }
         },
         {
           "category": "Pescatarian",
@@ -4219,7 +4464,14 @@
               "desc": "Same saffron beurre blanc, samphire, and potatoes.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "699",
+            "protein": "41g",
+            "fat": "45g",
+            "carbs": "33g",
+            "fibre": "3g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -4246,7 +4498,14 @@
               "desc": "Same potatoes, plain butter sauce only \u2014 no saffron, no samphire.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "756",
+            "protein": "48g",
+            "fat": "48g",
+            "carbs": "33g",
+            "fibre": "3g"
+          }
         }
       ],
       "phases": [
@@ -4493,7 +4752,14 @@
               "desc": "No prosciutto. Extra chives for garnish instead.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "814",
+            "protein": "23g",
+            "fat": "56g",
+            "carbs": "50g",
+            "fibre": "3g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -4739,7 +5005,14 @@
               "desc": "Toss with the same linguine, finishes together.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "596",
+            "protein": "22g",
+            "fat": "26g",
+            "carbs": "71g",
+            "fibre": "9g"
+          }
         },
         {
           "category": "Vegan",
@@ -5006,7 +5279,14 @@
               "desc": "Same tabbouleh, flatbreads and labneh.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "757",
+            "protein": "34g",
+            "fat": "48g",
+            "carbs": "46g",
+            "fibre": "4g"
+          }
         },
         {
           "category": "Vegan",
@@ -5040,7 +5320,14 @@
               "desc": "Same tabbouleh and flatbreads, labneh swapped for a plant-based yogurt.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "490",
+            "protein": "16g",
+            "fat": "25g",
+            "carbs": "50g",
+            "fibre": "6g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -5326,7 +5613,14 @@
               "desc": "Sliced and presented alongside the beef, same Yorkshire puddings and gravy.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "766",
+            "protein": "14g",
+            "fat": "41g",
+            "carbs": "88g",
+            "fibre": "10g"
+          }
         },
         {
           "category": "Pescatarian",
@@ -5374,7 +5668,14 @@
               "desc": "Finishes together with the beef, alongside the same gravy (kept separate for the salmon).",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "874",
+            "protein": "32g",
+            "fat": "54g",
+            "carbs": "61g",
+            "fibre": "6g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -5639,7 +5940,14 @@
               "desc": "Finishes together with the duck, same crispy potatoes and braised cabbage.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "541",
+            "protein": "33g",
+            "fat": "25g",
+            "carbs": "56g",
+            "fibre": "8g"
+          }
         },
         {
           "category": "Vegan",
@@ -5679,7 +5987,14 @@
               "desc": "Same crispy potatoes, no red cabbage unless requested.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "596",
+            "protein": "45g",
+            "fat": "26g",
+            "carbs": "51g",
+            "fibre": "5g"
+          }
         }
       ],
       "phases": [
@@ -5948,7 +6263,14 @@
               "desc": "Finishes together with the turkey, same cornbread stuffing and cranberry sauce.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "673",
+            "protein": "18g",
+            "fat": "31g",
+            "carbs": "74g",
+            "fibre": "10g"
+          }
         },
         {
           "category": "Vegan",
@@ -6212,7 +6534,14 @@
               "desc": "Same mint and pea sauce, same rosemary potatoes.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "515",
+            "protein": "34g",
+            "fat": "17g",
+            "carbs": "62g",
+            "fibre": "12g"
+          }
         },
         {
           "category": "Vegan",
@@ -6260,7 +6589,14 @@
               "desc": "Same rosemary potatoes.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "515",
+            "protein": "34g",
+            "fat": "17g",
+            "carbs": "62g",
+            "fibre": "12g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -6294,7 +6630,14 @@
               "desc": "Same rosemary potatoes, no mint sauce unless requested.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "614",
+            "protein": "52g",
+            "fat": "22g",
+            "carbs": "53g",
+            "fibre": "8g"
+          }
         }
       ],
       "phases": [
@@ -6559,7 +6902,14 @@
               "desc": "Same rice, saag paneer, and naan.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "1041",
+            "protein": "34g",
+            "fat": "62g",
+            "carbs": "91g",
+            "fibre": "9g"
+          }
         },
         {
           "category": "Vegan",
@@ -6606,7 +6956,14 @@
               "desc": "Same rice and naan, saag made with a plant-based butter.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "984",
+            "protein": "34g",
+            "fat": "56g",
+            "carbs": "91g",
+            "fibre": "10g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -6857,7 +7214,14 @@
               "desc": "Same cucumber cr\u00e8me fra\u00eeche and crushed potatoes.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "564",
+            "protein": "21g",
+            "fat": "30g",
+            "carbs": "52g",
+            "fibre": "8g"
+          }
         },
         {
           "category": "Vegan",
@@ -6898,7 +7262,14 @@
               "desc": "Coconut cr\u00e8me fra\u00eeche in place of dairy, same crushed potatoes.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "564",
+            "protein": "21g",
+            "fat": "30g",
+            "carbs": "52g",
+            "fibre": "8g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -7169,7 +7540,14 @@
               "desc": "Same nachos, sour cream and guacamole.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "648",
+            "protein": "38g",
+            "fat": "25g",
+            "carbs": "81g",
+            "fibre": "20g"
+          }
         },
         {
           "category": "Vegan",
@@ -7209,7 +7587,14 @@
               "desc": "Same nachos and guacamole, no sour cream or cheese.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "648",
+            "protein": "38g",
+            "fat": "25g",
+            "carbs": "81g",
+            "fibre": "20g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -7242,7 +7627,14 @@
               "desc": "Separate bowl, same tortilla chips.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "753",
+            "protein": "44g",
+            "fat": "44g",
+            "carbs": "53g",
+            "fibre": "10g"
+          }
         }
       ],
       "phases": [
@@ -7503,7 +7895,14 @@
               "desc": "Split open, topped with a mild ladle of the tomato base from the chilli, no beans or spice.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "834",
+            "protein": "30g",
+            "fat": "34g",
+            "carbs": "104g",
+            "fibre": "18g"
+          }
         }
       ],
       "phases": [
@@ -7755,7 +8154,14 @@
               "desc": "Same poached eggs, hollandaise, and avocado \u2014 spinach and tomatoes in place of salmon.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "676",
+            "protein": "30g",
+            "fat": "51g",
+            "carbs": "37g",
+            "fibre": "5g"
+          }
         },
         {
           "category": "Vegan",
@@ -7795,7 +8201,14 @@
               "desc": "Tofu scramble and avocado on toast \u2014 no hollandaise, no eggs.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "748",
+            "protein": "39g",
+            "fat": "55g",
+            "carbs": "37g",
+            "fibre": "3g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -7828,7 +8241,14 @@
               "desc": "No hollandaise, no avocado unless requested.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "810",
+            "protein": "42g",
+            "fat": "62g",
+            "carbs": "34g",
+            "fibre": "3g"
+          }
         }
       ],
       "phases": [
@@ -8090,7 +8510,14 @@
               "desc": "Same bourbon BBQ sauce brushed on at the end, same slaw and pickles.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "292",
+            "protein": "5g",
+            "fat": "23g",
+            "carbs": "23g",
+            "fibre": "5g"
+          }
         },
         {
           "category": "Vegan",
@@ -8124,7 +8551,14 @@
               "desc": "Same BBQ sauce and pickles, slaw made with plant-based mayo.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "292",
+            "protein": "5g",
+            "fat": "23g",
+            "carbs": "23g",
+            "fibre": "5g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -8402,7 +8836,14 @@
               "desc": "Same grilled corn, guacamole, and salsa.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "312",
+            "protein": "17g",
+            "fat": "7g",
+            "carbs": "64g",
+            "fibre": "11g"
+          }
         },
         {
           "category": "Vegan",
@@ -8442,7 +8883,14 @@
               "desc": "Coconut yogurt in place of sour cream, same corn and guacamole.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "312",
+            "protein": "17g",
+            "fat": "7g",
+            "carbs": "64g",
+            "fibre": "11g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -8469,7 +8917,14 @@
               "desc": "Soft flour tortilla, cheese and sour cream only.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "459",
+            "protein": "26g",
+            "fat": "26g",
+            "carbs": "43g",
+            "fibre": "4g"
+          }
         }
       ],
       "phases": [
@@ -8735,7 +9190,14 @@
               "desc": "Same tzatziki and tabbouleh.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "498",
+            "protein": "31g",
+            "fat": "12g",
+            "carbs": "64g",
+            "fibre": "8g"
+          }
         },
         {
           "category": "Vegan",
@@ -8776,7 +9238,14 @@
               "desc": "Coconut yogurt tzatziki, same tabbouleh.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "498",
+            "protein": "31g",
+            "fat": "12g",
+            "carbs": "64g",
+            "fibre": "8g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -8810,7 +9279,14 @@
               "desc": "Same flatbreads and tzatziki.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "597",
+            "protein": "49g",
+            "fat": "18g",
+            "carbs": "55g",
+            "fibre": "5g"
+          }
         }
       ],
       "phases": [
@@ -9076,7 +9552,14 @@
               "desc": "Same honey root vegetables.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "400",
+            "protein": "14g",
+            "fat": "27g",
+            "carbs": "34g",
+            "fibre": "8g"
+          }
         },
         {
           "category": "Vegan",
@@ -9123,7 +9606,14 @@
               "desc": "Same root vegetables.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "402",
+            "protein": "14g",
+            "fat": "27g",
+            "carbs": "34g",
+            "fibre": "8g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -9157,7 +9647,14 @@
               "desc": "Same root vegetables and challah.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "536",
+            "protein": "43g",
+            "fat": "31g",
+            "carbs": "25g",
+            "fibre": "4g"
+          }
         }
       ],
       "phases": [
@@ -9429,7 +9926,14 @@
               "desc": "Same herbed rice and tahdig.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "566",
+            "protein": "29g",
+            "fat": "30g",
+            "carbs": "39g",
+            "fibre": "4g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -9469,7 +9973,14 @@
               "desc": "Rice with butter, fish plain.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "863",
+            "protein": "45g",
+            "fat": "26g",
+            "carbs": "101g",
+            "fibre": "3g"
+          }
         }
       ],
       "phases": [
@@ -9742,7 +10253,14 @@
               "desc": "Same creamy polenta and gremolata.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "341",
+            "protein": "19g",
+            "fat": "12g",
+            "carbs": "64g",
+            "fibre": "12g"
+          }
         },
         {
           "category": "Vegan",
@@ -9790,7 +10308,14 @@
               "desc": "Polenta made with plant butter and nutritional yeast in place of dairy.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "381",
+            "protein": "24g",
+            "fat": "12g",
+            "carbs": "67g",
+            "fibre": "14g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -9817,7 +10342,14 @@
               "desc": "A ladle of the same braising sauce over the top, no gremolata unless requested.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "766",
+            "protein": "26g",
+            "fat": "18g",
+            "carbs": "146g",
+            "fibre": "8g"
+          }
         }
       ],
       "phases": [
@@ -10067,7 +10599,14 @@
               "desc": "Same new potatoes, pickled cucumber, and crispbreads \u2014 cheese in place of the cured salmon.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "519",
+            "protein": "24g",
+            "fat": "24g",
+            "carbs": "50g",
+            "fibre": "6g"
+          }
         },
         {
           "category": "Vegan",
@@ -10094,7 +10633,14 @@
               "desc": "Same potatoes, pickled cucumber, and crispbreads, no cheese.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "372",
+            "protein": "10g",
+            "fat": "14g",
+            "carbs": "49g",
+            "fibre": "6g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -10354,7 +10900,14 @@
               "desc": "Same longevity noodles, dumplings, and fish.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "204",
+            "protein": "47g",
+            "fat": "15g",
+            "carbs": "32g",
+            "fibre": "4g"
+          }
         },
         {
           "category": "Vegan",
@@ -10400,7 +10953,14 @@
               "desc": "Same longevity noodles.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "299",
+            "protein": "51g",
+            "fat": "19g",
+            "carbs": "46g",
+            "fibre": "6g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -10440,7 +11000,14 @@
               "desc": "Same dumplings on the side, no fish.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "459",
+            "protein": "54g",
+            "fat": "12g",
+            "carbs": "88g",
+            "fibre": "3g"
+          }
         }
       ],
       "phases": [
@@ -10710,7 +11277,14 @@
               "desc": "Same dal makhani, jeera rice and naan.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "435",
+            "protein": "27g",
+            "fat": "18g",
+            "carbs": "42g",
+            "fibre": "5g"
+          }
         },
         {
           "category": "Vegan",
@@ -10751,7 +11325,14 @@
               "desc": "Coconut yogurt alongside, same dal (already vegan) and rice.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "435",
+            "protein": "27g",
+            "fat": "18g",
+            "carbs": "42g",
+            "fibre": "5g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -11036,7 +11617,14 @@
               "desc": "Same rice and hot sauce station.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "566",
+            "protein": "28g",
+            "fat": "32g",
+            "carbs": "40g",
+            "fibre": "6g"
+          }
         },
         {
           "category": "Vegan",
@@ -11083,7 +11671,14 @@
               "desc": "Same rice and hot sauce.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "566",
+            "protein": "28g",
+            "fat": "32g",
+            "carbs": "40g",
+            "fibre": "6g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -11116,7 +11711,14 @@
               "desc": "Same cornbread on the side.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "773",
+            "protein": "28g",
+            "fat": "32g",
+            "carbs": "88g",
+            "fibre": "3g"
+          }
         }
       ],
       "phases": [
@@ -11375,7 +11977,14 @@
               "desc": "Same black-eyed peas, collard greens, and cornbread.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "600",
+            "protein": "27g",
+            "fat": "25g",
+            "carbs": "55g",
+            "fibre": "14g"
+          }
         },
         {
           "category": "Vegan",
@@ -11409,7 +12018,14 @@
               "desc": "Black-eyed peas made with smoked paprika oil in place of bacon.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "600",
+            "protein": "27g",
+            "fat": "25g",
+            "carbs": "55g",
+            "fibre": "14g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -11713,7 +12329,14 @@
               "desc": "Same rice and warm tortillas.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "417",
+            "protein": "19g",
+            "fat": "17g",
+            "carbs": "44g",
+            "fibre": "6g"
+          }
         },
         {
           "category": "Vegan",
@@ -11754,7 +12377,14 @@
               "desc": "Same rice and tortillas.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "417",
+            "protein": "19g",
+            "fat": "17g",
+            "carbs": "44g",
+            "fibre": "6g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -11781,7 +12411,14 @@
               "desc": "Same rice and warm tortillas.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "488",
+            "protein": "36g",
+            "fat": "23g",
+            "carbs": "29g",
+            "fibre": "3g"
+          }
         }
       ],
       "phases": [
@@ -12041,7 +12678,14 @@
               "desc": "Over the same saffron rice, same yogurt sauce poured over, same pine nuts and flatbreads.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "556",
+            "protein": "31g",
+            "fat": "22g",
+            "carbs": "53g",
+            "fibre": "9g"
+          }
         },
         {
           "category": "Vegan",
@@ -12083,7 +12727,14 @@
               "desc": "Coconut yogurt sauce with a pinch of turmeric for colour, same rice, pine nuts and flatbreads.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "557",
+            "protein": "31g",
+            "fat": "22g",
+            "carbs": "53g",
+            "fibre": "9g"
+          }
         },
         {
           "category": "Pasta Purists",
@@ -12110,7 +12761,14 @@
               "desc": "Same plain saffron rice, flatbreads and pine nuts.",
               "icon": "\ud83c\udf7d\ufe0f"
             }
-          ]
+          ],
+          "nutritionPerServing": {
+            "kcal": "628",
+            "protein": "37g",
+            "fat": "36g",
+            "carbs": "31g",
+            "fibre": "2g"
+          }
         }
       ],
       "phases": [
