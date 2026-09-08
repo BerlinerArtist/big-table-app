@@ -7,7 +7,7 @@ import { buildShoppingList } from "../engine/shoppingList";
 import {
   loadNote, saveNote, getShopChecks, saveShopCheck, clearShopChecks,
 } from "../lib/legacy";
-import { canView, fetchFullOccasion, FREE_OCCASION_IDS, gumroadPurchaseUrl, isUnlocked, PRICE_LABEL } from "../lib/access";
+import { canView, fetchFullOccasion, GUMROAD_URL, PRICE_LABEL } from "../lib/access";
 import { activateLicense } from "../lib/license";
 import { saveMenu } from "../lib/menus";
 import TopBar from "./TopBar";
@@ -181,14 +181,7 @@ export default function Recipe(props: {
 
   return (
     <div className={"page-wrap recipe " + accent}>
-      <TopBar
-        system={props.system}
-        setSystem={props.setSystem}
-        onContents={props.onContents}
-        showContents
-        contentsLabel={FREE_OCCASION_IDS.includes(occ.id) && !isUnlocked() ? "← The Big Table" : undefined}
-        inline
-      />
+      <TopBar system={props.system} setSystem={props.setSystem} onContents={props.onContents} showContents inline />
       <header className="r-hero">
         <div className="eyebrow">
           <span className="tier-dot" />
@@ -242,25 +235,6 @@ export default function Recipe(props: {
       </div>
 
       <section className="panel control">
-        {FREE_OCCASION_IDS.includes(occ.id) && !isUnlocked() && (
-          <section className="free-preview-callout" aria-label="Free recipe preview and full edition access">
-            <div>
-              <span className="free-preview-kicker">Your free table</span>
-              <p>
-                Try every feature in this recipe. Then unlock 37 more occasions, guest counts from 2–60,
-                and the complete kitchen guide.
-              </p>
-            </div>
-            <div className="free-preview-actions">
-              <a className="free-preview-cta" href={gumroadPurchaseUrl()} target="_blank" rel="noreferrer">
-                Unlock all 38 · {PRICE_LABEL}
-              </a>
-              <button className="free-preview-detail" type="button" onClick={props.onContents}>
-                See the full edition →
-              </button>
-            </div>
-          </section>
-        )}
         <div className="serves-row">
           <div className="serves-count">{serves} <em>people</em></div>
           <div className="serves-range">
@@ -578,19 +552,39 @@ export default function Recipe(props: {
         </div>
       </section>
 
-      {(occ.pairings.length > 0 || occ.notes.length > 0 || Object.keys(occ.nutritionPerServing).length > 0) && (
-        <section className="panel">
-          <div className="panel-lbl">To Drink & Good to Know</div>
-          {occ.pairings.map((t) => <div className="line" key={t}>🍷 {t}</div>)}
-          {occ.notes.map((t) => <div className="line" key={t}>· {t}</div>)}
-          {Object.keys(occ.nutritionPerServing).length > 0 && (
-            <div className="nutr">
-              {Object.entries(occ.nutritionPerServing).map(([k, v]) => `${v} ${k}`).join(" · ")}
-              <span className="dim"> · per serving, approximate</span>
-            </div>
-          )}
-        </section>
-      )}
+      {(() => {
+        const nutritionGroups: { label: string; count: number; nutrition: Record<string, string> }[] = [];
+        if (mainDishCount > 0 && Object.keys(occ.nutritionPerServing).length > 0) {
+          nutritionGroups.push({ label: "Main dish", count: mainDishCount, nutrition: occ.nutritionPerServing });
+        }
+        occ.swaps.forEach((sw) => {
+          const count = swapCounts[sw.category] ?? 0;
+          if (count > 0 && sw.nutritionPerServing) {
+            nutritionGroups.push({ label: sw.category, count, nutrition: sw.nutritionPerServing });
+          }
+        });
+        const showNutrition = nutritionGroups.length > 0;
+        if (!(occ.pairings.length > 0 || occ.notes.length > 0 || showNutrition)) return null;
+        return (
+          <section className="panel">
+            <div className="panel-lbl">To Drink & Good to Know</div>
+            {occ.pairings.map((t) => <div className="line" key={t}>🍷 {t}</div>)}
+            {occ.notes.map((t) => <div className="line" key={t}>· {t}</div>)}
+            {showNutrition &&
+              nutritionGroups.map((g) => (
+                <div className="nutr" key={g.label}>
+                  {nutritionGroups.length > 1 && (
+                    <strong>
+                      {g.label} ({g.count} {g.count === 1 ? "guest" : "guests"}):{" "}
+                    </strong>
+                  )}
+                  {Object.entries(g.nutrition).map(([k, v]) => `${v} ${k}`).join(" · ")}
+                  <span className="dim"> · per serving, approximate</span>
+                </div>
+              ))}
+          </section>
+        );
+      })()}
     </div>
   );
 }
@@ -608,7 +602,7 @@ function LockPanel({ onUnlocked }: { onUnlocked: () => void }) {
         day planner that thinks backwards from serving time, and printable
         Kitchen Packs.
       </p>
-      <a className="primary lock-cta" href={gumroadPurchaseUrl()} target="_blank" rel="noreferrer">
+      <a className="primary lock-cta" href={GUMROAD_URL} target="_blank" rel="noreferrer">
         Unlock all 38 occasions · {PRICE_LABEL}
       </a>
       <div className="lock-divider">Already at the table?</div>
