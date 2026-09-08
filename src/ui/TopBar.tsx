@@ -5,6 +5,7 @@ export default function TopBar(props: {
   setSystem: (s: UnitSystem) => void;
   onContents: () => void;
   showContents: boolean;
+  contentsLabel?: string;
   /** Render as the first child of the ivory page card (sticky to the card,
    *  not the dark table background) instead of full-bleed above it. */
   inline?: boolean;
@@ -13,7 +14,7 @@ export default function TopBar(props: {
     <div className={props.inline ? "topbar-inline" : "topbar"}>
       <div className="tb-side">
         {props.showContents && (
-          <button className="tb-btn" onClick={props.onContents}>← Contents</button>
+          <button className="tb-btn" onClick={props.onContents}>{props.contentsLabel ?? "← Contents"}</button>
         )}
       </div>
       <div className="tb-word">The Big Table</div>

@@ -3,9 +3,11 @@ import { OCCASIONS } from "./data/loader";
 import type { UnitSystem } from "./data/types";
 import { load, save } from "./lib/storage";
 import { initSync } from "./lib/sync";
+import { isUnlocked } from "./lib/access";
 import type { SavedMenu } from "./lib/menus";
 import Toc from "./ui/Toc";
 import Recipe from "./ui/Recipe";
+import SalesPage from "./ui/SalesPage";
 
 /** Deep links: every occasion is pin-addressable via #/occasion-id (38 free landing pages). */
 function readHash(): string | null {
@@ -17,7 +19,9 @@ function readHash(): string | null {
 }
 
 export default function App() {
-  const [view, setViewState] = useState<string>(() => readHash() ?? load("view", "toc"));
+  const [view, setViewState] = useState<string>(() =>
+    readHash() ?? (isUnlocked() ? load("view", "toc") : "landing")
+  );
   const [system, setSystemState] = useState<UnitSystem>(() => load("units", "metric"));
   const [servesByPage, setServesByPage] = useState<Record<number, number>>(() => load("serves", {}));
   const [serveAtByPage, setServeAtByPage] = useState<Record<number, string>>(() => load("serveAtMap", {}));
@@ -43,8 +47,12 @@ export default function App() {
   const setView = (v: string) => {
     setViewState(v);
     save("view", v);
-    const target = v === "toc" ? "#/" : "#/" + v;
-    if (window.location.hash !== target) window.location.hash = target;
+    if (v === "landing") {
+      window.history.replaceState(null, "", window.location.pathname + window.location.search);
+    } else {
+      const target = v === "toc" ? "#/" : "#/" + v;
+      if (window.location.hash !== target) window.location.hash = target;
+    }
     window.scrollTo(0, 0);
   };
   const setSystem = (s: UnitSystem) => { setSystemState(s); save("units", s); };
@@ -71,7 +79,7 @@ export default function App() {
           occ={occ}
           system={system}
           setSystem={setSystem}
-          onContents={() => setView("toc")}
+          onContents={() => setView(isUnlocked() ? "toc" : "landing")}
           loggedIn={loggedIn}
           serves={servesByPage[occ.page] ?? occ.slider.default}
           setServes={(v) => {
@@ -86,6 +94,11 @@ export default function App() {
             save("serveAtMap", next);
           }}
           onUnlocked={() => setUnlockTick((t) => t + 1)}
+        />
+      ) : view === "landing" && !isUnlocked() ? (
+        <SalesPage
+          onPreview={() => setView("romantic-anniversary-dinner")}
+          onOpenGuide={() => setView("toc")}
         />
       ) : (
         <Toc

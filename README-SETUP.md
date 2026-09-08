@@ -4,6 +4,8 @@
 
 **Preview-Gate:** Frei ist „Romantic Anniversary Dinner" (deckungsgleich mit dem Landing-Page-Funnel); die 37 anderen zeigen Teaser + Unlock-Panel mit Gumroad-CTA ($27). Freischaltung per License-Key oder — nach Login — automatisch über die Kauf-E-Mail (Entitlement aus dem Ping-Webhook). Hinweis: UI-Gate; harter Server-Gate der Rezeptdaten folgt in Phase 3/4 mit Live-Keys.
 
+**Public funnel:** Unlicensed visitors arriving at the root URL see the sales page. The free recipe is available at `#/free-recipe`; it carries a visible **Unlock all 38 · $27** CTA and a return link to the full sales page. Incoming `utm_*` parameters persist through the preview to every Gumroad checkout link.
+
 Local-first Web-App: läuft komplett im Browser wie die heutige HTML-Datei.
 Konto (Magic Link) und Cloud-Sync sind **optional** und schalten sich zu,
 sobald Keys gesetzt sind. Freischaltung der Vollversion per **Gumroad

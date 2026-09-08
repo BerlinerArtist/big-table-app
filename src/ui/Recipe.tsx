@@ -7,7 +7,7 @@ import { buildShoppingList } from "../engine/shoppingList";
 import {
   loadNote, saveNote, getShopChecks, saveShopCheck, clearShopChecks,
 } from "../lib/legacy";
-import { canView, fetchFullOccasion, GUMROAD_URL, PRICE_LABEL } from "../lib/access";
+import { canView, fetchFullOccasion, FREE_OCCASION_IDS, gumroadPurchaseUrl, isUnlocked, PRICE_LABEL } from "../lib/access";
 import { activateLicense } from "../lib/license";
 import { saveMenu } from "../lib/menus";
 import TopBar from "./TopBar";
@@ -181,7 +181,14 @@ export default function Recipe(props: {
 
   return (
     <div className={"page-wrap recipe " + accent}>
-      <TopBar system={props.system} setSystem={props.setSystem} onContents={props.onContents} showContents inline />
+      <TopBar
+        system={props.system}
+        setSystem={props.setSystem}
+        onContents={props.onContents}
+        showContents
+        contentsLabel={FREE_OCCASION_IDS.includes(occ.id) && !isUnlocked() ? "← The Big Table" : undefined}
+        inline
+      />
       <header className="r-hero">
         <div className="eyebrow">
           <span className="tier-dot" />
@@ -235,6 +242,25 @@ export default function Recipe(props: {
       </div>
 
       <section className="panel control">
+        {FREE_OCCASION_IDS.includes(occ.id) && !isUnlocked() && (
+          <section className="free-preview-callout" aria-label="Free recipe preview and full edition access">
+            <div>
+              <span className="free-preview-kicker">Your free table</span>
+              <p>
+                Try every feature in this recipe. Then unlock 37 more occasions, guest counts from 2–60,
+                and the complete kitchen guide.
+              </p>
+            </div>
+            <div className="free-preview-actions">
+              <a className="free-preview-cta" href={gumroadPurchaseUrl()} target="_blank" rel="noreferrer">
+                Unlock all 38 · {PRICE_LABEL}
+              </a>
+              <button className="free-preview-detail" type="button" onClick={props.onContents}>
+                See the full edition →
+              </button>
+            </div>
+          </section>
+        )}
         <div className="serves-row">
           <div className="serves-count">{serves} <em>people</em></div>
           <div className="serves-range">
@@ -582,7 +608,7 @@ function LockPanel({ onUnlocked }: { onUnlocked: () => void }) {
         day planner that thinks backwards from serving time, and printable
         Kitchen Packs.
       </p>
-      <a className="primary lock-cta" href={GUMROAD_URL} target="_blank" rel="noreferrer">
+      <a className="primary lock-cta" href={gumroadPurchaseUrl()} target="_blank" rel="noreferrer">
         Unlock all 38 occasions · {PRICE_LABEL}
       </a>
       <div className="lock-divider">Already at the table?</div>

@@ -23,6 +23,18 @@ export const FREE_OCCASION_IDS = ["romantic-anniversary-dinner"];
 export const GUMROAD_URL = "https://mindabovemess.gumroad.com/l/cohkxs";
 export const PRICE_LABEL = "$27";
 
+/** Carry Pinterest UTM parameters through the free preview and on to checkout. */
+export function gumroadPurchaseUrl(): string {
+  if (typeof window === "undefined") return GUMROAD_URL;
+  const incoming = new URLSearchParams(window.location.search);
+  const attributed = new URLSearchParams();
+  for (const [key, value] of incoming.entries()) {
+    if (key.startsWith("utm_")) attributed.set(key, value);
+  }
+  const query = attributed.toString();
+  return query ? `${GUMROAD_URL}?${query}` : GUMROAD_URL;
+}
+
 export function isUnlocked(): boolean {
   return getLicense() !== null || load<boolean>("entitled", false);
 }
